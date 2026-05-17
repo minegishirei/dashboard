@@ -100,17 +100,8 @@
                                             new go.TextBlock({
                                                 stretch: go.Stretch.Horizontal,
                                                 font: 'bold 12pt Verdana, sans-serif',
-                                                stroke: 'white',
-                                                cursor: 'pointer',
-                                                isUnderline: false,
-                                                click: function (e, obj) {
-                                                    var data = obj.part && obj.part.data;
-                                                    if (data && typeof data.page_url === 'string' && data.page_url.length > 0) {
-                                                        window.open(data.page_url, '_blank');
-                                                    }
-                                                }
-                                            })
-                                                .bind('text', 'question'),
+                                                stroke: 'white'
+                                            }).bind('text', 'question'),
                                             new go.Panel('Vertical', {
                                                 stretch: go.Stretch.Horizontal,
                                                 visible: false
