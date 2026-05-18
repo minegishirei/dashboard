@@ -412,7 +412,7 @@
 
       title.textContent = meta.question || data.label || meta.text || `Node ${data.key}`;
       const parts = [];
-      if (meta.effect) parts.push(`効果: ${meta.effect}`);
+      if (meta.effect) parts.push(`Effect: ${meta.effect}`);
       if (meta.method) parts.push(`Method: ${meta.method}`);
       if (meta.page_url) parts.push(`<a href="${meta.page_url}" target="_blank" rel="noreferrer noopener">参考</a>`);
       metaEl.innerHTML = parts.join(' • ');
