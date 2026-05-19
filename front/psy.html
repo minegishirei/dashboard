@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>心理学ネットワーク図</title>
+  <title>心理学ネットワーク図 - ケーススタディ付き実践心理</title>
+  <meta name="description" content="心理学のネットワーク図と実践ケーススタディを同時に学べるインタラクティブなビジュアルページです。各コンポーネントに関連した『こんな時どうする？』を表示します。" />
+  <meta name="keywords" content="心理学,ネットワーク図,ケーススタディ,実践例,行動心理,学習" />
+  <meta property="og:title" content="心理学ネットワーク図 - ケーススタディ付き実践心理" />
+  <meta property="og:description" content="心理学ネットワーク図に関連ケーススタディを組み込み、現実の『こんな時どうする？』をクイズ形式で学べる学習ページです。" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
   <style>
     :root {
       color-scheme: dark;
@@ -46,6 +52,14 @@
       max-width: 1040px;
       margin: 0 auto;
       grid-template-columns: 1fr;
+    }
+
+    .intro-text {
+      max-width: 1040px;
+      margin: 0 auto 20px;
+      padding: 0 28px 0;
+      color: #d5dce8;
+      line-height: 1.8;
     }
 
     .network-card {
@@ -171,6 +185,7 @@
   <header>
     <h1>心理学ネットワーク図</h1>
     <p>自由ライセンスの Cytoscape.js を使い、ダークテーマで独立したネットワークごとに可視化します。</p>
+    <p>このページでは、心理学の概念をグラフィカルに整理し、関連するケーススタディを「こんな時どうする？」形式で紹介します。ネットワーク図と実践例を一緒に確認し、理解を深めることを目的としています。</p>
   </header>
 
   <section class="network-layout" id="networkLayout">
