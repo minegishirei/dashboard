@@ -113,57 +113,6 @@
     a:hover {
       text-decoration: underline;
     }
-
-    .case-study-section {
-      margin-top: 20px;
-      padding: 16px 20px;
-      background: rgba(30, 40, 60, 0.5);
-      border-top: 1px solid rgba(255,255,255,0.08);
-    }
-
-    .case-study-section h3 {
-      margin: 0 0 12px;
-      font-size: 0.95rem;
-      color: #b8c5d8;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .case-study-item {
-      margin-bottom: 12px;
-      padding: 12px;
-      background: rgba(10, 15, 25, 0.6);
-      border-left: 3px solid #60a5fa;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
-
-    .case-study-item:hover {
-      background: rgba(20, 30, 50, 0.8);
-    }
-
-    .case-study-question {
-      font-size: 0.9rem;
-      color: #e4e9f2;
-      margin: 0;
-      font-weight: 500;
-    }
-
-    .case-study-answer {
-      font-size: 0.85rem;
-      color: #9fb0d6;
-      margin: 8px 0 0;
-      padding: 8px;
-      background: rgba(0, 0, 0, 0.3);
-      border-radius: 4px;
-      display: none;
-      line-height: 1.5;
-    }
-
-    .case-study-answer.visible {
-      display: block;
-    }
   </style>
 </head>
 <body>
@@ -203,7 +152,6 @@
   <script>
     // dataUrl を使って main.json からネットワークを生成します
     const dataUrl = 'https://raw.githubusercontent.com/minegishirei/dashboard/refs/heads/main/data/psy/json/main.json';
-    //const dataUrl = 'file:///Users/minebeaver/myworking/dashboard/data/psy/json/main2.json';
     // topic の順序定義（ローカルファイルを現在のページ URL から解決）
     const topicFile = 'https://raw.githubusercontent.com/minegishirei/dashboard/refs/heads/main/data/psy/json/topic.json';
 
@@ -334,7 +282,6 @@
 
         const data = await resMain.json();
         const topics = (resTopic && resTopic.ok) ? (await resTopic.json()) : [];
-        const practiceResults = data.practiceResults || [];
 
         const nodes = data.nodeDataArray || [];
         const links = data.linkDataArray || [];
@@ -419,49 +366,6 @@
           const minH = 520;
           graph.style.height = Math.max(minH, keys.length * 80) + 'px';
           card.appendChild(graph);
-
-          // ケーススタディセクションを追加
-          const componentText = keys.map(k => {
-            const n = nodeMap.get(k) || {};
-            return [n.question, n.text, n.label, n.effect].filter(Boolean).join(' ').toLowerCase();
-          }).join(' ');
-
-          const relatedStudies = practiceResults.filter(study => {
-            if (!study) return false;
-            const studyText = JSON.stringify(study).toLowerCase();
-            return componentText.split(' ').some(word => word.length > 2 && studyText.includes(word));
-          });
-
-          if (relatedStudies.length > 0) {
-            const caseSection = document.createElement('div');
-            caseSection.className = 'case-study-section';
-            const caseTitle = document.createElement('h3');
-            caseTitle.textContent = 'ケーススタディ';
-            caseSection.appendChild(caseTitle);
-
-            relatedStudies.forEach(study => {
-              const item = document.createElement('div');
-              item.className = 'case-study-item';
-              
-              const question = document.createElement('p');
-              question.className = 'case-study-question';
-              question.textContent = `Q: ${study['対応'] || study.question || '事例'}`;
-              item.appendChild(question);
-
-              const answer = document.createElement('div');
-              answer.className = 'case-study-answer';
-              answer.innerHTML = `<strong>A:</strong> ${study.example || study.method || study.effect || 'こうしましょう'}`;
-              item.appendChild(answer);
-
-              item.addEventListener('click', () => {
-                answer.classList.toggle('visible');
-              });
-
-              caseSection.appendChild(item);
-            });
-
-            card.appendChild(caseSection);
-          }
 
           layout.appendChild(card);
 
