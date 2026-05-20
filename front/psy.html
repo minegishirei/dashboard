@@ -12,6 +12,9 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="心理学ネットワーク図" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="apple-touch-icon" href="./icon-192.png" />
   <style>
     :root {
       color-scheme: dark;
@@ -62,6 +65,42 @@
       padding: 0 28px 0;
       color: #d5dce8;
       line-height: 1.8;
+    }
+
+    .topic-index .topic-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 10px;
+      list-style: none;
+      margin: 6px 6px 6px 6px;
+      padding: 0;
+    }
+
+    .topic-index .topic-list li {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 0;
+      font-size: 0.95rem;
+      color: #e4e9f2;
+      word-break: break-word;
+    }
+
+    .topic-button {
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      border: none;
+      padding: 12px 14px;
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .topic-button:hover,
+    .topic-button:focus {
+      background: rgba(255,255,255,0.08);
+      outline: none;
     }
 
     .network-card {
@@ -169,6 +208,38 @@
       color: #9fb0d6;
     }
 
+    .back-to-top {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(59, 130, 246, 0.95);
+      color: #fff;
+      font-size: 1.2rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 14px 30px rgba(5, 15, 40, 0.35);
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+      z-index: 1400;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .back-to-top:hover {
+      background: rgba(37, 99, 235, 0.98);
+    }
+
     a {
       color: #8db8ff;
       text-decoration: none;
@@ -233,9 +304,9 @@
 </head>
 <body>
   <div id="a2hsBanner" class="a2hs-banner" role="status" aria-live="polite">
-    <p>このページをiPhoneのホーム画面に追加すると、次回からアプリのようにすばやくアクセスできます。</p>
-    <p>Safariの共有ボタンをタップし、「ホーム画面に追加」を選択してください。</p>
+    <p class="a2hs-text">このページをホーム画面に追加すると、次回からアプリのようにすばやくアクセスできます。</p>
     <div class="a2hs-actions">
+      <button type="button" id="a2hsInstall">インストール</button>
       <button type="button" id="a2hsClose" class="close">閉じる</button>
     </div>
   </div>
@@ -244,6 +315,14 @@
     <p>自由ライセンスの Cytoscape.js を使い、ダークテーマで独立したネットワークごとに可視化します。</p>
     <p>このページでは、心理学の概念をグラフィカルに整理し、関連するケーススタディを「こんな時どうする？」形式で紹介します。ネットワーク図と実践例を一緒に確認し、理解を深めることを目的としています。</p>
   </header>
+
+  <section class="network-layout" id="topicIndexSection">
+    <article class="network-card topic-index">
+      <h2>トピックインデックス</h2>
+      <p>topic.json の内容を元に表示しています。</p>
+      <div id="topicIndex"></div>
+    </article>
+  </section>
 
   <section class="network-layout" id="networkLayout">
     <article class="network-card">
@@ -270,6 +349,8 @@
     <div>ライブラリ: <a href="https://js.cytoscape.org/" target="_blank" rel="noreferrer noopener">Cytoscape.js (MIT)</a></div>
   </footer>
 
+  <button id="backToTop" class="back-to-top" type="button" aria-label="トップに戻る">↑</button>
+
   <script src="https://unpkg.com/cytoscape@3.25.1/dist/cytoscape.min.js"></script>
   <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
   <script src="https://unpkg.com/cytoscape-dagre@2.3.2/cytoscape-dagre.js"></script>
@@ -282,6 +363,9 @@
 
     // カラーパレット（ダークテーマに馴染む色）
     const palette = ['#3b82f6','#60a5fa','#7dd3fc','#34d399','#f59e0b','#f97316','#ef4444','#a78bfa','#f472b6'];
+    const cyInstances = [];
+    const nodeTopicText = new Map();
+    const topicNavMap = new Map();
 
     function makeCytoscape(containerEl, elements, color) {
       const cy = cytoscape({
@@ -314,6 +398,16 @@
               'color': '#111827',
               'text-outline-color': '#fdf2f8',
               'text-outline-width': 3
+            }
+          },
+          {
+            selector: 'node.highlighted',
+            style: {
+              'background-color': '#fde68a',
+              'border-color': '#f59e0b',
+              'border-width': 4,
+              'text-outline-color': '#1f2937',
+              'text-outline-width': 4
             }
           },
           {
@@ -418,7 +512,30 @@
           const k = n.key != null ? n.key : n.id;
           nodeMap.set(k, n);
           nodeKeys.push(k);
+          nodeTopicText.set(k, [n.label, n.question, n.text, n.effect, n.method, n.category].filter(Boolean).join(' ').toLowerCase());
         });
+
+        function normalizeText(value) {
+          return String(value || '').trim().toLowerCase();
+        }
+
+        function createTopicNavigationMap(topics) {
+          topicNavMap.clear();
+          topics.forEach(topic => {
+            const normalizedTopic = normalizeText(topic);
+            if (!normalizedTopic) return;
+            const matchedKeys = [];
+            nodeTopicText.forEach((text, key) => {
+              if (text.includes(normalizedTopic)) {
+                matchedKeys.push(key);
+              }
+            });
+            topicNavMap.set(normalizedTopic, matchedKeys);
+          });
+        }
+
+        createTopicNavigationMap(topics);
+        renderTopicIndex(topics);
 
         let comps = connectedComponents(nodeKeys, links);
 
@@ -541,6 +658,7 @@
           const elements = buildElementsForKeys(nodeMap, links, keys);
           const color = palette[idx % palette.length];
           const cy = makeCytoscape(document.getElementById(containerId), elements, color);
+          cyInstances.push(cy);
 
           // ノードクリック時に詳細パネルを表示
           cy.on('tap', 'node', evt => {
@@ -606,22 +724,180 @@
       return window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
     }
 
-    function showAddToHomeScreenBanner() {
+    function renderTopicIndex(topics) {
+      const container = document.getElementById('topicIndex');
+      if (!container) return;
+      if (!Array.isArray(topics) || topics.length === 0) {
+        container.innerHTML = '<p style="color:#9fb0d6; margin:0;">トピックを読み込めませんでした。</p>';
+        return;
+      }
+      const list = document.createElement('ul');
+      list.className = 'topic-list';
+      topics.forEach(topic => {
+        const item = document.createElement('li');
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'topic-button';
+        button.textContent = String(topic).trim();
+        button.addEventListener('click', () => navigateToTopic(String(topic)));
+        item.appendChild(button);
+        list.appendChild(item);
+      });
+      container.innerHTML = '';
+      container.appendChild(list);
+    }
+
+    function normalizeText(value) {
+      return String(value || '').trim().toLowerCase();
+    }
+
+    function navigateToTopic(topic) {
+      const normalizedTopic = normalizeText(topic);
+      const matchedKeys = topicNavMap.get(normalizedTopic) || [];
+      if (matchedKeys.length === 0) {
+        alert(`${topic} に対応するノードが見つかりませんでした。`);
+        return;
+      }
+
+      const targetKey = matchedKeys[0];
+      const targetId = `n${targetKey}`;
+      let found = false;
+
+      cyInstances.forEach(cy => {
+        const node = cy.$id(targetId);
+        if (node && node.length > 0) {
+          found = true;
+          cy.nodes().removeClass('highlighted');
+          node.addClass('highlighted');
+          const card = cy.container().closest('.network-card');
+          if (card) {
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+          cy.animate({ center: { eles: node }, zoom: Math.min(cy.zoom(), 1.4) }, { duration: 500 });
+          window.setTimeout(() => {
+            node.removeClass('highlighted');
+          }, 2200);
+        }
+      });
+
+      if (!found) {
+        alert(`${topic} に対応するノードコンテナが見つかりませんでした。`);
+      }
+    }
+
+    let deferredInstallPrompt = null;
+
+    function showPwaBanner(message, showInstallButton = false) {
       const banner = document.getElementById('a2hsBanner');
       if (!banner) return;
       if (localStorage.getItem('a2hsDismissed') === 'true') return;
+      const text = banner.querySelector('.a2hs-text');
+      if (text) {
+        text.textContent = message;
+      }
+      const installButton = document.getElementById('a2hsInstall');
+      if (installButton) {
+        installButton.style.display = showInstallButton ? 'inline-flex' : 'none';
+      }
       banner.classList.add('visible');
-      document.getElementById('a2hsClose').addEventListener('click', () => {
-        banner.classList.remove('visible');
-        localStorage.setItem('a2hsDismissed', 'true');
-      });
+    }
+
+    function hidePwaBanner() {
+      const banner = document.getElementById('a2hsBanner');
+      if (!banner) return;
+      banner.classList.remove('visible');
+    }
+
+    async function installPwa() {
+      if (deferredInstallPrompt) {
+        deferredInstallPrompt.prompt();
+        const choice = await deferredInstallPrompt.userChoice;
+        deferredInstallPrompt = null;
+        if (choice.outcome === 'accepted') {
+          hidePwaBanner();
+          localStorage.setItem('a2hsDismissed', 'true');
+        }
+      } else if (isIosSafari()) {
+        showPwaBanner('Safariの共有メニューから「ホーム画面に追加」を選択してください。', false);
+      } else {
+        showPwaBanner('このブラウザでは自動インストールが使えません。メニューから「ホーム画面に追加」や「アプリをインストール」を選択してください。', false);
+      }
+    }
+
+    async function registerServiceWorker() {
+      if ('serviceWorker' in navigator && (window.location.protocol === 'https:' || window.location.hostname === 'localhost')) {
+        try {
+          const registration = await navigator.serviceWorker.register('./service-worker.js');
+          console.log('Service Worker registered:', registration.scope);
+        } catch (error) {
+          console.warn('Service Worker registration failed:', error);
+        }
+      }
     }
 
     document.addEventListener('DOMContentLoaded', () => {
       initialize();
-      if (isIosSafari() && !isInStandaloneMode()) {
-        showAddToHomeScreenBanner();
+
+      const installButton = document.getElementById('a2hsInstall');
+      const closeButton = document.getElementById('a2hsClose');
+      if (installButton) {
+        installButton.addEventListener('click', installPwa);
       }
+      if (closeButton) {
+        closeButton.addEventListener('click', () => {
+          hidePwaBanner();
+          localStorage.setItem('a2hsDismissed', 'true');
+        });
+      }
+
+      window.addEventListener('beforeinstallprompt', event => {
+        event.preventDefault();
+        deferredInstallPrompt = event;
+        showPwaBanner('このページをインストールして、アプリのようにすばやく起動できます。', true);
+      });
+
+      window.addEventListener('appinstalled', () => {
+        hidePwaBanner();
+        localStorage.setItem('a2hsDismissed', 'true');
+      });
+
+      const backToTopButton = document.getElementById('backToTop');
+      if (backToTopButton) {
+        backToTopButton.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      function updateBackToTopVisibility() {
+        const btn = document.getElementById('backToTop');
+        if (!btn) return;
+        const show = window.scrollY > 320;
+        btn.classList.toggle('visible', show);
+      }
+
+      window.addEventListener('scroll', updateBackToTopVisibility, { passive: true });
+      updateBackToTopVisibility();
+
+      if (backToTopButton) {
+        backToTopButton.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      function updateBackToTopVisibility() {
+        const btn = document.getElementById('backToTop');
+        if (!btn) return;
+        btn.classList.toggle('visible', window.scrollY > 320);
+      }
+
+      window.addEventListener('scroll', updateBackToTopVisibility, { passive: true });
+      updateBackToTopVisibility();
+
+      if (isIosSafari() && !isInStandaloneMode()) {
+        showPwaBanner('Safariの共有メニューから「ホーム画面に追加」を選択してください。', false);
+      }
+
+      registerServiceWorker();
     });
   </script>
 </body>
