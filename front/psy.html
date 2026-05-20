@@ -10,6 +10,8 @@
   <meta property="og:description" content="心理学ネットワーク図に関連ケーススタディを組み込み、現実の『こんな時どうする？』をクイズ形式で学べる学習ページです。" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="心理学ネットワーク図" />
   <style>
     :root {
       color-scheme: dark;
@@ -119,6 +121,54 @@
     .detail-panel a { color: #9dd1ff; }
     .detail-panel pre { background: rgba(255,255,255,0.02); padding: 10px; border-radius: 8px; overflow:auto; }
 
+    .a2hs-banner {
+      display: none;
+      position: fixed;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      width: min(92vw, 420px);
+      background: rgba(16, 20, 30, 0.96);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      box-shadow: 0 18px 46px rgba(0, 0, 0, 0.24);
+      z-index: 1300;
+      color: #eef2ff;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      padding: 16px 16px 12px;
+    }
+
+    .a2hs-banner.visible { display: block; }
+    .a2hs-banner p { margin: 0; }
+    .a2hs-banner .a2hs-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .a2hs-banner button {
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.08);
+      color: #f8fafc;
+      border-radius: 999px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .a2hs-banner button:hover {
+      background: rgba(255,255,255,0.14);
+    }
+
+    .a2hs-banner button.close {
+      border-color: transparent;
+      background: transparent;
+      color: #9fb0d6;
+    }
+
     a {
       color: #8db8ff;
       text-decoration: none;
@@ -182,6 +232,13 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
+  <div id="a2hsBanner" class="a2hs-banner" role="status" aria-live="polite">
+    <p>このページをiPhoneのホーム画面に追加すると、次回からアプリのようにすばやくアクセスできます。</p>
+    <p>Safariの共有ボタンをタップし、「ホーム画面に追加」を選択してください。</p>
+    <div class="a2hs-actions">
+      <button type="button" id="a2hsClose" class="close">閉じる</button>
+    </div>
+  </div>
   <header>
     <h1>心理学ネットワーク図</h1>
     <p>自由ライセンスの Cytoscape.js を使い、ダークテーマで独立したネットワークごとに可視化します。</p>
@@ -540,7 +597,32 @@
 
     function escapeHtml(s){ if(!s) return ''; return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-    document.addEventListener('DOMContentLoaded', initialize);
+    function isIosSafari() {
+      const ua = window.navigator.userAgent.toLowerCase();
+      return /iphone|ipad|ipod/.test(ua) && /safari/.test(ua) && !(/crios|fxios|opera|opr|edgios|edga/.test(ua));
+    }
+
+    function isInStandaloneMode() {
+      return window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+    }
+
+    function showAddToHomeScreenBanner() {
+      const banner = document.getElementById('a2hsBanner');
+      if (!banner) return;
+      if (localStorage.getItem('a2hsDismissed') === 'true') return;
+      banner.classList.add('visible');
+      document.getElementById('a2hsClose').addEventListener('click', () => {
+        banner.classList.remove('visible');
+        localStorage.setItem('a2hsDismissed', 'true');
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initialize();
+      if (isIosSafari() && !isInStandaloneMode()) {
+        showAddToHomeScreenBanner();
+      }
+    });
   </script>
 </body>
 </html>
