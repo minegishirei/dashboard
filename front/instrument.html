@@ -3,30 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>自動録音テスト</title>
+  <title>Instrument</title>
 </head>
 <body>
 
   <div class="container">
     <a href="https://minegishirei.github.io/dashboard/front/main.html">main</a>
 
-    <h1>音声録音</h1>
+    <h1>Instrument</h1>
     
     <!-- ★オーバーレイ（案内画面）は削除しました -->
 
     <div class="status-box">
       <span id="status-badge" class="badge ready">準備完了</span>
-      <p id="status-text">ページ読み込み時に自動で録音を開始します。</p>
+      <p id="status-text">ページ読み込み時に自動でInstrumentを開始します。</p>
     </div>
 
     <div class="controls">
-      <button id="start-btn" class="btn start">録音開始</button>
-      <button id="stop-btn" class="btn stop" disabled>録音停止</button>
-    </div>
-
-    <div class="audio-preview">
-      <h3>録音した音声の再生:</h3>
-      <audio id="audio-playback" controls></audio>
+      <button id="start-btn" class="btn start">Instrument開始</button>
+      <button id="stop-btn" class="btn stop" disabled>Instrument停止</button>
     </div>
 
     <div class="transcription-container">
@@ -269,7 +264,7 @@ const statusText = document.getElementById('status-text');
 const audioPlayback = document.getElementById('audio-playback');
 const resultArea = document.getElementById('transcription-result');
 
-// 録音を開始する関数
+// Instrumentを開始する関数
 async function startRecording() {
   try {
     finalTranscript = '';
@@ -308,7 +303,7 @@ async function startRecording() {
   }
 }
 
-// 録音を停止する関数
+// Instrumentを停止する関数
 function stopRecording() {
   if (mediaRecorder && mediaRecorder.state !== 'inactive') {
     mediaRecorder.stop();
@@ -321,15 +316,15 @@ function stopRecording() {
 // UIの表示状態を切り替える関数
 function updateUI(state) {
   if (state === 'recording') {
-    statusBadge.textContent = '録音中';
+    statusBadge.textContent = 'Instrument中';
     statusBadge.className = 'badge recording';
-    statusText.textContent = '音声を録音し、文字起こしをしています...';
+    statusText.textContent = '音声をInstrumentし、文字起こしをしています...';
     startBtn.disabled = true;
     stopBtn.disabled = false;
   } else if (state === 'stopped') {
-    statusBadge.textContent = '録音完了';
+    statusBadge.textContent = 'Instrument完了';
     statusBadge.className = 'badge stopped';
-    statusText.textContent = '完了しました。録音再生と文字起こし結果を確認できます。';
+    statusText.textContent = '完了しました。Instrument再生と文字起こし結果を確認できます。';
     startBtn.disabled = false;
     stopBtn.disabled = true;
   } else {
