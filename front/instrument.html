@@ -167,7 +167,7 @@ let sendTimer = null;
 const SEND_INTERVAL = 5000; 
 
 // --- Web Speech API の初期化設定 ---
-const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+const SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
 let recognition = null;
 let finalTranscript = ''; 
 
