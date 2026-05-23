@@ -194,6 +194,10 @@ if (SpeechRecognition) {
     resultArea.textContent = finalTranscript + interimTranscript;
   };
 
+  recognition.onend = () => { //onresultで完了すると、接続が切れるため、.onendの場合、再度スタートをする。
+      recognition.start() 
+  }
+
   recognition.onerror = (event) => {
     console.error('音声認識エラー:', event.error);
   };
