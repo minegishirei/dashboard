@@ -1,11 +1,98 @@
 
-<a href="https://minegishirei.github.io/dashboard/front/main.html">main</a>
 
-<a href="chrome://extensions/shortcuts">chrome://extensions/shortcuts</a>
-
-<a href="https://minegishirei.github.io/dashboard/front/psy.html">psy network</a> 
-
-<a href="https://d3jiguo628m5ch.cloudfront.net/instruments/">instruments show</a>
-
-<a href="https://minegishirei.github.io/dashboard/front/instrument.html">instrument</a> 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard Main</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			min-height: 100vh;
+			background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+			color: #222;
+		}
+		.container {
+			background: #fff;
+			padding: 40px 32px;
+			border-radius: 18px;
+			box-shadow: 0 8px 32px rgba(60, 60, 120, 0.12);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			min-width: 320px;
+			max-width: 400px;
+		}
+		h1 {
+			font-size: 2rem;
+			margin-bottom: 28px;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			color: #3b3b7a;
+		}
+		.link-list {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 18px;
+		}
+		.card-link {
+			display: block;
+			padding: 18px 0;
+			background: linear-gradient(90deg, #a5b4fc 0%, #f0abfc 100%);
+			color: #fff;
+			text-decoration: none;
+			border-radius: 10px;
+			font-size: 1.1rem;
+			font-weight: 500;
+			text-align: center;
+			box-shadow: 0 2px 8px rgba(120, 120, 180, 0.08);
+			transition: transform 0.13s, box-shadow 0.13s, background 0.2s;
+			letter-spacing: 0.02em;
+		}
+		.card-link:hover {
+			transform: translateY(-2px) scale(1.03);
+			box-shadow: 0 6px 18px rgba(80, 80, 160, 0.13);
+			background: linear-gradient(90deg, #6366f1 0%, #e879f9 100%);
+		}
+		@media (max-width: 480px) {
+			.container {
+				padding: 20px 6px;
+				min-width: unset;
+				max-width: 98vw;
+			}
+			h1 {
+				font-size: 1.3rem;
+			}
+			.card-link {
+				font-size: 1rem;
+				padding: 14px 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Dashboard Main</h1>
+		<div class="link-list">
+			<a class="card-link" href="https://minegishirei.github.io/dashboard/front/main.html">main</a>
+			<a class="card-link" href="chrome://extensions/shortcuts">chrome://extensions/shortcuts</a>
+			<a class="card-link" href="https://minegishirei.github.io/dashboard/front/psy.html">psy network</a>
+			<a class="card-link" href="https://minegishirei.github.io/dashboard/front/instrument.html">instrument</a>
+			<a class="card-link" href="https://minegishirei.github.io/dashboard/front/instruments_log.html">ログ</a>
+			<a class="card-link" href="https://minegishirei.github.io/dashboard/front/instruments_analysis.html">AI分析</a>
+			<a class="card-link" href="https://d3jiguo628m5ch.cloudfront.net/instruments-analysis/?prompt=%E7%A7%81%E3%81%AE%E8%A8%98%E9%8C%B2%E3%82%92%E6%95%B4%E7%90%86%E3%81%97%E3%81%A6%EF%BC%81">
+                instruments analysis
+            </a>
+		</div>
+	</div>
+</body>
+</html>
 
