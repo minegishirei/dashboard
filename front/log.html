@@ -6,13 +6,15 @@
     <title>instruments</title>
     <style>
         :root {
-            --bg-color: #f4f6f9;
+            --bg-color: #f8fafc;
             --card-bg: #ffffff;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --primary: #2563eb;
-            --border-color: #e2e8f0;
-            --inner-bg: #f8fafc;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --border-color: #f1f5f9;
+            --inner-bg: #f1f5f9;
+            --accent-bg: #eff6ff;
         }
 
         body {
@@ -30,34 +32,63 @@
         }
 
         header {
-            background-color: #1e293b;
-            color: #ffffff;
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 24px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
         }
 
         header h1 {
             margin: 0;
-            font-size: 1.5rem;
-            font-weight: 700;
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--text-main);
+            letter-spacing: -0.025em;
         }
 
-        header p {
-            margin: 6px 0 0 0;
+        .header-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .data-source {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-family: monospace;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
             font-size: 0.875rem;
-            color: #94a3b8;
-            word-break: break-all;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: var(--accent-bg);
+            transition: all 0.2s ease;
+        }
+
+        .back-link:hover {
+            background: var(--primary);
+            color: white;
         }
 
         #status {
-            padding: 12px;
+            padding: 16px;
             margin-bottom: 16px;
-            border-radius: 8px;
+            border-radius: 12px;
             font-size: 0.9rem;
-            font-weight: bold;
+            font-weight: 500;
             display: none;
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; }
         }
 
         .status-loading {
@@ -80,16 +111,14 @@
 
         .log-item {
             background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 16px 20px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #edf2f7;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .log-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
         }
 
         .log-header {
@@ -103,8 +132,8 @@
 
         .log-id {
             font-weight: 700;
-            color: var(--primary);
-            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
         }
 
         .log-meta {
@@ -120,17 +149,19 @@
             padding: 2px 8px;
             border-radius: 6px;
             font-size: 0.75rem;
-            font-weight: 600;
+            font-weight: 700;
             text-transform: uppercase;
-            background-color: #e0f2fe;
-            color: #0369a1;
+            background-color: #f1f5f9;
+            color: #475569;
         }
 
         .log-body {
-            background-color: var(--inner-bg);
-            border-left: 4px solid #cbd5e1;
-            padding: 12px 16px;
-            border-radius: 0 8px 8px 0;
+            margin-bottom: 0;
+        }
+
+        .log-text-container {
+            padding: 4px 0;
+            margin-bottom: 12px;
         }
 
         /* 改行コード(\n)や連続したスペースを綺麗に維持して表示するコア設定 */
@@ -148,14 +179,54 @@
             margin: 0;
             font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
         }
+
+        /* 関連ノードセクションの改善 */
+        .related-node-card {
+            margin-top: 16px;
+            padding: 16px;
+            background: var(--accent-bg);
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .related-node-label {
+            font-size: 0.7rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .related-node-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-main);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .related-node-title:hover {
+            text-decoration: underline;
+        }
+
+        .related-node-content {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
         <header>
-            <h1>楽器ログ・フェッチビューア</h1>
-            <p>データソース: https://d3jiguo628m5ch.cloudfront.net/instruments/</p>
+            <div class="header-info">
+                <h1>楽器ログビューア</h1>
+                <div class="data-source">Source: d3jiguo628m5ch.cloudfront.net</div>
+            </div>
+            <a href="main.html" class="back-link">← ダッシュボードへ</a>
         </header>
 
         <div id="status" class="status-loading">データを読み込み中...</div>
@@ -166,6 +237,34 @@
     <script>
         const API_URL = 'https://d3jiguo628m5ch.cloudfront.net/instruments/';
 
+        // dataUrl を使って main.json からネットワークを生成します
+        const dataUrl = 'https://raw.githubusercontent.com/minegishirei/dashboard/refs/heads/main/data/psy/json/main.json';
+        //const dataUrl = 'file:///Users/minebeaver/myworking/dashboard/data/psy/json/main2.json';
+        // topic の順序定義（ローカルファイルを現在のページ URL から解決）
+        const topicFile = 'https://raw.githubusercontent.com/minegishirei/dashboard/refs/heads/main/data/psy/json/topic.json';
+
+        async function fetchPsyNetwork() {
+            const [resMain, resTopic] = await Promise.all([
+            fetch(dataUrl),
+            fetch(topicFile).catch(() => null)
+            ]);
+            const data = await resMain.json();
+            const topics = (resTopic && resTopic.ok) ? (await resTopic.json()) : [];
+            const practiceResults = data.practiceResults || [];
+            const nodes = data.nodeDataArray || [];
+            const links = data.linkDataArray || [];
+            return [nodes, links, topics, practiceResults];
+        }
+
+        function clearQuery(query) {
+            query = query.replace("「", '').replace("」", '');
+            return query.trim();
+        }
+
+        function searchNodeByQuery(nodes, query) {
+            return nodes.find(node => query.includes( clearQuery(node.question) ));
+        }
+        
         async function fetchAndRenderLogs() {
             const container = document.getElementById('log-container');
             const statusEl = document.getElementById('status');
@@ -178,6 +277,9 @@
                 }
                 
                 const data = await response.json();
+
+                const [nodes, links, topics, practiceResults] = await fetchPsyNetwork();
+                
                 
                 // ステータス非表示
                 statusEl.style.display = 'none';
@@ -196,17 +298,20 @@
                             textBody = parsedBody.text || '';
                             subTimestamp = parsedBody.timestamp || '';
                             count = parsedBody.count || '';
+
                         }
                     } catch (e) {
                         // 万が一bodyがJSON形式でない場合はそのままテキストとして扱う
                         textBody = item.body;
                     }
+                    
+                    console.log(searchNodeByQuery(nodes, textBody))
 
                     // ログカードのエレメントを作成
                     const logItem = document.createElement('div');
                     logItem.className = 'log-item';
 
-                    logItem.innerHTML = `
+                    let contentHtml = `
                         <div class="log-header">
                             <div class="log-id"># ${item.id}</div>
                             <div class="log-meta">
@@ -215,13 +320,33 @@
                             </div>
                         </div>
                         <div class="log-body">
-                            <p class="log-text">${escapeHtml(textBody)}</p>
+                            <div class="log-text-container">
+                                <p class="log-text">${escapeHtml(textBody)}</p>
+                            </div>
                             <div class="log-submeta">
                                 ${count ? `<span>Count: ${count}</span> | ` : ''}
                                 <span>内部日時: ${escapeHtml(subTimestamp || item.timestamp)}</span>
                             </div>
                         </div>
                     `;
+                    hit_node = searchNodeByQuery(nodes, textBody)
+                    if (hit_node) {
+                        console.log(hit_node)
+                        contentHtml += `
+                        <div class="related-node-card">
+                            <span class="related-node-label">関連する心理学コンセプト</span>
+                            <a href="${hit_node.page_url}" class="related-node-title" target="_blank" rel="noopener noreferrer">
+                                ${escapeHtml(hit_node.question)}
+                            </a>
+                            <div class="related-node-content">
+                                ${hit_node.example ? `<p><strong>例:</strong> ${escapeHtml(hit_node.example)}</p>` : ''}
+                                ${hit_node.actions ? `<p><strong>アクション:</strong> ${escapeHtml(hit_node.actions.map(a => a.text).join(' / '))}</p>` : ''}
+                            </div>
+                        </div>
+                        `;
+                    }
+                    
+                    logItem.innerHTML = contentHtml;
                     container.appendChild(logItem);
                 });
 

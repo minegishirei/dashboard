@@ -17,37 +17,43 @@
   <link rel="apple-touch-icon" href="./icon-192.png" />
   <style>
     :root {
-      color-scheme: dark;
-      background: #0f1218;
-      color: #f6f8fb;
-      font-family: "Segoe UI", sans-serif;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --border-color: #f1f5f9;
+      --accent-bg: #eff6ff;
     }
 
     body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
       margin: 0;
-      min-height: 100vh;
-      background: radial-gradient(circle at top, rgba(54, 69, 95, 0.3), transparent 28%),
-                  radial-gradient(circle at calc(100% - 10vw) 10vh, rgba(100, 115, 140, 0.14), transparent 22%),
-                  linear-gradient(180deg, #0b0f16 0%, #111827 100%);
-      color: #e4e9f2;
+      padding: 20px;
+      line-height: 1.6;
     }
 
     header {
-      padding: 28px 28px 16px;
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
       max-width: 1040px;
       margin: 0 auto;
     }
 
     h1 {
-      margin: 0 0 8px;
-      font-size: clamp(2rem, 2.8vw, 3rem);
-      letter-spacing: -0.03em;
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin: 0 0 4px 0;
     }
 
-    p {
-      margin: 0;
-      opacity: 0.8;
-      line-height: 1.6;
+    header p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin: 4px 0;
     }
 
     .network-layout {
@@ -71,45 +77,44 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
       gap: 10px;
-      list-style: none;
-      margin: 6px 6px 6px 6px;
-      padding: 0;
+      list-style: none; padding: 0;
     }
 
     .topic-index .topic-list li {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 12px;
-      padding: 0;
-      font-size: 0.95rem;
-      color: #e4e9f2;
-      word-break: break-word;
+      background: var(--bg-color);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
     }
 
     .topic-button {
-      width: 100%;
-      text-align: left;
-      background: transparent;
-      border: none;
-      padding: 12px 14px;
-      color: inherit;
-      font: inherit;
-      cursor: pointer;
+      width: 100%; text-align: left; background: transparent; border: none;
+      padding: 10px 14px; color: var(--text-main); font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: 0.2s;
     }
 
-    .topic-button:hover,
-    .topic-button:focus {
-      background: rgba(255,255,255,0.08);
-      outline: none;
-    }
+    .topic-button:hover { background: var(--accent-bg); color: var(--primary); }
 
     .network-card {
-      border: 1px solid rgba(255,255,255,0.08);
-      background: rgba(15, 18, 24, 0.86);
-      border-radius: 18px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
       overflow: hidden;
-      min-height: auto;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.28);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+      margin-bottom: 24px;
+    }
+
+    .network-card h2 {
+      margin: 0;
+      padding: 20px 24px 8px;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .network-card p {
+      padding: 0 24px 16px;
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
     }
 
     .network-card h2 {
@@ -132,24 +137,21 @@
 
     .footer {
       text-align: center;
-      padding: 20px 28px 40px;
-      color: #7b8aa2;
-      font-size: 0.95rem;
+      padding: 40px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border-color);
     }
 
     .detail-panel {
-      position: fixed;
-      right: 28px;
-      top: 10px;
-      width: 360px;
-      max-height: calc(100vh - 120px);
-      overflow: auto;
-      background: linear-gradient(180deg, rgba(16,18,24,0.98), rgba(10,12,18,0.98));
-      border: 1px solid rgba(255,255,255,0.06);
-      padding: 18px;
-      border-radius: 12px;
-      box-shadow: 0 18px 60px rgba(2,6,18,0.6);
-      color: #e6eef8;
+      position: fixed; right: 28px; top: 20px; width: 340px;
+      max-height: calc(100vh - 40px); overflow: auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      color: var(--text-main);
       z-index: 1200;
     }
 
@@ -289,8 +291,8 @@
       font-size: 0.85rem;
       color: #9fb0d6;
       margin: 8px 0 0;
-      padding: 8px;
-      background: rgba(0, 0, 0, 0.3);
+      padding: 12px;
+      background: var(--bg-color);
       border-radius: 4px;
       display: none;
       line-height: 1.5;
@@ -298,6 +300,15 @@
 
     .case-study-answer.visible {
       display: block;
+    }
+
+    @media (max-width: 768px) {
+        .detail-panel {
+            position: fixed; bottom: 0; top: auto; right: 0; left: 0; width: 100%; border-radius: 16px 16px 0 0;
+        }
+        .back-link {
+            position: static; display: inline-block; margin-bottom: 16px;
+        }
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -313,7 +324,8 @@
   <header>
     <h1>心理学ネットワーク図</h1>
     <p>自由ライセンスの Cytoscape.js を使い、ダークテーマで独立したネットワークごとに可視化します。</p>
-    <p>このページでは、心理学の概念をグラフィカルに整理し、関連するケーススタディを「こんな時どうする？」形式で紹介します。ネットワーク図と実践例を一緒に確認し、理解を深めることを目的としています。</p>
+    <p>ネットワーク図と実践例を一緒に確認し、概念への理解を深めることを目的としています。</p>
+    <a href="main.html" class="back-link">← ダッシュボードへ</a>
   </header>
 
   <section class="network-layout" id="topicIndexSection">
@@ -362,7 +374,7 @@
     const topicFile = 'https://raw.githubusercontent.com/minegishirei/dashboard/refs/heads/main/data/psy/json/topic.json';
 
     // カラーパレット（ダークテーマに馴染む色）
-    const palette = ['#3b82f6','#60a5fa','#7dd3fc','#34d399','#f59e0b','#f97316','#ef4444','#a78bfa','#f472b6'];
+    const palette = ['#3b82f6','#10b981','#f59e0b','#ef4444','#8b5cf6','#ec4899','#06b6d4'];
     const cyInstances = [];
     const nodeTopicText = new Map();
     const topicNavMap = new Map();
@@ -379,9 +391,9 @@
               'background-color': color,
               'label': 'data(label)',
               'color': '#f8fafc',
+              'text-outline-color': color,
               'text-valign': 'center',
               'text-halign': 'center',
-              'text-outline-color': '#0b1220',
               'text-outline-width': 6,
               'font-size': 12,
               'width': 'mapData(weight, 1, 10, 48, 140)',
@@ -414,9 +426,9 @@
             selector: 'edge',
             style: {
               'width': 2,
-              'line-color': '#7dd3fc',
+              'line-color': '#e2e8f0',
               'curve-style': 'bezier',
-              'target-arrow-shape': 'triangle',
+              'target-arrow-shape': 'vee',
               'target-arrow-color': '#7dd3fc',
               'arrow-scale': 0.8,
               'opacity': 0.9
