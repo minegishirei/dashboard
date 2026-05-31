@@ -390,16 +390,23 @@
             style: {
               'background-color': color,
               'label': 'data(label)',
-              'color': '#f8fafc',
-              'text-outline-color': color,
+              'color': '#ffffff',
               'text-valign': 'center',
               'text-halign': 'center',
-              'text-outline-width': 6,
-              'font-size': 12,
-              'width': 'mapData(weight, 1, 10, 48, 140)',
-              'height': 'mapData(weight, 1, 10, 48, 140)',
-              'border-width': 2,
-              'border-color': '#071022'
+              'text-outline-color': color,
+              'text-outline-width': 2,
+              'text-wrap': 'wrap',
+              'text-max-width': '80px',
+              'font-size': '12px',
+              'font-weight': 'bold',
+              'width': 'mapData(weight, 1, 10, 60, 150)',
+              'height': 'mapData(weight, 1, 10, 60, 150)',
+              'border-width': 4,
+              'border-color': '#ffffff',
+              'border-opacity': 0.4,
+              'background-opacity': 0.9,
+              'transition-property': 'background-color, border-color, border-width, border-opacity',
+              'transition-duration': '0.2s'
             }
           },
           {
@@ -408,8 +415,10 @@
               'background-color': '#f59e0b',
               'border-color': '#d97706',
               'color': '#111827',
-              'text-outline-color': '#fdf2f8',
-              'text-outline-width': 3
+              'text-outline-width': 0,
+              'shape': 'round-rectangle',
+              'corner-radius': 8,
+              'text-max-width': '120px'
             }
           },
           {
@@ -418,18 +427,29 @@
               'background-color': '#fde68a',
               'border-color': '#f59e0b',
               'border-width': 4,
-              'text-outline-color': '#1f2937',
-              'text-outline-width': 4
+              'text-outline-color': '#1f2937'
+            }
+          },
+          {
+            selector: 'node:active',
+            style: {
+              'overlay-color': '#ffffff',
+              'overlay-padding': 10,
+              'overlay-opacity': 0.2,
+              'border-width': 6,
+              'border-color': '#ffffff',
+              'border-opacity': 0.8,
+              'background-opacity': 1
             }
           },
           {
             selector: 'edge',
             style: {
               'width': 2,
-              'line-color': '#e2e8f0',
+              'line-color': '#000000',
               'curve-style': 'bezier',
               'target-arrow-shape': 'vee',
-              'target-arrow-color': '#7dd3fc',
+              'target-arrow-color': '#000000',
               'arrow-scale': 0.8,
               'opacity': 0.9
             }
@@ -603,14 +623,21 @@
         comps.forEach((keys, idx) => {
           const card = document.createElement('article');
           card.className = 'network-card';
+
+          const componentNodes = keys.map(k => nodeMap.get(k)).filter(Boolean);
+          
+          // topic.json の定義に基づき、このネットワークに最も合致するトピック名（カテゴリー）を取得
+          const stats = componentTopicStats(keys, topics);
+          const categoryFromTopic = (stats.firstIndex < topics.length) ? topics[stats.firstIndex] : null;
+          const firstNode = componentNodes[0] || {};
+
           const title = document.createElement('h2');
-          const firstNode = nodeMap.get(keys[0]) || {};
-          const firstLabel = firstNode.question || firstNode.text || firstNode.label || `Network ${idx+1}`;
-          title.textContent = `${firstLabel}`;
+          title.textContent = categoryFromTopic || firstNode.category || firstNode.question || firstNode.label || `Network ${idx+1}`;
           card.appendChild(title);
 
           const desc = document.createElement('p');
-          desc.textContent = `Connected component #${idx+1}`;
+          const sampleNodes = componentNodes.slice(0, 3).map(n => `「${n.label || n.question || n.text}」`).join('、');
+          desc.textContent = `${sampleNodes}などに関連するネットワーク。`;
           card.appendChild(desc);
 
           const graph = document.createElement('div');
