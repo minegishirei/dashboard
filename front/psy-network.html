@@ -331,7 +331,7 @@
   <section class="network-layout" id="topicIndexSection">
     <article class="network-card topic-index">
       <h2>トピックインデックス</h2>
-      <p>topic.json の内容を元に表示しています。</p>
+      <p>topic2.json のカテゴリ別データを元に表示しています。</p>
       <div id="topicIndex"></div>
     </article>
   </section>
@@ -357,7 +357,7 @@
   </section>
 
   <footer class="footer">
-    <div>データ: <code>dashboard/data/psy/json/topic.json</code></div>
+    <div>データ: <code>dashboard/data/psy/json/topic2.json</code></div>
     <div>ライブラリ: <a href="https://js.cytoscape.org/" target="_blank" rel="noreferrer noopener">Cytoscape.js (MIT)</a></div>
   </footer>
 
@@ -532,7 +532,8 @@
         ]);
 
         const data = await resMain.json();
-        const topics = (resTopic && resTopic.ok) ? (await resTopic.json()) : [];
+        const topicsData = (resTopic && resTopic.ok) ? (await resTopic.json()) : {};
+        const allTopics = Array.isArray(topicsData) ? topicsData : Object.values(topicsData).flat();
         const practiceResults = data.practiceResults || [];
 
         const nodes = data.nodeDataArray || [];
@@ -566,8 +567,8 @@
           });
         }
 
-        createTopicNavigationMap(topics);
-        renderTopicIndex(topics);
+        createTopicNavigationMap(allTopics);
+        renderTopicIndex(topicsData);
 
         let comps = connectedComponents(nodeKeys, links);
 
@@ -614,7 +615,7 @@
             .map(item => item.keys);
         }
 
-        comps = sortComponentsByTopics(comps, topics);
+        comps = sortComponentsByTopics(comps, allTopics);
 
         const layout = document.getElementById('networkLayout');
         layout.innerHTML = '';
@@ -627,8 +628,8 @@
           const componentNodes = keys.map(k => nodeMap.get(k)).filter(Boolean);
           
           // topic.json の定義に基づき、このネットワークに最も合致するトピック名（カテゴリー）を取得
-          const stats = componentTopicStats(keys, topics);
-          const categoryFromTopic = (stats.firstIndex < topics.length) ? topics[stats.firstIndex] : null;
+          const stats = componentTopicStats(keys, allTopics);
+          const categoryFromTopic = (stats.firstIndex < allTopics.length) ? allTopics[stats.firstIndex] : null;
           const firstNode = componentNodes[0] || {};
 
           const title = document.createElement('h2');
@@ -763,27 +764,41 @@
       return window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
     }
 
-    function renderTopicIndex(topics) {
+    function renderTopicIndex(topicsData) {
       const container = document.getElementById('topicIndex');
       if (!container) return;
-      if (!Array.isArray(topics) || topics.length === 0) {
+
+      const isArray = Array.isArray(topicsData);
+      if ((isArray && topicsData.length === 0) || (!isArray && Object.keys(topicsData).length === 0)) {
         container.innerHTML = '<p style="color:#9fb0d6; margin:0;">トピックを読み込めませんでした。</p>';
         return;
       }
-      const list = document.createElement('ul');
-      list.className = 'topic-list';
-      topics.forEach(topic => {
-        const item = document.createElement('li');
-        const button = document.createElement('button');
-        button.type = 'button';
-        button.className = 'topic-button';
-        button.textContent = String(topic).trim();
-        button.addEventListener('click', () => navigateToTopic(String(topic)));
-        item.appendChild(button);
-        list.appendChild(item);
-      });
+
       container.innerHTML = '';
-      container.appendChild(list);
+      const entries = isArray ? [['全トピック', topicsData]] : Object.entries(topicsData);
+
+      entries.forEach(([category, items]) => {
+        const catHeader = document.createElement('h3');
+        catHeader.textContent = category;
+        catHeader.style.fontSize = '0.9rem';
+        catHeader.style.margin = '16px 0 8px';
+        catHeader.style.color = 'var(--primary)';
+        container.appendChild(catHeader);
+
+        const list = document.createElement('ul');
+        list.className = 'topic-list';
+        items.forEach(topic => {
+          const item = document.createElement('li');
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'topic-button';
+          button.textContent = String(topic).trim();
+          button.addEventListener('click', () => navigateToTopic(String(topic)));
+          item.appendChild(button);
+          list.appendChild(item);
+        });
+        container.appendChild(list);
+      });
     }
 
     function normalizeText(value) {
