@@ -422,12 +422,29 @@
             }
           },
           {
+            selector: 'node[isCategoryNode = "true"]',
+            style: {
+              'background-color': '#ffffff',
+              'color': '#000000',
+              'border-width': 2,
+              'border-color': '#000000',
+              'border-opacity': 0.9,
+              'text-outline-width': 0,
+              'shadow-blur': 15,
+              'shadow-color': '#ffffff',
+              'shadow-opacity': 0.6,
+              'z-index': 100
+            }
+          },
+          {
             selector: 'node.highlighted',
             style: {
-              'background-color': '#fde68a',
-              'border-color': '#f59e0b',
-              'border-width': 4,
-              'text-outline-color': '#1f2937'
+              'background-color': '#ffffff',
+              'color': '#000000',
+              'border-color': '#000000',
+              'border-width': 6,
+              'text-outline-width': 0,
+              'z-index': 9999
             }
           },
           {
@@ -474,15 +491,21 @@
       return cy;
     }
 
-    function buildElementsForKeys(nodeMap, links, keys) {
+    function buildElementsForKeys(nodeMap, links, keys, categoryName) {
       const elements = [];
       const keySet = new Set(keys);
+      const normalizedCategory = categoryName ? String(categoryName).trim().toLowerCase() : null;
+
       // nodes
       keys.forEach(k => {
         const n = nodeMap.get(k);
         const label = n.label || n.question || n.text || String(k);
         const quote = /^「.*」$/.test(String(label).trim()) ? 'true' : 'false';
-        elements.push({ data: { id: `n${k}`, label, weight: n.weight || 1, key: k, quote } });
+        
+        // カテゴリ名とノードのテキストが一致するか判定
+        const isCategoryNode = (normalizedCategory && String(label).trim().toLowerCase() === normalizedCategory) ? 'true' : 'false';
+
+        elements.push({ data: { id: `n${k}`, label, weight: n.weight || 1, key: k, quote, isCategoryNode } });
       });
       // edges
       links.forEach((l, idx) => {
@@ -533,7 +556,31 @@
 
         const data = await resMain.json();
         const topicsData = (resTopic && resTopic.ok) ? (await resTopic.json()) : {};
-        const allTopics = Array.isArray(topicsData) ? topicsData : Object.values(topicsData).flat();
+        const isTopicsArray = Array.isArray(topicsData);
+
+        // topic2.json の並び順（カテゴリ > 項目）を遵守するためにフラットな配列を再構築
+        let allTopics = [];
+        if (isTopicsArray) {
+          allTopics = topicsData;
+        } else {
+          // カテゴリ名とその中身を交互に配置することで、JSONの記述順を維持する
+          Object.entries(topicsData).forEach(([cat, items]) => {
+            allTopics.push(cat);
+            if (Array.isArray(items)) {
+              allTopics.push(...items);
+            }
+          });
+        }
+
+        const categoryColors = new Map();
+        const topicToCategory = new Map();
+        if (!isTopicsArray) {
+          Object.keys(topicsData).forEach((cat, i) => {
+            categoryColors.set(cat, palette[i % palette.length]);
+            topicToCategory.set(String(cat).trim().toLowerCase(), cat);
+            topicsData[cat].forEach(t => topicToCategory.set(String(t).trim().toLowerCase(), cat));
+          });
+        }
         const practiceResults = data.practiceResults || [];
 
         const nodes = data.nodeDataArray || [];
@@ -568,7 +615,7 @@
         }
 
         createTopicNavigationMap(allTopics);
-        renderTopicIndex(topicsData);
+        renderTopicIndex(topicsData, categoryColors);
 
         let comps = connectedComponents(nodeKeys, links);
 
@@ -636,6 +683,15 @@
           title.textContent = categoryFromTopic || firstNode.category || firstNode.question || firstNode.label || `Network ${idx+1}`;
           card.appendChild(title);
 
+          // カテゴリ名に基づいて色を固定
+          let color = palette[idx % palette.length];
+          if (categoryFromTopic) {
+            const catName = topicToCategory.get(String(categoryFromTopic).trim().toLowerCase());
+            if (catName && categoryColors.has(catName)) {
+              color = categoryColors.get(catName);
+            }
+          }
+
           const desc = document.createElement('p');
           const sampleNodes = componentNodes.slice(0, 3).map(n => `「${n.label || n.question || n.text}」`).join('、');
           desc.textContent = `${sampleNodes}などに関連するネットワーク。`;
@@ -695,8 +751,7 @@
 
           layout.appendChild(card);
 
-          const elements = buildElementsForKeys(nodeMap, links, keys);
-          const color = palette[idx % palette.length];
+          const elements = buildElementsForKeys(nodeMap, links, keys, categoryFromTopic);
           const cy = makeCytoscape(document.getElementById(containerId), elements, color);
           cyInstances.push(cy);
 
@@ -764,7 +819,7 @@
       return window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
     }
 
-    function renderTopicIndex(topicsData) {
+    function renderTopicIndex(topicsData, categoryColors = new Map()) {
       const container = document.getElementById('topicIndex');
       if (!container) return;
 
@@ -781,8 +836,11 @@
         const catHeader = document.createElement('h3');
         catHeader.textContent = category;
         catHeader.style.fontSize = '0.9rem';
-        catHeader.style.margin = '16px 0 8px';
-        catHeader.style.color = 'var(--primary)';
+        catHeader.style.margin = '20px 0 10px';
+        const catColor = categoryColors.get(category) || 'var(--primary)';
+        catHeader.style.color = catColor;
+        catHeader.style.borderLeft = `4px solid ${catColor}`;
+        catHeader.style.paddingLeft = '8px';
         container.appendChild(catHeader);
 
         const list = document.createElement('ul');
