@@ -29,11 +29,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "急にめちゃくちゃ強い手ができて、テンパっている可能性",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "急にめちゃくちゃ強い手ができて、テンパっている可能性",
@@ -49,7 +49,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "数字・有意味語・言語音なの言語刺激を呈示した場合には",
@@ -73,11 +73,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "言語化しやすい色ほど、記憶が定着しやすい",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "言語化しやすい色ほど、記憶が定着しやすい",
@@ -93,11 +93,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「ノスタルジアは自己の連続性（＝過去と今と未来の自分を一体と感じること）を強め、困難な状況においても希望を持たせる」効果がある",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "「ノスタルジアは自己の連続性（＝過去と今と未来の自分を一体と感じること）を強め、困難な状況においても希望を持たせる」効果がある",
@@ -113,11 +113,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "伝的記憶は、自身が10-20代の頃の記憶が多く想起される傾向がある",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "伝的記憶は、自身が10-20代の頃の記憶が多く想起される傾向がある",
@@ -137,11 +137,11 @@
         },
         {
           "text": "ある色の信号機に反応するようになったら、少し色違いの信号機にも同じ反応を示す。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "犬を「ワン」と呼ぶ言葉を習得したら、他の犬にも「ワン」と呼ぶ。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "ある色の信号機に反応するようになったら、少し色違いの信号機にも同じ反応を示す。,犬を「ワン」と呼ぶ言葉を習得したら、他の犬にも「ワン」と呼ぶ。",
@@ -165,7 +165,7 @@
         },
         {
           "text": "000回練習した方が、そのチャンスは増える。努力は、ひらめきを得るためにするんです。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "「少しずつ上手くなる」のではなく、「コツを掴むと一気に上手くなる」。練習はそのきっかけを掴むためのもの。100回よりも1,000回練習した方が、そのチャンスは増える。努力は、ひらめきを得るためにするんです。",
@@ -189,11 +189,11 @@
         },
         {
           "text": "実は、母親として自信がなかったから過干渉にならなければならなかったのだとしたら、傍に居る子供が感じる気持ちは、母親の不安です。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "子供の心では、自分が母親の言うことを聞くことで母親が安心するならばと、いい子ほどがんばります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "「ああしなさい。こうしなさい。」「これしちゃダメ、あれしちゃダメ。」と口出しをする母親がいたとします。,実は、母親として自信がなかったから過干渉にならなければならなかったのだとしたら、傍に居る子供が感じる気持ちは、母親の不安です。,子供の心では、自分が母親の言うことを聞くことで母親が安心するならばと、いい子ほどがんばります。",
@@ -209,11 +209,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "説明するという行為により、理解度が高まるという研究",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "説明するという行為により、理解度が高まるという研究",
@@ -229,11 +229,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "他者に教えるように指示されるだけで、学習効率は上がる。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "他者に教えるように指示されるだけで、学習効率は上がる。",
@@ -273,11 +273,11 @@
         },
         {
           "text": "能力の低い人が自身のスキルや知識を正しく評価できず、実際よりも過大評価してしまう認知バイアス。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "自己評価が客観的評価よりも高い場合",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "馬鹿の山",
@@ -285,23 +285,23 @@
         },
         {
           "text": "絶望の谷",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "啓蒙の坂",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "継続の大地",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "の4つを通じてスキルを習得する。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ダニングクルーガー効果",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "能力の低い人が自身のスキルや知識を正しく評価できず、実際よりも過大評価してしまう認知バイアス。,自己評価が客観的評価よりも高い場合,馬鹿の山,絶望の谷,啓蒙の坂,継続の大地,の4つを通じてスキルを習得する。,ダニングクルーガー効果",
@@ -341,7 +341,7 @@
         },
         {
           "text": "メタ認知ができている状態",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "メタ認知ができている状態",
@@ -379,11 +379,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "これらの因子は70%の確率で遺伝することがわかっている。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "これらの因子は70%の確率で遺伝することがわかっている。",
@@ -399,7 +399,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "これらの因子は70%の確率で遺伝することがわかっている。",
@@ -419,11 +419,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "人間は即時の満足を優先する傾向があり、これを「時間割引」と呼びます。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "人間は即時の満足を優先する傾向があり、これを「時間割引」と呼びます。",
@@ -439,15 +439,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "9~10歳ごろに計画性が発揮できるようになることが求められる。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "この計画性は異年齢集団により強く発揮されるが、地域の中で自然発生する「異年齢集団」は年々見られにくくなっている。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "9~10歳ごろに計画性が発揮できるようになることが求められる。,この計画性は異年齢集団により強く発揮されるが、地域の中で自然発生する「異年齢集団」は年々見られにくくなっている。",
@@ -463,15 +463,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「ＯＯの専門家」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "あだ名をつける",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "「ＯＯの専門家」,あだ名をつける",
@@ -487,7 +487,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "住居の買い手が最初に到着した住居の価格を基準に考えてしまう",
@@ -515,7 +515,7 @@
         },
         {
           "text": "『欠点があり、能力を発揮できない、良くない人』",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "同じ項目だが、後述の方が悪い印象を持つ",
@@ -539,11 +539,11 @@
         },
         {
           "text": "「よろしければこのOOに関する、一番の懸念点を教えていただけませんか？」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「もっとも負荷が高い点はどのようなことでしょうか？」",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「よろしければこのOOに関する、一番の懸念点を教えていただけませんか？」,「もっとも負荷が高い点はどのようなことでしょうか？」",
@@ -583,7 +583,7 @@
         },
         {
           "text": "最高のパフォーマンス",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "最高のパフォーマンス",
@@ -601,11 +601,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "嘘をついている状態",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "嘘をついている状態",
@@ -627,7 +627,7 @@
         },
         {
           "text": "緊張している状態",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "緊張している状態",
@@ -649,7 +649,7 @@
         },
         {
           "text": "緊張している状態",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "緊張している状態",
@@ -689,7 +689,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "a",
@@ -713,7 +713,7 @@
         },
         {
           "text": "緊張している状態",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "緊張している状態",
@@ -735,7 +735,7 @@
         },
         {
           "text": "配慮の不足",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "配慮の不足",
@@ -751,11 +751,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "気配り",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "気配り",
@@ -775,7 +775,7 @@
         },
         {
           "text": "配慮",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "配慮",
@@ -793,11 +793,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "多角的な観点",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "多角的な観点",
@@ -813,7 +813,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "捻くれ者",
@@ -835,11 +835,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "支配",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "支配",
@@ -857,7 +857,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "誠実性の欠如",
@@ -865,7 +865,7 @@
         }
       ],
       "example": "誠実性の欠如",
-      "effect": "誠実性",
+      "effect": "誠実性,BMIが高い",
       "method": "",
       "file_path": "/blog/blog/null/main.md",
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/16/201716"
@@ -877,11 +877,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "10代から20代",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "10代から20代",
@@ -897,7 +897,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "0代から10代",
@@ -921,7 +921,7 @@
         },
         {
           "text": "30代から40代",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "30代から40代",
@@ -941,7 +941,7 @@
         },
         {
           "text": "年齢判別",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "年齢判別",
@@ -959,7 +959,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "やる気が満ち溢れている状態",
@@ -981,7 +981,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "やる気が満ち溢れている状態",
@@ -1003,11 +1003,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「彼は医者だから医療の知識がすごい」",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "「彼は医者だから医療の知識がすごい」",
@@ -1023,7 +1023,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「思った通り」",
@@ -1045,7 +1045,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "a",
@@ -1065,11 +1065,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -1087,11 +1087,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -1113,7 +1113,7 @@
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -1131,11 +1131,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -1151,11 +1151,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「峰岸は芸術家だ」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "「峰岸は芸術家だ」",
@@ -1171,11 +1171,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "癌の外科手術の効果について死亡率の代わりに生存率が示された場合、医師が手術を選択する割合は34%増加した",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "癌の外科手術の効果について死亡率の代わりに生存率が示された場合、医師が手術を選択する割合は34%増加した",
@@ -1191,11 +1191,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「アクションAが仮に成功すると、プロジェクトは正常に戻りますが、25%の確率で失敗します。」",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「アクションAが仮に成功すると、プロジェクトは正常に戻りますが、25%の確率で失敗します。」",
@@ -1231,11 +1231,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "呼吸数",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "声の変調",
@@ -1247,11 +1247,11 @@
         },
         {
           "text": "呼吸の一時停止",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "動きの強さの模倣",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "呼吸数,声の変調,リズム,呼吸の一時停止,動きの強さの模倣",
@@ -1267,7 +1267,7 @@
       "actions": [
         {
           "text": "ラポールの定義は、共通感です",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "人は自分のような人が好きです。したがって、信頼関係を築きたい場合は、共通性を示す必要があります。",
@@ -1275,7 +1275,7 @@
         },
         {
           "text": "「戦争の心理学」の中で「相手も同じ人間だ」と想像力を働かせることで、戦闘員の攻撃性が減少したのを確認しました。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "「戦争の心理学」の中で「相手も同じ人間だ」と想像力を働かせることで、戦闘員の攻撃性が減少したのを確認しました。",
@@ -1291,11 +1291,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "若手のエンジニアだったらフロントエンドやペアプロなどイケイケな話が好き",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ベテランの歴戦の猛者なら「自分がいかにブラックな職場で無茶なやり取りをしたかの思い出」が好き",
@@ -1315,7 +1315,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "チョコレートマフィンの大きさを訪ねる実験をしたところ、ダイエットをしている人間の方が大きいと判断した。",
@@ -1355,7 +1355,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "この二つの心理は独立平行で実行されるため、まれにこの二つの心理の結果が対立することがある。国語の選択肢問題で熟考の心理で選んだ選択肢が、直観に反することがある。",
@@ -1375,7 +1375,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "アイドルを応援する理由は「**自分が支えていると言う実感/誰かの役に立っていると言う実感**」を得たいから。",
@@ -1399,7 +1399,7 @@
         },
         {
           "text": "ストレートに表現したら反感を買うことがわかっているので、わざわざ迂回する戦略をとり認められようとしている。それだけ、他者から認められることへの執着が強いからである。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "ストレートに表現したら反感を買うことがわかっているので、わざわざ迂回する戦略をとり認められようとしている。それだけ、他者から認められることへの執着が強いからである。",
@@ -1419,7 +1419,7 @@
         },
         {
           "text": "自分自身を大らかに見せかけようとしている",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "自分自身を大らかに見せかけようとしている",
@@ -1435,11 +1435,11 @@
       "actions": [
         {
           "text": "悪役のパラドックス",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "誠実なキャラクターのアピール",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "不利益を被る可能性のある情報を共有することで、相互の信頼を担保する",
@@ -1463,11 +1463,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
@@ -1483,11 +1483,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
@@ -1503,7 +1503,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "構造的理解力が担保されている状態",
@@ -1531,7 +1531,7 @@
         },
         {
           "text": "単に話題を強引に転換しようとしている",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「逆に」 という口癖を持つ人は 多角的な観点と高い知能指数を持つ,単に話題を強引に転換しようとしている",
@@ -1547,7 +1547,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「優しい、乱暴だ」",
@@ -1567,11 +1567,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「お金がない」と言いながら浪費している場合。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "浪費による脳の麻痺で現実逃避している可能性。",
@@ -1587,7 +1587,7 @@
         },
         {
           "text": "これは徹夜と同じレベルである",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "「お金がない」と言いながら浪費している場合。,浪費による脳の麻痺で現実逃避している可能性。,本当にお金がない時。,IQが13~14ポイント下がる。,これは徹夜と同じレベルである",
@@ -1603,11 +1603,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "説明不要",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "説明不要",
@@ -1627,7 +1627,7 @@
         },
         {
           "text": "思考力が低下している状態",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "思考力が低下している状態",
@@ -1643,11 +1643,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "説明不要",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "説明不要",
@@ -1665,23 +1665,23 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "とくに意味のないこのような発話を「有声休止」といいます。有声休止には二つの機能があると言われています。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "文末などの発話の区切りで黙ってしまうと（この現象を「無声休止」といいます）他の人が話し出すきっかけをつくってしまい",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "まだ話したいあなたから発言権が移行する可能性が生じます。",
           "figure": "Hammer"
         },
         {
+          "text": "まだ話したいあなたから発言権が移行する可能性が生じます。",
+          "figure": "Caution"
+        },
+        {
           "text": "そこであなたは発言権を維持するために有声休止を発するのです",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "有声休止には考えをまとめる補助的役割があるというものもあります",
@@ -1701,15 +1701,15 @@
       "actions": [
         {
           "text": "ある人が真の誠意を話すとき、その人は話す速度を変えることはありません。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "ブレア首相が何度も立ち止まり、話す速度が通常よりもはるかに遅いことに注目してください。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "彼のゆっくりした話し方と長い間の間合いは、おそらく彼が自分の誠実さを誇張しようとしていること、",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "そして結局ダイアナ妃の死が彼にそれほど影響を与えていなかったことを示しているのかもしれない。",
@@ -1733,7 +1733,7 @@
         },
         {
           "text": "「何で？」が口癖の人は、誰に聞いたら答えてくれるのか、しっかりと検討してから質問するようにする必要があるでしょう。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「何で？」「何で？」",
@@ -1753,7 +1753,7 @@
       "actions": [
         {
           "text": "「ちょっと」という言葉を発した時は、「少し」よりも精緻性の欠如していることに留意するべきです。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「ちょっと」という口癖は心理的抵抗を下げる",
@@ -1773,15 +1773,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
-        },
-        {
-          "text": "子育ても同じく、なんであなたはいつも散らかすのか。",
           "figure": "BpmnTaskMessage"
         },
         {
+          "text": "子育ても同じく、なんであなたはいつも散らかすのか。",
+          "figure": "Caution"
+        },
+        {
           "text": "なんであなたは出来ないのか。とあなたにすると怒ってしまいがち。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "こんなに散らかされるとママは悲しい。一緒に片付けようか。",
@@ -1789,7 +1789,7 @@
         },
         {
           "text": "など一呼吸おいて私メッセージにすると人間関係がスムーズになるそうです。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "子育ても同じく、なんであなたはいつも散らかすのか。,なんであなたは出来ないのか。とあなたにすると怒ってしまいがち。,こんなに散らかされるとママは悲しい。一緒に片付けようか。,など一呼吸おいて私メッセージにすると人間関係がスムーズになるそうです。",
@@ -1809,7 +1809,7 @@
         },
         {
           "text": "「あくまでも自分の意見を伝えているだけ」というスタンスになりますから、「相手が変わるべきだ」という支配欲の落とし穴にはまりにくくなるのです。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「あくまでも自分の意見を伝えているだけ」というスタンスになりますから、「相手が変わるべきだ」という支配欲の落とし穴にはまりにくくなるのです。",
@@ -1825,19 +1825,19 @@
       "actions": [
         {
           "text": "相手の時間を大切にし、忙しい時間への配慮ができる人",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "この人は相手の時間を大切にするからこそ、「今、大丈夫ですか」ときちんと確認します",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "また、人には忙しい時間があり、時間が取れないことがあるということもきちんと理解しています",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "ですから、もしかすると今は忙しいかも知れないと配慮することができるのですね。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "この人は相手の時間を大切にするからこそ、「今、大丈夫ですか」ときちんと確認します,また、人には忙しい時間があり、時間が取れないことがあるということもきちんと理解しています,ですから、もしかすると今は忙しいかも知れないと配慮することができるのですね。",
@@ -1853,19 +1853,19 @@
       "actions": [
         {
           "text": "まずフェイスブック投稿で相関が見受けられたもの",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "インターネット、コンピューター",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "アニメ、マンガ、日本の",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ポケモン、ファイナルファンタジー",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "顔文字(>_<)",
@@ -1885,11 +1885,11 @@
       "actions": [
         {
           "text": "絵文字を使用する場合は外向性が高いという研究結果も出ている",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "👍",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "👍",
@@ -1905,23 +1905,23 @@
       "actions": [
         {
           "text": "Facebook投稿での相関があるテキスト",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「OOしたほうがいい」という肯定的意見よりも「OOしてはいけない」という**ルールで縛る方向性**で意見を出す。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "あなた",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "あなたの",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "してはいけない",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "あなた,あなたの,してはいけない",
@@ -1937,11 +1937,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "開放性の低い方々",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "開放性の低い方々",
@@ -1957,15 +1957,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "大学において人文科学、芸術、心理学などを専攻する傾向",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "職業興味において研究的興味、芸術的興味の傾向",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "大学において人文科学、芸術、心理学などを専攻する傾向,職業興味において研究的興味、芸術的興味の傾向",
@@ -1981,11 +1981,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "大学において経済学、工学、法学を興味を示す",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "大学において経済学、工学、法学を興味を示す",
@@ -2005,11 +2005,11 @@
         },
         {
           "text": "素敵な、素晴らしい、興奮した、感謝して、ありがとう、偉大な、目覚ましい、幸せ、とても楽しい",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "メリークリスマス、感謝祭、教会、主、キリストに、コリント人、賛美歌、徳、恵み、箴言、信仰、祈り、祈る",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "素敵な、素晴らしい、興奮した、感謝して、ありがとう、偉大な、目覚ましい、幸せ、とても楽しい,メリークリスマス、感謝祭、教会、主、キリストに、コリント人、賛美歌、徳、恵み、箴言、信仰、祈り、祈る",
@@ -2029,7 +2029,7 @@
         },
         {
           "text": "大学において法学、経営学、経済学にまったく興味を示さない傾向",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "大学において法学、経営学、経済学にまったく興味を示さない傾向",
@@ -2045,7 +2045,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "協調性が高い人",
@@ -2065,15 +2065,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "バカ、クソ",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "殺す、憎む、死ぬ、詩、地獄、酔った、タバコを吸う",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "バカ、クソ,殺す、憎む、死ぬ、詩、地獄、酔った、タバコを吸う",
@@ -2089,11 +2089,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "協調性が低い人",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "協調性が低い人",
@@ -2109,15 +2109,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "協調性とは、協力的な態度を示す人である。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "対局なのは「自己中心的な人物」",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "協調性とは、協力的な態度を示す人である。,対局なのは「自己中心的な人物」",
@@ -2135,11 +2135,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "fucking",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "fuck",
@@ -2151,11 +2151,11 @@
         },
         {
           "text": "crap",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "バカ",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "がっかりした",
@@ -2171,7 +2171,7 @@
         },
         {
           "text": "イライラする",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "退屈",
@@ -2179,31 +2179,31 @@
         },
         {
           "text": "ひどい",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "鬱",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "寂しい",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "独り",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "地獄",
           "figure": "Hammer"
         },
         {
-          "text": "死ぬ",
+          "text": "地獄",
           "figure": "Caution"
         },
         {
+          "text": "死ぬ",
+          "figure": "Hammer"
+        },
+        {
           "text": "嫌い",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "悪夢",
@@ -2211,11 +2211,11 @@
         },
         {
           "text": "泣いている",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "xd　>_<　x_x",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "fucking,fuck,shit,crap,バカ,がっかりした,うんざり,病む,イライラする,退屈,ひどい,鬱,寂しい,独り,地獄,死ぬ,嫌い,悪夢,泣いている,xd　>_<　x_x",
@@ -2231,7 +2231,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "過度に誠実性を高めた場合、強迫性障害/完璧主義 に該当する恐れがある。",
@@ -2255,11 +2255,11 @@
         },
         {
           "text": "誠実性の現れやすい具体的な口癖。(Facebookでの調査)",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "仕事をしっかりとこなすこと。そのために準備を怠らないことを教訓としている。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "誠実性の現れやすい具体的な口癖。(Facebookでの調査),仕事をしっかりとこなすこと。そのために準備を怠らないことを教訓としている。",
@@ -2275,7 +2275,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "誠実性の現れやすい具体的な傾向。トレーニングを継続するには、気分に左右されずスケジュールを計画し自己をコントロールする能力が必要。",
@@ -2299,23 +2299,23 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "誠実性の高い性格とは、一つの仕事をきちんとこなそうとする気持ちや、他人に対する義務を真剣に考えていることを意味している。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "以下の特性を持つ",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "一つの仕事をきちんとこなす",
           "figure": "Caution"
         },
         {
+          "text": "一つの仕事をきちんとこなす",
+          "figure": "Hammer"
+        },
+        {
           "text": "計画的な行動",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "慎重で配慮がある",
@@ -2323,7 +2323,7 @@
         }
       ],
       "example": "誠実性の高い性格とは、一つの仕事をきちんとこなそうとする気持ちや、他人に対する義務を真剣に考えていることを意味している。,以下の特性を持つ,一つの仕事をきちんとこなす,計画的な行動,慎重で配慮がある",
-      "effect": "誠実性",
+      "effect": "誠実性,フロー状態",
       "method": "",
       "file_path": "/blog/blog/a0000bigfive/5000sincerity.md",
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543"
@@ -2335,11 +2335,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "誠実性とフロー/ゾーン状態の間には中程度の正の相関（r = 0.33）が認められた",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "これは「誠実性が高い人がフローに頻繁に入れる確率は66.5%」と解釈できる。",
@@ -2347,23 +2347,47 @@
         }
       ],
       "example": "誠実性とフロー/ゾーン状態の間には中程度の正の相関（r = 0.33）が認められた,これは「誠実性が高い人がフローに頻繁に入れる確率は66.5%」と解釈できる。",
-      "effect": "誠実性が高い",
+      "effect": "終了",
       "method": "",
       "file_path": "/blog/blog/a0000bigfive/5000sincerity.md",
-      "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543"
+      "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543",
+      "category": "Terminal",
+      "text": "フロー状態"
     },
     {
       "key": 100,
       "type": "Table",
-      "question": "混乱",
+      "question": "BMIが高い",
       "actions": [
         {
           "text": "",
           "figure": "BpmnTaskMessage"
         },
         {
-          "text": "どういう行動を取ればいいかわからないとき、社会的証明の法則はより強く働く",
+          "text": "誠実性が低いほどBMIが高い傾向があることがわかった。",
           "figure": "BpmnTaskMessage"
+        }
+      ],
+      "example": "誠実性が低いほどBMIが高い傾向があることがわかった。",
+      "effect": "終了",
+      "method": "",
+      "file_path": "/blog/blog/a0000bigfive/5000sincerity.md",
+      "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543",
+      "category": "Terminal",
+      "text": "BMIが高い"
+    },
+    {
+      "key": 101,
+      "type": "Table",
+      "question": "混乱",
+      "actions": [
+        {
+          "text": "",
+          "figure": "Caution"
+        },
+        {
+          "text": "どういう行動を取ればいいかわからないとき、社会的証明の法則はより強く働く",
+          "figure": "Caution"
         }
       ],
       "example": "どういう行動を取ればいいかわからないとき、社会的証明の法則はより強く働く",
@@ -2373,7 +2397,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/04/221724"
     },
     {
-      "key": 101,
+      "key": 102,
       "type": "Table",
       "question": "正確性",
       "actions": [
@@ -2383,7 +2407,7 @@
         },
         {
           "text": "正確な情報が求められているときにも、社会的証明は求められる",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "正確な情報が求められているときにも、社会的証明は求められる",
@@ -2393,7 +2417,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/04/221724"
     },
     {
-      "key": 102,
+      "key": 103,
       "type": "Table",
       "question": "社会的証明",
       "actions": [
@@ -2407,7 +2431,7 @@
         },
         {
           "text": "UIやLPにおいて、レビュー・導入事例・「○人が購入しました」などを明示することが、CVR（コンバージョン率）を高める有効な手段となります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "人は、適切な行動が判断しづらい曖昧な状況において、周囲の人々の行動を手がかりに自らの行動を決定する傾向があります。,UIやLPにおいて、レビュー・導入事例・「○人が購入しました」などを明示することが、CVR（コンバージョン率）を高める有効な手段となります。",
@@ -2417,17 +2441,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/04/221724"
     },
     {
-      "key": 103,
+      "key": 104,
       "type": "Table",
       "question": "「みんながやっている」",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "社会的証明を裏付ける代表的な言葉",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "社会的証明を裏付ける代表的な言葉",
@@ -2439,17 +2463,17 @@
       "text": "「みんながやっている」"
     },
     {
-      "key": 104,
+      "key": 105,
       "type": "Table",
       "question": "「かかわりを持っている」「他人に注目されている」",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "人から手伝いを頼まれ引き受けると2度目以降も断りにくくなる",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "人から手伝いを頼まれ引き受けると2度目以降も断りにくくなる",
@@ -2459,7 +2483,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/11/110343"
     },
     {
-      "key": 105,
+      "key": 106,
       "type": "Table",
       "question": "一貫性の法則",
       "actions": [
@@ -2479,13 +2503,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/11/110343"
     },
     {
-      "key": 106,
+      "key": 107,
       "type": "Table",
       "question": "命令の後の理由付け",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "OOさん。ハサミをとっていただけませんが?切りたいものがあるので",
@@ -2499,7 +2523,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/11/110343"
     },
     {
-      "key": 107,
+      "key": 108,
       "type": "Table",
       "question": "疲弊",
       "actions": [
@@ -2521,13 +2545,13 @@
       "text": "疲弊"
     },
     {
-      "key": 108,
+      "key": 109,
       "type": "Table",
       "question": "他力本願",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "他力本願",
@@ -2543,7 +2567,7 @@
       "text": "他力本願"
     },
     {
-      "key": 109,
+      "key": 110,
       "type": "Table",
       "question": "熟考",
       "actions": [
@@ -2553,7 +2577,7 @@
         },
         {
           "text": "熟考とは「意識的に選択すること」である",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "熟考とは「意識的に選択すること」である",
@@ -2563,7 +2587,7 @@
       "page_url": "https://qiita.com/minegishirei_v2/items/47f0108e59a03eeb2309"
     },
     {
-      "key": 110,
+      "key": 111,
       "type": "Table",
       "question": "選択する",
       "actions": [
@@ -2573,11 +2597,11 @@
         },
         {
           "text": "我々は一つ選択するたびに大きなエネルギーを消費する。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "サウジアラビアの裁判の例では、仮釈放を認める割合が「休憩時間から判決までどれくらいの時間がかかったか」に依存するという。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "我々は一つ選択するたびに大きなエネルギーを消費する。,サウジアラビアの裁判の例では、仮釈放を認める割合が「休憩時間から判決までどれくらいの時間がかかったか」に依存するという。",
@@ -2587,13 +2611,13 @@
       "page_url": "https://qiita.com/minegishirei_v2/items/47f0108e59a03eeb2309"
     },
     {
-      "key": 111,
+      "key": 112,
       "type": "Table",
       "question": "意識する",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "a",
@@ -2609,17 +2633,17 @@
       "text": "意識する"
     },
     {
-      "key": 112,
+      "key": 113,
       "type": "Table",
       "question": "大きい",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -2631,17 +2655,17 @@
       "text": "大きい"
     },
     {
-      "key": 113,
+      "key": 114,
       "type": "Table",
       "question": "太い",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -2653,7 +2677,7 @@
       "text": "太い"
     },
     {
-      "key": 114,
+      "key": 115,
       "type": "Table",
       "question": "評価する",
       "actions": [
@@ -2663,7 +2687,7 @@
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -2673,17 +2697,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/13/095056"
     },
     {
-      "key": 115,
+      "key": 116,
       "type": "Table",
       "question": "育成",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "育成",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "育成",
@@ -2695,7 +2719,7 @@
       "text": "育成"
     },
     {
-      "key": 116,
+      "key": 117,
       "type": "Table",
       "question": "長期記憶可能になる",
       "actions": [
@@ -2705,7 +2729,7 @@
         },
         {
           "text": "0歳は学習能力が高いのではなく、より正確には **忘れる能力が極端に低い**と言う表現が適切です。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "0歳は学習能力が高いのではなく、より正確には **忘れる能力が極端に低い**と言う表現が適切です。",
@@ -2715,13 +2739,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 117,
+      "key": 118,
       "type": "Table",
       "question": "6から7ヶ月",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "0歳は学習能力が高いのではなく",
@@ -2735,17 +2759,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 118,
+      "key": 119,
       "type": "Table",
       "question": "統計学習",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "実際には確率モデルを内部に作って世界を予測しています。つまり、**「次に何が来るか」を赤ちゃんは予測している** と言うことです。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "実際には確率モデルを内部に作って世界を予測しています。つまり、**「次に何が来るか」を赤ちゃんは予測している** と言うことです。",
@@ -2755,17 +2779,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 119,
+      "key": 120,
       "type": "Table",
       "question": "9ヶ月革命",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "9ヶ月革命とは、赤ちゃんの認知方式が二項関係から三項関係へ移り変わることを指します。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "仮に何か身につけさせるなら、この時期がおすすめです。",
@@ -2773,7 +2797,7 @@
         },
         {
           "text": "「猫ちゃんがかわいいね」「お月さまがきれいだね」「ブーブーは速いね」など、1つのトピックを話題にして、気持ちを共有することができるようになります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "9ヶ月革命とは、赤ちゃんの認知方式が二項関係から三項関係へ移り変わることを指します。,仮に何か身につけさせるなら、この時期がおすすめです。,「猫ちゃんがかわいいね」「お月さまがきれいだね」「ブーブーは速いね」など、1つのトピックを話題にして、気持ちを共有することができるようになります。",
@@ -2783,7 +2807,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 120,
+      "key": 121,
       "type": "Table",
       "question": "0歳",
       "actions": [
@@ -2793,7 +2817,7 @@
         },
         {
           "text": "0歳児についての説明",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "0歳児についての説明",
@@ -2803,13 +2827,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 121,
+      "key": 122,
       "type": "Table",
       "question": "言語を最優先に教育",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "アベセダリアン・プロジェクト",
@@ -2817,15 +2841,15 @@
         },
         {
           "text": "対象被験者は生後平均4.4ヶ月の乳児",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "言語を最優先としたラーニング・ゲームを受けてもらう",
           "figure": "Hammer"
         },
         {
-          "text": "介入群は21歳時点で大学進学率が有意に高く、読解力および数学のテストスコアでも対照群を圧倒した",
+          "text": "言語を最優先としたラーニング・ゲームを受けてもらう",
           "figure": "BpmnTaskMessage"
+        },
+        {
+          "text": "介入群は21歳時点で大学進学率が有意に高く、読解力および数学のテストスコアでも対照群を圧倒した",
+          "figure": "Caution"
         }
       ],
       "example": "アベセダリアン・プロジェクト,対象被験者は生後平均4.4ヶ月の乳児,言語を最優先としたラーニング・ゲームを受けてもらう,介入群は21歳時点で大学進学率が有意に高く、読解力および数学のテストスコアでも対照群を圧倒した",
@@ -2835,7 +2859,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/04/28/130536"
     },
     {
-      "key": 122,
+      "key": 123,
       "type": "Table",
       "question": "学位と健康面へのプラスの影響が出る",
       "actions": [
@@ -2845,7 +2869,7 @@
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -2855,7 +2879,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/04/28/130536"
     },
     {
-      "key": 123,
+      "key": 124,
       "type": "Table",
       "question": "絶対音感は生後6ヶ月から12ヶ月で学習する",
       "actions": [
@@ -2865,11 +2889,11 @@
         },
         {
           "text": "絶対音感の獲得は、生後6ヶ月から12ヶ月にかけての「音の統計的学習」能力が最大化する時期に",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "特定のピッチとそのラベル（音名）を結びつける経験があるかどうかに依存する。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "ただし、絶対音感を持つことにより相対音感を失うことがある",
@@ -2883,17 +2907,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/05/12/192221"
     },
     {
-      "key": 124,
+      "key": 125,
       "type": "Table",
       "question": "マザリーズ",
       "actions": [
         {
           "text": "マザリーズが子供の言葉の発達を促進するように働く。母親を始め、大人が乳幼児に向けた、意識するしないにかかわらず自然と口をついて出る、声の調子が高くゆったりとしたリズムの話し方",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "母親が、乳幼児に向けた話し方が、子供の言葉の発達を促進する",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "母親が、乳幼児に向けた話し方が、子供の言葉の発達を促進する",
@@ -2903,17 +2927,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/25/150755"
     },
     {
-      "key": 125,
+      "key": 126,
       "type": "Table",
       "question": "母親との関係における規定不安",
       "actions": [
         {
           "text": "子供時代の母親との関係における基底不安が神経症の要因となる",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "孤独感や無力感を克服するために、子供時代の母親との関係を振り返る",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "孤独感や無力感を克服するために、子供時代の母親との関係を振り返る",
@@ -2923,7 +2947,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/25/213713"
     },
     {
-      "key": 126,
+      "key": 127,
       "type": "Table",
       "question": "テトリス",
       "actions": [
@@ -2943,17 +2967,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/27/204141"
     },
     {
-      "key": 127,
+      "key": 128,
       "type": "Table",
       "question": "糖類",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "大規模な研究では、さまざまな種類の飲料がうつ病や不安障害を発症する可能性に関連していることがわかりました。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "しかし、60祭以上の場合は砂糖または人工的に甘くした飲み物とメンタルヘルスの間に明確な関連はありません。",
@@ -2967,13 +2991,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/12/220051"
     },
     {
-      "key": 128,
+      "key": 129,
       "type": "Table",
       "question": "孤独",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "新しい研究では、社会的に孤立している個人は、病気になる可能性が高いという結果が出ました。",
@@ -2987,21 +3011,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/12/220051"
     },
     {
-      "key": 129,
+      "key": 130,
       "type": "Table",
       "question": "心臓病",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "うつ病は、心臓病の独立した危険因子であり、世界中の障害の主な原因の1つであると予測されています。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "研究によると、うつ病と心臓病は、強い関係があり、うつ病の有病率は、心臓病の種類によって異なります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "うつ病は、心臓病の独立した危険因子であり、世界中の障害の主な原因の1つであると予測されています。,研究によると、うつ病と心臓病は、強い関係があり、うつ病の有病率は、心臓病の種類によって異なります。",
@@ -3011,17 +3035,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/12/220051"
     },
     {
-      "key": 130,
+      "key": 131,
       "type": "Table",
       "question": "うつ病",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "気分が落ち込んだり、やる気が出なくなったり、様々な身体症状が現れたりする病気",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "気分が落ち込んだり、やる気が出なくなったり、様々な身体症状が現れたりする病気",
@@ -3033,7 +3057,7 @@
       "text": "うつ病"
     },
     {
-      "key": 131,
+      "key": 132,
       "type": "Table",
       "question": "幻覚剤の使用",
       "actions": [
@@ -3053,17 +3077,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/04/210935"
     },
     {
-      "key": 132,
+      "key": 133,
       "type": "Table",
       "question": "未来",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -3075,29 +3099,9 @@
       "text": "未来"
     },
     {
-      "key": 133,
-      "type": "Table",
-      "question": "外交性が高い",
-      "actions": [
-        {
-          "text": "",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "a",
-          "figure": "BpmnTaskMessage"
-        }
-      ],
-      "example": "a",
-      "effect": "外交性",
-      "method": "persol",
-      "file_path": "/blog/blog/1000PERSOL/null/main.md",
-      "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
-    },
-    {
       "key": 134,
       "type": "Table",
-      "question": "外交性が低い",
+      "question": "外交性が高い",
       "actions": [
         {
           "text": "",
@@ -3117,7 +3121,7 @@
     {
       "key": 135,
       "type": "Table",
-      "question": "外交性",
+      "question": "外交性が低い",
       "actions": [
         {
           "text": "",
@@ -3129,6 +3133,26 @@
         }
       ],
       "example": "a",
+      "effect": "外交性",
+      "method": "persol",
+      "file_path": "/blog/blog/1000PERSOL/null/main.md",
+      "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
+    },
+    {
+      "key": 136,
+      "type": "Table",
+      "question": "外交性",
+      "actions": [
+        {
+          "text": "",
+          "figure": "BpmnTaskMessage"
+        },
+        {
+          "text": "a",
+          "figure": "BpmnTaskMessage"
+        }
+      ],
+      "example": "a",
       "effect": "終了",
       "method": "persol",
       "file_path": "/blog/blog/1000PERSOL/null/main.md",
@@ -3137,17 +3161,17 @@
       "text": "外交性"
     },
     {
-      "key": 136,
+      "key": 137,
       "type": "Table",
       "question": "開放性が低い",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -3157,7 +3181,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
     },
     {
-      "key": 137,
+      "key": 138,
       "type": "Table",
       "question": "開放性が高い",
       "actions": [
@@ -3177,17 +3201,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
     },
     {
-      "key": 138,
+      "key": 139,
       "type": "Table",
       "question": "開放性",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -3199,13 +3223,13 @@
       "text": "開放性"
     },
     {
-      "key": 139,
+      "key": 140,
       "type": "Table",
       "question": "神経症傾向の高い人",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "a",
@@ -3219,7 +3243,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
     },
     {
-      "key": 140,
+      "key": 141,
       "type": "Table",
       "question": "神経症傾向",
       "actions": [
@@ -3229,7 +3253,7 @@
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "a",
@@ -3241,7 +3265,7 @@
       "text": "神経症傾向"
     },
     {
-      "key": 141,
+      "key": 142,
       "type": "Table",
       "question": "犯罪者",
       "actions": [
@@ -3251,7 +3275,7 @@
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -3263,17 +3287,17 @@
       "text": "犯罪者"
     },
     {
-      "key": 142,
+      "key": 143,
       "type": "Table",
       "question": "言語獲得の促進",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "a",
@@ -3283,7 +3307,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
     },
     {
-      "key": 143,
+      "key": 144,
       "type": "Table",
       "question": "傾聴の促進",
       "actions": [
@@ -3293,7 +3317,7 @@
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "a",
@@ -3305,17 +3329,17 @@
       "text": "傾聴の促進"
     },
     {
-      "key": 144,
+      "key": 145,
       "type": "Table",
       "question": "SSD(身体症状症)",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "a",
@@ -3327,7 +3351,7 @@
       "text": "SSD(身体症状症)"
     },
     {
-      "key": 145,
+      "key": 146,
       "type": "Table",
       "question": "誠実性",
       "actions": [
@@ -3337,7 +3361,7 @@
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -3349,7 +3373,7 @@
       "text": "誠実性"
     },
     {
-      "key": 146,
+      "key": 147,
       "type": "Table",
       "question": "共感",
       "actions": [
@@ -3359,7 +3383,7 @@
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -3371,21 +3395,21 @@
       "text": "共感"
     },
     {
-      "key": 147,
+      "key": 148,
       "type": "Table",
       "question": "痛み",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "げっ歯類では情動伝染（他個体の情動表出を観察した個体に同様の情動が惹起される現象）や，1）",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "痛みの社会的伝達（痛がる他個体を観察した個体が痛覚過敏にな現象）2）などの共感的反応が認められる．",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "げっ歯類では情動伝染（他個体の情動表出を観察した個体に同様の情動が惹起される現象）や，1）,痛みの社会的伝達（痛がる他個体を観察した個体が痛覚過敏にな現象）2）などの共感的反応が認められる．",
@@ -3395,7 +3419,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/09/211337"
     },
     {
-      "key": 148,
+      "key": 149,
       "type": "Table",
       "question": "ホモ・デリンクエンス",
       "actions": [
@@ -3413,19 +3437,19 @@
         },
         {
           "text": "厚い頭蓋骨",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "大きな顎、顎の前方への突出",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "低い額",
           "figure": "Hammer"
         },
         {
-          "text": "高い頬骨",
+          "text": "低い額",
           "figure": "BpmnTaskMessage"
+        },
+        {
+          "text": "高い頬骨",
+          "figure": "Caution"
         },
         {
           "text": "平らな鼻、または上向きの鼻",
@@ -3433,7 +3457,7 @@
         },
         {
           "text": "取っ手のような形をした耳",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "鷹のような鼻",
@@ -3445,11 +3469,11 @@
         },
         {
           "text": "異常な歯並び",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "厳しい目つき、泳ぐ目線",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "毛深さ",
@@ -3471,7 +3495,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/09/094740"
     },
     {
-      "key": 149,
+      "key": 150,
       "type": "Table",
       "question": "機能性を好む",
       "actions": [
@@ -3481,7 +3505,7 @@
         },
         {
           "text": "子供は思い出よりも機能性を重視し、椅子や家具に対する感想も実用性に基づくことが多いです。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "子供は思い出よりも機能性を重視し、椅子や家具に対する感想も実用性に基づくことが多いです。",
@@ -3491,13 +3515,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182110"
     },
     {
-      "key": 150,
+      "key": 151,
       "type": "Table",
       "question": "絵画を好む",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "絵画や装飾に対する反応は、二次元の形態に意味を見出す力や関心に依存します。",
@@ -3511,21 +3535,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182110"
     },
     {
-      "key": 151,
+      "key": 152,
       "type": "Table",
       "question": "白色",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "白は純粋さや清潔さを象徴する色です。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "しかし、「汚してはいけない」という強迫観念を引き起こすこともあります。このような心理状態は、完璧主義や潔癖症と関連する場合があります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "白は純粋さや清潔さを象徴する色です。,しかし、「汚してはいけない」という強迫観念を引き起こすこともあります。このような心理状態は、完璧主義や潔癖症と関連する場合があります。",
@@ -3535,7 +3559,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182108"
     },
     {
-      "key": 152,
+      "key": 153,
       "type": "Table",
       "question": "灰色",
       "actions": [
@@ -3545,7 +3569,7 @@
         },
         {
           "text": "灰色は粘土のような色で、包み込むような安心感を与えることがあります。この色は中立的で落ち着いた印象を与え、安定感を求める心理を反映していることがあります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "灰色は粘土のような色で、包み込むような安心感を与えることがあります。この色は中立的で落ち着いた印象を与え、安定感を求める心理を反映していることがあります。",
@@ -3555,21 +3579,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182108"
     },
     {
-      "key": 153,
+      "key": 154,
       "type": "Table",
       "question": "青色",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "青は二面性を持つ色です。スカイブルーのような明るい青は自然の豊かさを象徴し、リラックスや開放感を与えます。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "一方で、濃い青は人工的な冷たさを感じさせ、思考的で理性的な傾向を示すことがあります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "青は二面性を持つ色です。スカイブルーのような明るい青は自然の豊かさを象徴し、リラックスや開放感を与えます。,一方で、濃い青は人工的な冷たさを感じさせ、思考的で理性的な傾向を示すことがあります。",
@@ -3579,21 +3603,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182108"
     },
     {
-      "key": 154,
+      "key": 155,
       "type": "Table",
       "question": "ピンク色",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "ピンクは情熱的な赤に純粋な白を混ぜた色で、青春の象徴とされています。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "この色は若々しさや純粋さ、情熱を表現することが多いです。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "ピンクは情熱的な赤に純粋な白を混ぜた色で、青春の象徴とされています。,この色は若々しさや純粋さ、情熱を表現することが多いです。",
@@ -3603,17 +3627,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182108"
     },
     {
-      "key": 155,
+      "key": 156,
       "type": "Table",
       "question": "瞬きの回数が10秒に1~2回",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "6~10の瞬きはリラックスされたフラットな状態",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "6~10の瞬きはリラックスされたフラットな状態",
@@ -3623,17 +3647,17 @@
       "page_url": "https://note.com/rei_minegishi/n/n59a175545430"
     },
     {
-      "key": 156,
+      "key": 157,
       "type": "Table",
       "question": "極端に少ない瞬き",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "13人の参加者のうち10人はまばたきの回数が減りましたが、正直に話すとまばたきの頻度が通常に戻りました",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "13人の参加者のうち10人はまばたきの回数が減りましたが、正直に話すとまばたきの頻度が通常に戻りました",
@@ -3643,7 +3667,7 @@
       "page_url": "https://note.com/rei_minegishi/n/n59a175545430"
     },
     {
-      "key": 157,
+      "key": 158,
       "type": "Table",
       "question": "口が少し空いている状態",
       "actions": [
@@ -3653,7 +3677,7 @@
         },
         {
           "text": "相手が口を開けている時は、無防備になっている状態です。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "相手が口を開けている時は、無防備になっている状態です。",
@@ -3663,17 +3687,17 @@
       "page_url": "https://qiita.com/minegishirei_v2/items/41606baa240e52082c9c"
     },
     {
-      "key": 158,
+      "key": 159,
       "type": "Table",
       "question": "逆Uの口、くちをすくめる",
       "actions": [
         {
           "text": "口をすくめるのは自分の言葉に対する自信のなさ、または無力感",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "ロバート・デ・ニーロがそのポーズを取ることで有名",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "ロバート・デ・ニーロがそのポーズを取ることで有名",
@@ -3683,17 +3707,17 @@
       "page_url": "https://qiita.com/minegishirei_v2/items/41606baa240e52082c9c"
     },
     {
-      "key": 159,
+      "key": 160,
       "type": "Table",
       "question": "右",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "用紙を2つに分割し左右に分ける時",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "基本的には右が未来",
@@ -3705,7 +3729,7 @@
         },
         {
           "text": "木が画面全体を使って使われた時の、葉、枝、幹のそれぞれの意味と組み合わせる形で適応される",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "用紙を2つに分割し左右に分ける時,基本的には右が未来,左が過去を表す。,木が画面全体を使って使われた時の、葉、枝、幹のそれぞれの意味と組み合わせる形で適応される",
@@ -3715,13 +3739,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/03/170639"
     },
     {
-      "key": 160,
+      "key": 161,
       "type": "Table",
       "question": "右上",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "木が根を張り幹を伸ばし葉をつけるように木の成長と時間軸も対応している。",
@@ -3729,7 +3753,7 @@
         },
         {
           "text": "例えば葉っぱにはこれからの未来への期待が現れることもあるし",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "反対に尖った枝には未知の攻撃に対する防衛意識などが現れる",
@@ -3750,15 +3774,15 @@
     },
     {
       "from": 1,
-      "to": 100
+      "to": 101
     },
     {
       "from": 2,
-      "to": 159
+      "to": 160
     },
     {
       "from": 4,
-      "to": 132
+      "to": 133
     },
     {
       "from": 5,
@@ -3766,7 +3790,7 @@
     },
     {
       "from": 7,
-      "to": 115
+      "to": 116
     },
     {
       "from": 9,
@@ -3798,11 +3822,11 @@
     },
     {
       "from": 17,
-      "to": 142
+      "to": 143
     },
     {
       "from": 18,
-      "to": 114
+      "to": 115
     },
     {
       "from": 19,
@@ -3838,7 +3862,7 @@
     },
     {
       "from": 30,
-      "to": 105
+      "to": 106
     },
     {
       "from": 32,
@@ -3854,7 +3878,11 @@
     },
     {
       "from": 38,
-      "to": 145
+      "to": 100
+    },
+    {
+      "from": 38,
+      "to": 146
     },
     {
       "from": 39,
@@ -3910,31 +3938,31 @@
     },
     {
       "from": 59,
-      "to": 112
-    },
-    {
-      "from": 59,
       "to": 113
     },
     {
+      "from": 59,
+      "to": 114
+    },
+    {
       "from": 60,
-      "to": 111
+      "to": 112
     },
     {
       "from": 61,
-      "to": 100
+      "to": 101
     },
     {
       "from": 62,
-      "to": 114
+      "to": 115
     },
     {
       "from": 63,
-      "to": 114
+      "to": 115
     },
     {
       "from": 64,
-      "to": 140
+      "to": 141
     },
     {
       "from": 65,
@@ -3978,7 +4006,7 @@
     },
     {
       "from": 75,
-      "to": 100
+      "to": 101
     },
     {
       "from": 76,
@@ -3990,7 +4018,7 @@
     },
     {
       "from": 77,
-      "to": 137
+      "to": 138
     },
     {
       "from": 78,
@@ -4010,11 +4038,11 @@
     },
     {
       "from": 82,
-      "to": 134
+      "to": 135
     },
     {
       "from": 83,
-      "to": 133
+      "to": 134
     },
     {
       "from": 84,
@@ -4022,19 +4050,19 @@
     },
     {
       "from": 84,
-      "to": 136
-    },
-    {
-      "from": 85,
-      "to": 136
-    },
-    {
-      "from": 86,
       "to": 137
     },
     {
+      "from": 85,
+      "to": 137
+    },
+    {
+      "from": 86,
+      "to": 138
+    },
+    {
       "from": 87,
-      "to": 136
+      "to": 137
     },
     {
       "from": 88,
@@ -4058,11 +4086,11 @@
     },
     {
       "from": 94,
-      "to": 139
+      "to": 140
     },
     {
       "from": 94,
-      "to": 141
+      "to": 142
     },
     {
       "from": 95,
@@ -4078,207 +4106,207 @@
     },
     {
       "from": 98,
-      "to": 145
+      "to": 99
     },
     {
-      "from": 99,
-      "to": 98
-    },
-    {
-      "from": 100,
-      "to": 102
+      "from": 98,
+      "to": 146
     },
     {
       "from": 101,
-      "to": 102
+      "to": 103
     },
     {
       "from": 102,
       "to": 103
     },
     {
-      "from": 104,
-      "to": 105
+      "from": 103,
+      "to": 104
     },
     {
       "from": 105,
-      "to": 44
+      "to": 106
     },
     {
       "from": 106,
+      "to": 44
+    },
+    {
+      "from": 107,
       "to": 50
     },
     {
-      "from": 109,
-      "to": 110
+      "from": 110,
+      "to": 111
     },
     {
-      "from": 110,
-      "to": 107
-    },
-    {
-      "from": 110,
+      "from": 111,
       "to": 108
     },
     {
-      "from": 114,
+      "from": 111,
+      "to": 109
+    },
+    {
+      "from": 115,
       "to": 59
     },
     {
-      "from": 116,
-      "to": 117
-    },
-    {
       "from": 117,
-      "to": 120
+      "to": 118
     },
     {
       "from": 118,
-      "to": 120
+      "to": 121
     },
     {
       "from": 119,
-      "to": 120
+      "to": 121
     },
     {
       "from": 120,
-      "to": 42
+      "to": 121
     },
     {
       "from": 121,
-      "to": 122
+      "to": 42
     },
     {
       "from": 122,
-      "to": 115
+      "to": 123
     },
     {
       "from": 123,
-      "to": 115
+      "to": 116
     },
     {
       "from": 124,
-      "to": 142
+      "to": 116
     },
     {
-      "from": 124,
+      "from": 125,
       "to": 143
     },
     {
       "from": 125,
-      "to": 139
-    },
-    {
-      "from": 126,
-      "to": 130
-    },
-    {
-      "from": 127,
-      "to": 130
-    },
-    {
-      "from": 128,
-      "to": 130
-    },
-    {
-      "from": 129,
-      "to": 130
-    },
-    {
-      "from": 131,
       "to": 144
     },
     {
-      "from": 133,
-      "to": 135
-    },
-    {
-      "from": 134,
-      "to": 135
-    },
-    {
-      "from": 136,
-      "to": 37
-    },
-    {
-      "from": 136,
-      "to": 138
-    },
-    {
-      "from": 137,
-      "to": 138
-    },
-    {
-      "from": 139,
+      "from": 126,
       "to": 140
     },
     {
-      "from": 142,
-      "to": 115
+      "from": 127,
+      "to": 131
     },
     {
-      "from": 147,
-      "to": 146
+      "from": 128,
+      "to": 131
     },
     {
-      "from": 148,
+      "from": 129,
+      "to": 131
+    },
+    {
+      "from": 130,
+      "to": 131
+    },
+    {
+      "from": 132,
+      "to": 145
+    },
+    {
+      "from": 134,
+      "to": 136
+    },
+    {
+      "from": 135,
+      "to": 136
+    },
+    {
+      "from": 137,
+      "to": 37
+    },
+    {
+      "from": 137,
+      "to": 139
+    },
+    {
+      "from": 138,
+      "to": 139
+    },
+    {
+      "from": 140,
       "to": 141
     },
     {
+      "from": 143,
+      "to": 116
+    },
+    {
+      "from": 148,
+      "to": 147
+    },
+    {
       "from": 149,
-      "to": 40
+      "to": 142
     },
     {
       "from": 150,
-      "to": 41
+      "to": 40
     },
     {
       "from": 151,
-      "to": 95
+      "to": 41
     },
     {
       "from": 152,
-      "to": 25
+      "to": 95
     },
     {
       "from": 153,
-      "to": 137
+      "to": 25
     },
     {
       "from": 154,
-      "to": 39
+      "to": 138
     },
     {
       "from": 155,
+      "to": 39
+    },
+    {
+      "from": 156,
       "to": 25
-    },
-    {
-      "from": 156,
-      "to": 26
-    },
-    {
-      "from": 156,
-      "to": 27
     },
     {
       "from": 157,
+      "to": 26
+    },
+    {
+      "from": 157,
+      "to": 27
+    },
+    {
+      "from": 158,
       "to": 25
     },
     {
-      "from": 158,
+      "from": 159,
       "to": 28
     },
     {
-      "from": 158,
+      "from": 159,
       "to": 29
     },
     {
-      "from": 159,
-      "to": 132
+      "from": 160,
+      "to": 133
     },
     {
-      "from": 160,
-      "to": 132
+      "from": 161,
+      "to": 133
     }
   ],
   "practiceResults": [
