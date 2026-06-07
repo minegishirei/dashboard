@@ -7,7 +7,7 @@
             "協調性",
             "外交性"
         ],
-        "color" : "black"
+        "color" : "green"
     },
     "教育" : {
         "topics" : [
@@ -16,7 +16,7 @@
             "メタ認知",
             "育成"
         ],
-        "color" : "green"
+        "color" : "blue"
     },
     "精神疾患" : {
         "topics" : [
