@@ -6,7 +6,7 @@
             {"name": "開放性"},
             {"name": "協調性"},
             {"name": "神経症傾向"},
-            {"name": "外向性"}
+            {"name": "外向性", "reverse": true}
         ],
         "color" : "#43aa8b",
         "progress" : "3/5"
@@ -30,7 +30,7 @@
     "状態" : {
         "undone" : [],
         "topics" : [
-            {"name": "期待と混乱", "reverse": false},
+            {"name": "期待と混乱", "reverse": true},
             {"name": "緊張とリラックス", "reverse": true},
             {"name": "疲弊と回復"},
             {"name": "集中と散漫"}
