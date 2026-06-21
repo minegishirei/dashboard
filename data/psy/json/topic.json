@@ -30,7 +30,7 @@
     "状態" : {
         "undone" : [],
         "topics" : [
-            {"name": "期待と混乱", "reverse": false},
+            {"name": "期待と混乱", "reverse": true},
             {"name": "緊張とリラックス"},
             {"name": "疲弊と回復"},
             {"name": "集中と散漫"}
