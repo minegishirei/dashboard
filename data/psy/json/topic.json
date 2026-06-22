@@ -32,8 +32,7 @@
         "topics" : [
             {"name": "期待と混乱", "reverse": true},
             {"name": "緊張とリラックス", "reverse": true},
-            {"name": "疲弊と回復", "reverse": true},
-            {"name": "集中と散漫"}
+            {"name": "集中と散漫", "reverse": true}
         ],
         "color" : "#90be6d"
     },
