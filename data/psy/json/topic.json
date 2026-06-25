@@ -27,7 +27,7 @@
         "color" : "#277da1",
         "progress" : "2/3"
     },
-    "状態" : {
+    "コンディション" : {
         "undone" : [],
         "topics" : [
             {"name": "期待と混乱", "reverse": true},
