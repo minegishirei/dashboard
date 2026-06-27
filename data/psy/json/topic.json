@@ -9,13 +9,10 @@
             {"name": "外向性", "reverse": true}
         ],
         "color" : "#43aa8b",
-        "progress" : "3/5"
+        "progress" : "5/5"
     },
     "能力" : {
-        "undone" : [
-            {"name": "表現力"},
-            {"name": "数学的能力"}
-        ],
+        "undone" : [],
         "topics" : [
             {"name": "IQ"},
             {"name": "メタ認知"},
@@ -25,7 +22,7 @@
             {"name": "数学的リテラシー"}
         ],
         "color" : "#277da1",
-        "progress" : "2/3"
+        "progress" : "6/6"
     },
     "コンディション" : {
         "undone" : [],
@@ -34,7 +31,8 @@
             {"name": "緊張とリラックス", "reverse": true},
             {"name": "期待と混乱", "reverse": true}
         ],
-        "color" : "#90be6d"
+        "color" : "#90be6d",
+        "progress" : "3/3"
     },
     "感情" : {
         "undone" : [
