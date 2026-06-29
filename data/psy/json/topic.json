@@ -51,19 +51,25 @@
             {"name": "無力感", "reverse": true},
             {"name": "痛み"},
             {"name": "怒り"},
-            {"name": "笑い"}
+            {"name": "笑い"},
+            {"name": "好感度"}
         ],
         "color" : "#f3722c"
     },
     "思考" : {
         "undone" : [],
         "topics" : [
-            {"name": "好感度の向上"},
+            {"name": "高評価"},
             {"name": "一貫性の法則"},
+            {"name": "未来"}
+        ],
+        "color" : "#9b5de5"
+    },
+    "殿堂入り" : {
+        "undone" : [],
+        "topics" : [
             {"name": "回避行動"},
-            {"name": "促進行動"},
-            {"name": "未来"},
-            {"name": "評価する"}
+            {"name": "促進行動"}
         ],
         "color" : "#9b5de5"
     },
