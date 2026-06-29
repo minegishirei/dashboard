@@ -3,7 +3,7 @@
         "undone" : [],
         "topics" : [
             {"name": "誠実性"},
-            {"name": "開放性"},
+            {"name": "開放性", "reverse": true},
             {"name": "協調性"},
             {"name": "神経症傾向"},
             {"name": "外向性", "reverse": true}
@@ -68,10 +68,11 @@
     "殿堂入り" : {
         "undone" : [],
         "topics" : [
+            {"name": "名詞"},
             {"name": "回避行動"},
             {"name": "促進行動"}
         ],
-        "color" : "#9b5de5"
+        "color" : "#03045e"
     },
     "超えられない壁2" :{
         "undone" : [],
