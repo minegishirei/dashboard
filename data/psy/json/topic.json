@@ -106,7 +106,7 @@
         "topics" : [],
         "color" : "black"
     },
-    "身体的特徴" : {
+    "外見" : {
         "undone" : [
             {"name": "肥満"},
             {"name": "身長"},
@@ -116,7 +116,7 @@
         "topics" : [
             {"name": "年齢判別"}
         ],
-        "color" : "#f4a261",
+        "color" : "#ee9b00",
         "progress" : "1/5"
     }
 }
