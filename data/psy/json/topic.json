@@ -17,7 +17,7 @@
             {"name": "IQ"},
             {"name": "メタ認知"},
             {"name": "オートメーション"},
-            {"name": "認知的柔軟性", "reverse": true},
+            {"name": "認知的柔軟性"},
             {"name": "読解力"},
             {"name": "数学的リテラシー"}
         ],
@@ -28,7 +28,7 @@
         "undone" : [],
         "topics" : [
             {"name": "集中と散漫", "reverse": true},
-            {"name": "緊張とリラックス", "reverse": true},
+            {"name": "緊張とリラックス"},
             {"name": "期待と混乱", "reverse": true}
         ],
         "color" : "#90be6d",
