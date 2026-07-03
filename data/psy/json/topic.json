@@ -57,21 +57,12 @@
         ],
         "color" : "#f3722c"
     },
-    "思考" : {
-        "undone" : [],
-        "topics" : [
-            {"name": "高評価"},
-            {"name": "一貫性の法則"},
-            {"name": "未来"}
-        ],
-        "color" : "#9b5de5"
-    },
     "殿堂入り" : {
         "undone" : [],
         "topics" : [
             {"name": "採択"},
             {"name": "否決"},
-            {"name": "イメージ強化"}
+            {"name": "刷込"}
         ],
         "color" : "#3c096c"
     },
@@ -118,5 +109,12 @@
         ],
         "color" : "#ee9b00",
         "progress" : "1/5"
+    },
+    "思考" : {
+        "undone" : [],
+        "topics" : [
+            {"name": "未来"}
+        ],
+        "color" : "#9b5de5"
     }
 }
