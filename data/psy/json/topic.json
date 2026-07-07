@@ -42,7 +42,8 @@
             {"name": "孤独"},
             {"name": "嫉妬"},
             {"name": "恥"},
-            {"name": "劣等感"}
+            {"name": "劣等感"},
+            {"name": "笑い"}
         ],
         "topics" : [
             {"name": "畏怖"},
@@ -51,9 +52,8 @@
             {"name": "無力感", "reverse": true},
             {"name": "怒り"},
             {"name": "痛み"},
-            {"name": "好感度"},
             {"name": "高揚感"},
-            {"name": "笑い"}
+            {"name": "好感度"}
         ],
         "color" : "#f3722c"
     },
@@ -65,6 +65,19 @@
             {"name": "刷込"}
         ],
         "color" : "#3c096c"
+    },
+    "外見" : {
+        "undone" : [
+            {"name": "肥満"},
+            {"name": "身長"},
+            {"name": "性別"},
+            {"name": "服飾"}
+        ],
+        "topics" : [
+            {"name": "年齢判別"}
+        ],
+        "color" : "#ee9b00",
+        "progress" : "1/5"
     },
     "超えられない壁2" :{
         "undone" : [],
@@ -96,19 +109,6 @@
         "undone" : [],
         "topics" : [],
         "color" : "black"
-    },
-    "外見" : {
-        "undone" : [
-            {"name": "肥満"},
-            {"name": "身長"},
-            {"name": "性別"},
-            {"name": "服飾"}
-        ],
-        "topics" : [
-            {"name": "年齢判別"}
-        ],
-        "color" : "#ee9b00",
-        "progress" : "1/5"
     },
     "思考" : {
         "undone" : [],
