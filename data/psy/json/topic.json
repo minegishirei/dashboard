@@ -79,22 +79,17 @@
         "color" : "#F9547F",
         "progress" : "1/5"
     },
-    "超えられない壁2" :{
-        "undone" : [],
-        "topics" : [],
-        "color" : "black"
-    },
     "精神疾患" : {
-        "undone" : [],
-        "topics" : [
-            {"name": "自閉症スペクトラム"},
-            {"name": "うつ病"},
-            {"name": "ADHD"},
-            {"name": "SSD(身体症状症) "},
+        "undone" : [
             {"name": "双極性障害"},
             {"name": "強迫性障害"},
             {"name": "統合失調症"},
             {"name": "PTSD(心的外傷後ストレス障害)"}
+        ],
+        "topics" : [
+            {"name": "自閉症スペクトラム"},
+            {"name": "ADHD"},
+            {"name": "SSD(身体症状症) "}
         ],
         "color" : "#f94144"
     },
@@ -104,11 +99,6 @@
             {"name": "育成"}
         ],
         "color" : "#277da1"
-    },
-    "超えられない壁" :{
-        "undone" : [],
-        "topics" : [],
-        "color" : "black"
     },
     "思考" : {
         "undone" : [],
