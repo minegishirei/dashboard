@@ -68,13 +68,13 @@
     },
     "外見" : {
         "undone" : [
-            {"name": "肥満"},
             {"name": "身長"},
             {"name": "性別"},
             {"name": "服飾"}
         ],
         "topics" : [
-            {"name": "年齢判別"}
+            {"name": "年齢判別"},
+            {"name": "肥満"}
         ],
         "color" : "#ee9b00",
         "progress" : "1/5"
