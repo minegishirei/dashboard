@@ -75,7 +75,8 @@
         ],
         "topics" : [
             {"name": "肥満"},
-            {"name": "歯"}
+            {"name": "歯"},
+            {"name": "身長"}
         ],
         "color" : "#F9547F",
         "progress" : "1/5"
