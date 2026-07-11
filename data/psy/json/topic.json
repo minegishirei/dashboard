@@ -69,13 +69,13 @@
     },
     "外見" : {
         "undone" : [
-            {"name": "性別"},
-            {"name": "服飾"}
+            {"name": "性別"}
         ],
         "topics" : [
             {"name": "肥満"},
             {"name": "歯"},
-            {"name": "身長"}
+            {"name": "身長"},
+            {"name": "服飾"}
         ],
         "color" : "#F9547F",
         "progress" : "1/5"
