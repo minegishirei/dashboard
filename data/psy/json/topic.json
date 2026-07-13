@@ -74,6 +74,7 @@
         "topics" : [
             {"name": "黒い服", "color": "#000000"},
             {"name": "白い服", "color": "#ffffff"},
+            {"name": "赤い服", "color": "#red"},
             {"name": "髪型"},
             {"name": "髪色"},
             {"name": "肥満"},
