@@ -67,16 +67,21 @@
         ],
         "color" : "#3c096c"
     },
-    "外見" : {
-        "undone" : [
-            {"name": "性別"}
-        ],
+    "身体的特徴" : {
         "topics" : [
             {"name": "肥満"},
             {"name": "歯"},
             {"name": "身長"},
             {"name": "腕が長い", "color": "red"},
-            {"name": "長い薬指", "color": "red"},
+            {"name": "長い薬指", "color": "red"}
+        ],
+        "color" : "#f2765a"
+    },
+    "服飾" : {
+        "undone" : [
+            {"name": "性別"}
+        ],
+        "topics" : [
             {"name": "服飾"},
             {"name": "黒い服", "color": "#000000"},
             {"name": "赤い服", "color": "red"}
