@@ -3,7 +3,7 @@
   "copiesArrayObjects": true,
   "nodeDataArray": [
     {
-      "key": 381,
+      "key": 387,
       "type": "Table",
       "question": "リセット",
       "actions": [
@@ -13,7 +13,7 @@
         },
         {
           "text": "これまでの経緯を良いものも悪いものも全て流す。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "これまでの経緯を良いものも悪いものも全て流す。",
@@ -25,17 +25,17 @@
       "text": "リセット"
     },
     {
-      "key": 380,
+      "key": 386,
       "type": "Table",
       "question": "手を洗う",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「過去の文脈や運の流れを物理的に断ち切る（リセットする）」という汎用的な抽象メカニズムとして機能します。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "「過去の文脈や運の流れを物理的に断ち切る（リセットする）」という汎用的な抽象メカニズムとして機能します。",
@@ -45,7 +45,7 @@
       "page_url": null
     },
     {
-      "key": 379,
+      "key": 385,
       "type": "Table",
       "question": "一貫性の法則",
       "actions": [
@@ -65,7 +65,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/11/110343"
     },
     {
-      "key": 378,
+      "key": 384,
       "type": "Table",
       "question": "努力の正当化",
       "actions": [
@@ -75,7 +75,7 @@
         },
         {
           "text": "時間をかけるほど「これだけ時間をかけたのだから、単純な答えではいけない」という心理が働くことがあります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「やらされた」仕事であれば、結果がダメでも「上司のせい」にできます。",
@@ -83,7 +83,7 @@
         },
         {
           "text": "しかし、自分で選んで努力した場合は言い訳ができないため、「これが正解だったんだ」と自分の内面（評価）を書き換えるしかなくなります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "時間をかけるほど「これだけ時間をかけたのだから、単純な答えではいけない」という心理が働くことがあります。,「やらされた」仕事であれば、結果がダメでも「上司のせい」にできます。,しかし、自分で選んで努力した場合は言い訳ができないため、「これが正解だったんだ」と自分の内面（評価）を書き換えるしかなくなります。",
@@ -95,13 +95,13 @@
       "text": "努力の正当化"
     },
     {
-      "key": 377,
+      "key": 383,
       "type": "Table",
       "question": "「かかわりを持っている」「他人に注目されている」",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "人から手伝いを頼まれ引き受けると2度目以降も断りにくくなる",
@@ -115,17 +115,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/11/110343"
     },
     {
-      "key": 376,
+      "key": 382,
       "type": "Table",
       "question": "「天職」",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「向いていると思う」という言葉よりさらに強く、その職業らしい行動が多いと推論する",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「向いていると思う」という言葉よりさらに強く、その職業らしい行動が多いと推論する",
@@ -135,7 +135,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/15/110417"
     },
     {
-      "key": 375,
+      "key": 381,
       "type": "Table",
       "question": "名詞ラベリング",
       "actions": [
@@ -145,7 +145,7 @@
         },
         {
           "text": "以下二つの文章を比較",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「XXさんは芸術家だ」",
@@ -153,11 +153,11 @@
         },
         {
           "text": "「XXさんは芸術的だ」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "形容詞に比べて名詞で提示した方が、参加者はステレオタイプ的な行動の頻度を高く推論していた。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "以下二つの文章を比較,「XXさんは芸術家だ」,「XXさんは芸術的だ」,形容詞に比べて名詞で提示した方が、参加者はステレオタイプ的な行動の頻度を高く推論していた。",
@@ -167,17 +167,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/15/110417"
     },
     {
-      "key": 374,
+      "key": 380,
       "type": "Table",
       "question": "刷込",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "好きな行動へ促す",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "好きな行動へ促す",
@@ -189,7 +189,7 @@
       "text": "刷込"
     },
     {
-      "key": 373,
+      "key": 379,
       "type": "Table",
       "question": "ラベリング",
       "actions": [
@@ -209,17 +209,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/15/110419"
     },
     {
-      "key": 372,
+      "key": 378,
       "type": "Table",
       "question": "任意コードの実行",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "最強",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "最強",
@@ -231,21 +231,21 @@
       "text": "任意コードの実行"
     },
     {
-      "key": 371,
+      "key": 377,
       "type": "Table",
       "question": "イディオム最強説",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "実験は比喩表現/イディオムが抽象と具体を違いにイメージを引き起こせるものであることを示している。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "身体から精神への影響（順方向）",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "実験は比喩表現/イディオムが抽象と具体を違いにイメージを引き起こせるものであることを示している。,身体から精神への影響（順方向）",
@@ -255,17 +255,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/03/230854"
     },
     {
-      "key": 370,
+      "key": 376,
       "type": "Table",
       "question": "高速アクティベート",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "脳内の過去の経験と容易く結びつき、処理能力が速くなること",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ウォームスタートと言い換えてもいい。",
@@ -279,7 +279,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/01/125527"
     },
     {
-      "key": 369,
+      "key": 375,
       "type": "Table",
       "question": "四字成語",
       "actions": [
@@ -293,7 +293,7 @@
         },
         {
           "text": "処理流暢性効果と繋げて考慮したときに、四字成語は脳の処理が早く これを用いて表現されたオブジェクトは採択の可能性が高いと言える。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "四字成語に関しては前半2文字で情報のアクティベートが始まり、反応時間の短縮につながっていることがわかった。,処理流暢性効果と繋げて考慮したときに、四字成語は脳の処理が早く これを用いて表現されたオブジェクトは採択の可能性が高いと言える。",
@@ -303,21 +303,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/01/125527"
     },
     {
-      "key": 368,
+      "key": 374,
       "type": "Table",
       "question": "呼びやすい企業名",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "企業名の呼びやすさと短期的な株価は連動するという研究があります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "たとえば、発音しやすい名前の企業（例",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "企業名の呼びやすさと短期的な株価は連動するという研究があります。,たとえば、発音しやすい名前の企業（例",
@@ -327,17 +327,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/01/125527"
     },
     {
-      "key": 367,
+      "key": 373,
       "type": "Table",
       "question": "複雑な構文",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "論文「構文の複雑さが広告の説得力に及ぼす影響」において",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "実験1では、放送広告の文脈において、構文の複雑さは想起と認識には影響を与えるが、広告の説得力には影響を与えないことが示された。",
@@ -345,11 +345,11 @@
         },
         {
           "text": "実験2では、印刷広告の文脈において、広告の説得力は構文の複雑さによって影響を受けることが示された。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "実験3では、情報処理への動機が構文の複雑さと相互作用して、印刷広告の説得力を決定することが明らかになった。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "論文「構文の複雑さが広告の説得力に及ぼす影響」において,実験1では、放送広告の文脈において、構文の複雑さは想起と認識には影響を与えるが、広告の説得力には影響を与えないことが示された。,実験2では、印刷広告の文脈において、広告の説得力は構文の複雑さによって影響を受けることが示された。,実験3では、情報処理への動機が構文の複雑さと相互作用して、印刷広告の説得力を決定することが明らかになった。",
@@ -359,13 +359,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/02/213323"
     },
     {
-      "key": 366,
+      "key": 372,
       "type": "Table",
       "question": "倒置法",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "倒置法などの逸脱的構文/読みづらさと詩的価値の間には、中程度から強い正の相関がある。",
@@ -379,7 +379,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/02/213323"
     },
     {
-      "key": 365,
+      "key": 371,
       "type": "Table",
       "question": "体感確率の上昇",
       "actions": [
@@ -399,17 +399,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/30/084907"
     },
     {
-      "key": 364,
+      "key": 370,
       "type": "Table",
       "question": "「または」",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "修飾語による体感確率操作の応用。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "以下二つの文言だと二番目の方が体感確率が上昇した。",
@@ -421,7 +421,7 @@
         },
         {
           "text": "「来年、あなたが『交通事故』『階段からの転落』『スポーツ中の怪我』『調理中の火傷』のいずれかで入院する確率」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "修飾語による体感確率操作の応用。,以下二つの文言だと二番目の方が体感確率が上昇した。,「来年、あなたが何らかの不慮の事故で入院する確率」,「来年、あなたが『交通事故』『階段からの転落』『スポーツ中の怪我』『調理中の火傷』のいずれかで入院する確率」",
@@ -431,7 +431,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/30/084907"
     },
     {
-      "key": 363,
+      "key": 369,
       "type": "Table",
       "question": "修飾語で具体的に",
       "actions": [
@@ -445,11 +445,11 @@
         },
         {
           "text": "「明日、大地震が起きて1000人が亡くなる確率」",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「明日、大地震が起き、築40年以上の老朽化したビルが倒壊して1000人が亡くなる確率」",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "論理的には前者の確率の方が高いにもかかわらず、人間は後者の「詳細な理由」がついたストーリーの方を「圧倒的に起こりやすい」と推論しました。",
@@ -463,7 +463,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/30/084907"
     },
     {
-      "key": 362,
+      "key": 368,
       "type": "Table",
       "question": "否決",
       "actions": [
@@ -483,17 +483,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/210454"
     },
     {
-      "key": 361,
+      "key": 367,
       "type": "Table",
       "question": "あいまいな表現",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "結果がどうなるか見込みがはっきりしない行動を本能的に心地悪く感じること",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「６０％ぐらいです」と言われたら選ばない。",
@@ -507,13 +507,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/210454"
     },
     {
-      "key": 360,
+      "key": 366,
       "type": "Table",
       "question": "「死亡率」",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「アクションAが仮に成功すると、プロジェクトは正常に戻りますが、25%の確率で失敗します。」",
@@ -527,17 +527,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/210454"
     },
     {
-      "key": 359,
+      "key": 365,
       "type": "Table",
       "question": "採択",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "提示された選択肢を採用すること。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "提示された選択肢を採用すること。",
@@ -547,17 +547,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/210454"
     },
     {
-      "key": 358,
+      "key": 364,
       "type": "Table",
       "question": "「生存率」",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "癌の外科手術の効果について死亡率の代わりに生存率が示された場合、医師が手術を選択する割合は34%増加した",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "癌の外科手術の効果について死亡率の代わりに生存率が示された場合、医師が手術を選択する割合は34%増加した",
@@ -567,7 +567,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/210454"
     },
     {
-      "key": 357,
+      "key": 363,
       "type": "Table",
       "question": "9から10歳での計画性の発現",
       "actions": [
@@ -577,11 +577,11 @@
         },
         {
           "text": "9~10歳ごろに計画性が発揮できるようになることが求められる。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "この計画性は異年齢集団により強く発揮されるが、地域の中で自然発生する「異年齢集団」は年々見られにくくなっている。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "9~10歳ごろに計画性が発揮できるようになることが求められる。,この計画性は異年齢集団により強く発揮されるが、地域の中で自然発生する「異年齢集団」は年々見られにくくなっている。",
@@ -591,17 +591,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/205721"
     },
     {
-      "key": 356,
+      "key": 362,
       "type": "Table",
       "question": "マザリーズ",
       "actions": [
         {
           "text": "マザリーズが子供の言葉の発達を促進するように働く。母親を始め、大人が乳幼児に向けた、意識するしないにかかわらず自然と口をついて出る、声の調子が高くゆったりとしたリズムの話し方",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "母親が、乳幼児に向けた話し方が、子供の言葉の発達を促進する",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "母親が、乳幼児に向けた話し方が、子供の言葉の発達を促進する",
@@ -611,21 +611,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/25/150755"
     },
     {
-      "key": 355,
+      "key": 361,
       "type": "Table",
       "question": "絶対音感は2歳〜4歳頃で学習する",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "絶対音感の獲得は、2歳〜4歳頃にかけての「音の統計的学習」能力が最大化する時期に",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "特定のピッチとそのラベル（音名）を結びつける経験があるかどうかに依存する。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ただし、絶対音感を持つことにより相対音感を失うことがある",
@@ -639,17 +639,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/05/12/192221"
     },
     {
-      "key": 354,
+      "key": 360,
       "type": "Table",
       "question": "言語獲得の促進",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -659,7 +659,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/04/28/130536"
     },
     {
-      "key": 353,
+      "key": 359,
       "type": "Table",
       "question": "学位と健康面へのプラスの影響が出る",
       "actions": [
@@ -679,17 +679,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/04/28/130536"
     },
     {
-      "key": 352,
+      "key": 358,
       "type": "Table",
       "question": "言語を最優先に教育",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "アベセダリアン・プロジェクト",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "対象被験者は生後平均4.4ヶ月の乳児",
@@ -701,7 +701,7 @@
         },
         {
           "text": "介入群は21歳時点で大学進学率が有意に高く、読解力および数学のテストスコアでも対照群を圧倒した",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "アベセダリアン・プロジェクト,対象被験者は生後平均4.4ヶ月の乳児,言語を最優先としたラーニング・ゲームを受けてもらう,介入群は21歳時点で大学進学率が有意に高く、読解力および数学のテストスコアでも対照群を圧倒した",
@@ -711,17 +711,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/04/28/130536"
     },
     {
-      "key": 351,
+      "key": 357,
       "type": "Table",
       "question": "0歳",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "0歳児についての説明",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "0歳児についての説明",
@@ -733,21 +733,21 @@
       "text": "0歳"
     },
     {
-      "key": 350,
+      "key": 356,
       "type": "Table",
       "question": "9ヶ月革命",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
-        },
-        {
-          "text": "9ヶ月革命とは、赤ちゃんの認知方式が二項関係から三項関係へ移り変わることを指します。",
           "figure": "Caution"
         },
         {
-          "text": "仮に何か身につけさせるなら、この時期がおすすめです。",
+          "text": "9ヶ月革命とは、赤ちゃんの認知方式が二項関係から三項関係へ移り変わることを指します。",
           "figure": "Hammer"
+        },
+        {
+          "text": "仮に何か身につけさせるなら、この時期がおすすめです。",
+          "figure": "Caution"
         },
         {
           "text": "「猫ちゃんがかわいいね」「お月さまがきれいだね」「ブーブーは速いね」など、1つのトピックを話題にして、気持ちを共有することができるようになります。",
@@ -761,17 +761,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 349,
+      "key": 355,
       "type": "Table",
       "question": "統計学習",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "実際には確率モデルを内部に作って世界を予測しています。つまり、**「次に何が来るか」を赤ちゃんは予測している** と言うことです。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "実際には確率モデルを内部に作って世界を予測しています。つまり、**「次に何が来るか」を赤ちゃんは予測している** と言うことです。",
@@ -781,17 +781,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 348,
+      "key": 354,
       "type": "Table",
       "question": "6から7ヶ月",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "0歳は学習能力が高いのではなく",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "0歳は学習能力が高いのではなく",
@@ -801,17 +801,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 347,
+      "key": 353,
       "type": "Table",
       "question": "長期記憶可能になる",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "0歳は学習能力が高いのではなく、より正確には **忘れる能力が極端に低い**と言う表現が適切です。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "0歳は学習能力が高いのではなく、より正確には **忘れる能力が極端に低い**と言う表現が適切です。",
@@ -821,13 +821,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/17/133839"
     },
     {
-      "key": 346,
+      "key": 352,
       "type": "Table",
       "question": "ハンドリガード",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "自分の手を見つめ、動かし、口に持っていく行動。自己認識の初期サインとして現れる。",
@@ -841,17 +841,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/09/125753"
     },
     {
-      "key": 345,
+      "key": 351,
       "type": "Table",
       "question": "緊張性頸反射",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "赤ちゃんが頭を向けた側の腕が伸び、反対側の腕が曲がるフェンシング姿勢になる反射。手の存在に気づくきっかけになる。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "赤ちゃんが頭を向けた側の腕が伸び、反対側の腕が曲がるフェンシング姿勢になる反射。手の存在に気づくきっかけになる。",
@@ -861,7 +861,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/09/125753"
     },
     {
-      "key": 344,
+      "key": 350,
       "type": "Table",
       "question": "把握反射",
       "actions": [
@@ -871,7 +871,7 @@
         },
         {
           "text": "手のひらに触れると指を握りしめる反射。生後数ヶ月の間に現れる。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "手のひらに触れると指を握りしめる反射。生後数ヶ月の間に現れる。",
@@ -881,7 +881,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/09/125753"
     },
     {
-      "key": 343,
+      "key": 349,
       "type": "Table",
       "question": "母乳",
       "actions": [
@@ -901,17 +901,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/09/125753"
     },
     {
-      "key": 342,
+      "key": 348,
       "type": "Table",
       "question": "吸啜反射",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "乳首のようなものが口に触れると、赤ちゃんが吸い始める反射。授乳に必要な動きとして働く。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "乳首のようなものが口に触れると、赤ちゃんが吸い始める反射。授乳に必要な動きとして働く。",
@@ -921,17 +921,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/09/125753"
     },
     {
-      "key": 341,
+      "key": 347,
       "type": "Table",
       "question": "根元反射",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "口角を触られた方向に向かって顔の向きを変える反射。母乳を飲むための反射と言える。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "口角を触られた方向に向かって顔の向きを変える反射。母乳を飲むための反射と言える。",
@@ -941,7 +941,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/09/125753"
     },
     {
-      "key": 340,
+      "key": 346,
       "type": "Table",
       "question": "中年危機",
       "actions": [
@@ -951,7 +951,7 @@
         },
         {
           "text": "うつ病の症状と中年危機が最も深刻になるのは47.2歳です。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "うつ病の症状と中年危機が最も深刻になるのは47.2歳です。",
@@ -961,17 +961,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182122"
     },
     {
-      "key": 339,
+      "key": 345,
       "type": "Table",
       "question": "12歳",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "中学高に入る",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "中学高に入る",
@@ -981,13 +981,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/193753"
     },
     {
-      "key": 338,
+      "key": 344,
       "type": "Table",
       "question": "マザーコンプレックス",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "簡単に言えば「**母親にすべての判断をゆだねてしまう**」という症状である。",
@@ -995,7 +995,7 @@
         },
         {
           "text": "実際の表現としては、「母親離れしていない」「自己決断力に欠ける」などが適切です。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "簡単に言えば「**母親にすべての判断をゆだねてしまう**」という症状である。,実際の表現としては、「母親離れしていない」「自己決断力に欠ける」などが適切です。",
@@ -1005,13 +1005,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/193753"
     },
     {
-      "key": 337,
+      "key": 343,
       "type": "Table",
       "question": "期待に答えようとする",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「ああしなさい。こうしなさい。」「これしちゃダメ、あれしちゃダメ。」と口出しをする母親がいたとします。",
@@ -1019,11 +1019,11 @@
         },
         {
           "text": "実は、母親として自信がなかったから過干渉にならなければならなかったのだとしたら、傍に居る子供が感じる気持ちは、母親の不安です。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "子供の心では、自分が母親の言うことを聞くことで母親が安心するならばと、いい子ほどがんばります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "「ああしなさい。こうしなさい。」「これしちゃダメ、あれしちゃダメ。」と口出しをする母親がいたとします。,実は、母親として自信がなかったから過干渉にならなければならなかったのだとしたら、傍に居る子供が感じる気持ちは、母親の不安です。,子供の心では、自分が母親の言うことを聞くことで母親が安心するならばと、いい子ほどがんばります。",
@@ -1033,13 +1033,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/193753"
     },
     {
-      "key": 336,
+      "key": 342,
       "type": "Table",
       "question": "遺伝するもの2",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "これらの因子は70%の確率で遺伝することがわかっている。",
@@ -1053,13 +1053,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/18/213826"
     },
     {
-      "key": 335,
+      "key": 341,
       "type": "Table",
       "question": "遺伝するもの1",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "これらの因子は70%の確率で遺伝することがわかっている。",
@@ -1073,21 +1073,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/01/18/213826"
     },
     {
-      "key": 334,
+      "key": 340,
       "type": "Table",
       "question": "右上",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "木が根を張り幹を伸ばし葉をつけるように木の成長と時間軸も対応している。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "例えば葉っぱにはこれからの未来への期待が現れることもあるし",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "反対に尖った枝には未知の攻撃に対する防衛意識などが現れる",
@@ -1101,7 +1101,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/03/170639"
     },
     {
-      "key": 333,
+      "key": 339,
       "type": "Table",
       "question": "右",
       "actions": [
@@ -1111,7 +1111,7 @@
         },
         {
           "text": "用紙を2つに分割し左右に分ける時",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "基本的には右が未来",
@@ -1123,7 +1123,7 @@
         },
         {
           "text": "木が画面全体を使って使われた時の、葉、枝、幹のそれぞれの意味と組み合わせる形で適応される",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "用紙を2つに分割し左右に分ける時,基本的には右が未来,左が過去を表す。,木が画面全体を使って使われた時の、葉、枝、幹のそれぞれの意味と組み合わせる形で適応される",
@@ -1133,17 +1133,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/03/170639"
     },
     {
-      "key": 332,
+      "key": 338,
       "type": "Table",
       "question": "太い",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -1155,7 +1155,7 @@
       "text": "太い"
     },
     {
-      "key": 331,
+      "key": 337,
       "type": "Table",
       "question": "大きい",
       "actions": [
@@ -1177,17 +1177,17 @@
       "text": "大きい"
     },
     {
-      "key": 330,
+      "key": 336,
       "type": "Table",
       "question": "高評価",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -1197,13 +1197,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/09/075621"
     },
     {
-      "key": 329,
+      "key": 335,
       "type": "Table",
       "question": "学んだばかりの知識",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "人には、学んだばかりの知識に関連するものばかり、目につくものである",
@@ -1217,17 +1217,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/09/075621"
     },
     {
-      "key": 328,
+      "key": 334,
       "type": "Table",
       "question": "リスクコミュニケーション",
       "actions": [
         {
           "text": "相手の考え方や懸念事項、それに関心の所在を正確に把握すること",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「よろしければこのOOに関する、一番の懸念点を教えていただけませんか？」",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "「もっとも負荷が高い点はどのようなことでしょうか？」",
@@ -1241,17 +1241,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/10/200017"
     },
     {
-      "key": 327,
+      "key": 333,
       "type": "Table",
       "question": "承認要求が得られる行動",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "ストレートに表現したら反感を買うことがわかっているので、わざわざ迂回する戦略をとり認められようとしている。それだけ、他者から認められることへの執着が強いからである。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "ストレートに表現したら反感を買うことがわかっているので、わざわざ迂回する戦略をとり認められようとしている。それだけ、他者から認められることへの執着が強いからである。",
@@ -1261,17 +1261,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/120315"
     },
     {
-      "key": 326,
+      "key": 332,
       "type": "Table",
       "question": "直観の心理と熟考の心理は同時並行で動くため、",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "この二つの心理は独立平行で実行されるため、まれにこの二つの心理の結果が対立することがある。国語の選択肢問題で熟考の心理で選んだ選択肢が、直観に反することがある。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "この二つの心理は独立平行で実行されるため、まれにこの二つの心理の結果が対立することがある。国語の選択肢問題で熟考の心理で選んだ選択肢が、直観に反することがある。",
@@ -1281,17 +1281,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/120332"
     },
     {
-      "key": 325,
+      "key": 331,
       "type": "Table",
       "question": "絵画を好む",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "絵画や装飾に対する反応は、二次元の形態に意味を見出す力や関心に依存します。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "絵画や装飾に対する反応は、二次元の形態に意味を見出す力や関心に依存します。",
@@ -1301,7 +1301,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182110"
     },
     {
-      "key": 324,
+      "key": 330,
       "type": "Table",
       "question": "機能性を好む",
       "actions": [
@@ -1321,17 +1321,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182110"
     },
     {
-      "key": 323,
+      "key": 329,
       "type": "Table",
       "question": "ステレオタイプに一致",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「彼は医者だから医療の知識がすごい」",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「彼は医者だから医療の知識がすごい」",
@@ -1343,7 +1343,7 @@
       "text": "ステレオタイプに一致"
     },
     {
-      "key": 322,
+      "key": 328,
       "type": "Table",
       "question": "同じ行動を取り続ける",
       "actions": [
@@ -1353,7 +1353,7 @@
         },
         {
           "text": "やる気が満ち溢れている状態",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "やる気が満ち溢れている状態",
@@ -1365,7 +1365,7 @@
       "text": "同じ行動を取り続ける"
     },
     {
-      "key": 321,
+      "key": 327,
       "type": "Table",
       "question": "自主的な行動の誘発",
       "actions": [
@@ -1375,7 +1375,7 @@
         },
         {
           "text": "やる気が満ち溢れている状態",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "やる気が満ち溢れている状態",
@@ -1387,7 +1387,7 @@
       "text": "自主的な行動の誘発"
     },
     {
-      "key": 320,
+      "key": 326,
       "type": "Table",
       "question": "40代から50代",
       "actions": [
@@ -1409,17 +1409,17 @@
       "text": "40代から50代"
     },
     {
-      "key": 319,
+      "key": 325,
       "type": "Table",
       "question": "30代から40代",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "30代から40代",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "30代から40代",
@@ -1431,7 +1431,7 @@
       "text": "30代から40代"
     },
     {
-      "key": 318,
+      "key": 324,
       "type": "Table",
       "question": "0代から10代",
       "actions": [
@@ -1441,7 +1441,7 @@
         },
         {
           "text": "0代から10代",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "0代から10代",
@@ -1453,17 +1453,17 @@
       "text": "0代から10代"
     },
     {
-      "key": 317,
+      "key": 323,
       "type": "Table",
       "question": "10代から20代",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "10代から20代",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "10代から20代",
@@ -1475,13 +1475,13 @@
       "text": "10代から20代"
     },
     {
-      "key": 316,
+      "key": 322,
       "type": "Table",
       "question": "支配",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "支配",
@@ -1497,17 +1497,17 @@
       "text": "支配"
     },
     {
-      "key": 315,
+      "key": 321,
       "type": "Table",
       "question": "多角的な観点",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "多角的な観点",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "多角的な観点",
@@ -1517,7 +1517,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/16/201716"
     },
     {
-      "key": 314,
+      "key": 320,
       "type": "Table",
       "question": "配慮",
       "actions": [
@@ -1539,7 +1539,7 @@
       "text": "配慮"
     },
     {
-      "key": 313,
+      "key": 319,
       "type": "Table",
       "question": "気配り",
       "actions": [
@@ -1549,7 +1549,7 @@
         },
         {
           "text": "気配り",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "気配り",
@@ -1559,17 +1559,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/16/201716"
     },
     {
-      "key": 312,
+      "key": 318,
       "type": "Table",
       "question": "配慮の不足",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "配慮の不足",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "配慮の不足",
@@ -1579,21 +1579,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/16/201716"
     },
     {
-      "key": 311,
+      "key": 317,
       "type": "Table",
       "question": "柔軟性強化",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "柔軟な態度になること。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "交渉時の価格の変動が大きくなる。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "より妥協した提案をしてもらうこと",
@@ -1607,7 +1607,7 @@
       "page_url": null
     },
     {
-      "key": 310,
+      "key": 316,
       "type": "Table",
       "question": "柔らかい椅子",
       "actions": [
@@ -1617,7 +1617,7 @@
         },
         {
           "text": "物質的な硬さという触覚的体験が、心理的な厳格さ、硬直性、安定性 といった抽象的な概念を無意識に活性化させる。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "物質的な硬さという触覚的体験が、心理的な厳格さ、硬直性、安定性 といった抽象的な概念を無意識に活性化させる。",
@@ -1627,7 +1627,7 @@
       "page_url": null
     },
     {
-      "key": 309,
+      "key": 315,
       "type": "Table",
       "question": "真剣化",
       "actions": [
@@ -1637,7 +1637,7 @@
         },
         {
           "text": "真剣な様子。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "「重要な話である」と捉えるようになる。",
@@ -1653,7 +1653,7 @@
       "text": "真剣化"
     },
     {
-      "key": 308,
+      "key": 314,
       "type": "Table",
       "question": "重たいもの",
       "actions": [
@@ -1663,7 +1663,7 @@
         },
         {
           "text": "人間の脳にはデフォルトで「重たいものに価値がある」と認識するシステムが組み込まれてるためです。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "一致条件(重いマウスで高額、軽いマウスで低額をクリックさせる。)の方が反応が早かった。",
@@ -1677,7 +1677,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/08/31/204829"
     },
     {
-      "key": 307,
+      "key": 313,
       "type": "Table",
       "question": "誠実性",
       "actions": [
@@ -1687,7 +1687,7 @@
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -1699,7 +1699,7 @@
       "text": "誠実性"
     },
     {
-      "key": 306,
+      "key": 312,
       "type": "Table",
       "question": "SSD(身体症状症)",
       "actions": [
@@ -1721,7 +1721,7 @@
       "text": "SSD(身体症状症)"
     },
     {
-      "key": 305,
+      "key": 311,
       "type": "Table",
       "question": "神経症傾向",
       "actions": [
@@ -1731,7 +1731,7 @@
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "a",
@@ -1743,17 +1743,17 @@
       "text": "神経症傾向"
     },
     {
-      "key": 304,
+      "key": 310,
       "type": "Table",
       "question": "開放性",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -1765,13 +1765,13 @@
       "text": "開放性"
     },
     {
-      "key": 303,
+      "key": 309,
       "type": "Table",
       "question": "開放性が高い",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "a",
@@ -1785,13 +1785,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
     },
     {
-      "key": 302,
+      "key": 308,
       "type": "Table",
       "question": "開放性が低い",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
@@ -1805,7 +1805,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/21/115125"
     },
     {
-      "key": 301,
+      "key": 307,
       "type": "Table",
       "question": "未来",
       "actions": [
@@ -1815,7 +1815,7 @@
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -1827,17 +1827,17 @@
       "text": "未来"
     },
     {
-      "key": 300,
+      "key": 306,
       "type": "Table",
       "question": "母親との関係における規定不安",
       "actions": [
         {
           "text": "子供時代の母親との関係における基底不安が神経症の要因となる",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "孤独感や無力感を克服するために、子供時代の母親との関係を振り返る",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "孤独感や無力感を克服するために、子供時代の母親との関係を振り返る",
@@ -1847,7 +1847,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/25/213713"
     },
     {
-      "key": 299,
+      "key": 305,
       "type": "Table",
       "question": "フロー状態",
       "actions": [
@@ -1873,17 +1873,17 @@
       "text": "フロー状態"
     },
     {
-      "key": 298,
+      "key": 304,
       "type": "Table",
       "question": "誠実性が高い",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "誠実性の高い性格とは、一つの仕事をきちんとこなそうとする気持ちや、他人に対する義務を真剣に考えていることを意味している。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "以下の特性を持つ",
@@ -1899,7 +1899,7 @@
         },
         {
           "text": "慎重で配慮がある",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "誠実性の高い性格とは、一つの仕事をきちんとこなそうとする気持ちや、他人に対する義務を真剣に考えていることを意味している。,以下の特性を持つ,一つの仕事をきちんとこなす,計画的な行動,慎重で配慮がある",
@@ -1909,17 +1909,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543"
     },
     {
-      "key": 297,
+      "key": 303,
       "type": "Table",
       "question": "「ジムトレーニング」",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "誠実性の現れやすい具体的な傾向。トレーニングを継続するには、気分に左右されずスケジュールを計画し自己をコントロールする能力が必要。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "仕事をしっかりとこなすこと。そのために準備を怠らないことを教訓としている。",
@@ -1933,17 +1933,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543"
     },
     {
-      "key": 296,
+      "key": 302,
       "type": "Table",
       "question": "「準備ができている」",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "誠実性の現れやすい具体的な口癖。(Facebookでの調査)",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "仕事をしっかりとこなすこと。そのために準備を怠らないことを教訓としている。",
@@ -1957,17 +1957,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543"
     },
     {
-      "key": 295,
+      "key": 301,
       "type": "Table",
       "question": "斬新なファッションによる解消",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "通常の心理療法だけでなく、斬新なファッションを組み合わせることで効果が出ることがわかっています。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "通常の心理療法だけでなく、斬新なファッションを組み合わせることで効果が出ることがわかっています。",
@@ -1979,17 +1979,17 @@
       "text": "斬新なファッションによる解消"
     },
     {
-      "key": 294,
+      "key": 300,
       "type": "Table",
       "question": "強迫性障害",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "過度に誠実性を高めた場合、強迫性障害/完璧主義 に該当する恐れがある。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "過度に誠実性を高めた場合、強迫性障害/完璧主義 に該当する恐れがある。",
@@ -1999,21 +1999,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204543"
     },
     {
-      "key": 293,
+      "key": 299,
       "type": "Table",
       "question": "データを捨てられない",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "私たちがタブを開きすぎる理由、「マルチタスク」をおこなう理由の一つ。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "膨大な情報が溢れる現代社会において、私たちは少しでも大切な情報を漏れなく抑えようとする気持ちを持つ傾向にあります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "私たちがタブを開きすぎる理由、「マルチタスク」をおこなう理由の一つ。,膨大な情報が溢れる現代社会において、私たちは少しでも大切な情報を漏れなく抑えようとする気持ちを持つ傾向にあります。",
@@ -2025,13 +2025,13 @@
       "text": "データを捨てられない"
     },
     {
-      "key": 292,
+      "key": 298,
       "type": "Table",
       "question": "FoMO",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "FoMOとは Fear of Missing Out の略で 「取り残される恐怖」 と略される。",
@@ -2039,7 +2039,7 @@
         },
         {
           "text": "神経症傾向が高いほど「取り残される恐怖」を経験しやすいとされた。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "FoMOとは Fear of Missing Out の略で 「取り残される恐怖」 と略される。,神経症傾向が高いほど「取り残される恐怖」を経験しやすいとされた。",
@@ -2049,17 +2049,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204541"
     },
     {
-      "key": 291,
+      "key": 297,
       "type": "Table",
       "question": "早期退職",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "神経症傾向を保有している場合、職場環境に適応しづらく早期退職の確率が高いことがわかった。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "神経症傾向を保有している場合、職場環境に適応しづらく早期退職の確率が高いことがわかった。",
@@ -2071,13 +2071,13 @@
       "text": "早期退職"
     },
     {
-      "key": 290,
+      "key": 296,
       "type": "Table",
       "question": "神経症傾向の高い人",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "定義のブレがあることは注意。",
@@ -2085,11 +2085,11 @@
         },
         {
           "text": "不安、心配、恐怖、怒り、不満、嫉妬、罪悪感、抑うつ気分、孤独などの感情を経験しやすい",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "定義のブレがあることは注意。,不安、心配、恐怖、怒り、不満、嫉妬、罪悪感、抑うつ気分、孤独などの感情を経験しやすい,",
@@ -2099,17 +2099,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204541"
     },
     {
-      "key": 289,
+      "key": 295,
       "type": "Table",
       "question": "運動量が少ない",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "運動量の少なさと神経症傾向には相関が見られた。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "運動量の少なさと神経症傾向には相関が見られた。",
@@ -2119,13 +2119,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204541"
     },
     {
-      "key": 288,
+      "key": 294,
       "type": "Table",
       "question": "ネガティブワード",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "fucking",
@@ -2137,15 +2137,15 @@
         },
         {
           "text": "shit",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "crap",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "バカ",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "がっかりした",
@@ -2153,19 +2153,19 @@
         },
         {
           "text": "うんざり",
-          "figure": "Caution"
-        },
-        {
-          "text": "病む",
           "figure": "Hammer"
         },
         {
-          "text": "イライラする",
+          "text": "病む",
           "figure": "Caution"
         },
         {
+          "text": "イライラする",
+          "figure": "Hammer"
+        },
+        {
           "text": "退屈",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ひどい",
@@ -2177,11 +2177,11 @@
         },
         {
           "text": "寂しい",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "独り",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "地獄",
@@ -2193,11 +2193,11 @@
         },
         {
           "text": "嫌い",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "悪夢",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "泣いている",
@@ -2205,7 +2205,7 @@
         },
         {
           "text": "xd　>_<　x_x",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "fucking,fuck,shit,crap,バカ,がっかりした,うんざり,病む,イライラする,退屈,ひどい,鬱,寂しい,独り,地獄,死ぬ,嫌い,悪夢,泣いている,xd　>_<　x_x",
@@ -2215,13 +2215,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204541"
     },
     {
-      "key": 287,
+      "key": 293,
       "type": "Table",
       "question": "協調性",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "協調性とは、協力的な態度を示す人である。",
@@ -2241,7 +2241,7 @@
       "text": "協調性"
     },
     {
-      "key": 286,
+      "key": 292,
       "type": "Table",
       "question": "高い収入",
       "actions": [
@@ -2251,7 +2251,7 @@
         },
         {
           "text": "ビッグファイブにおける全特性の中で最も高い賃金リターンを示したのは協調性の低さであり、その賃金上昇効果は 3.1% に達する。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "ビッグファイブにおける全特性の中で最も高い賃金リターンを示したのは協調性の低さであり、その賃金上昇効果は 3.1% に達する。",
@@ -2263,17 +2263,17 @@
       "text": "高い収入"
     },
     {
-      "key": 285,
+      "key": 291,
       "type": "Table",
       "question": "起業",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "協調性の低さは事業を長期にわたり持続させるための適応的特性となる。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "「低い協調性、低い神経症傾向、高い外向性、高い開放性、高い誠実性」",
@@ -2289,17 +2289,17 @@
       "text": "起業"
     },
     {
-      "key": 284,
+      "key": 290,
       "type": "Table",
       "question": "自立的",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "自立的",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "自立的",
@@ -2311,17 +2311,17 @@
       "text": "自立的"
     },
     {
-      "key": 283,
+      "key": 289,
       "type": "Table",
       "question": "協調性が低い人",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "協調性が低い人",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "協調性が低い人",
@@ -2331,17 +2331,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204539"
     },
     {
-      "key": 282,
+      "key": 288,
       "type": "Table",
       "question": "悪口",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "バカ、クソ",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "殺す、憎む、死ぬ、詩、地獄、酔った、タバコを吸う",
@@ -2355,13 +2355,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204539"
     },
     {
-      "key": 281,
+      "key": 287,
       "type": "Table",
       "question": "協調性が高い人",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "協調性が高い人",
@@ -2375,7 +2375,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204539"
     },
     {
-      "key": 280,
+      "key": 286,
       "type": "Table",
       "question": "ミネソタナイス",
       "actions": [
@@ -2389,7 +2389,7 @@
         },
         {
           "text": "これらの州は東海岸や西海岸に比べて都市化が進んでいないため、人々は小さなコミュニティーに住み、隣人を知っている可能性が高い。その結果、隣人を気遣い、助けようとする気持ちが強くなる可能性がある。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "アメリカ・ミネソタ州の住民に根付いているとされる、礼儀正しくおっとりとしていて親切な気質や県民性を表す言葉。,これらの州は東海岸や西海岸に比べて都市化が進んでいないため、人々は小さなコミュニティーに住み、隣人を知っている可能性が高い。その結果、隣人を気遣い、助けようとする気持ちが強くなる可能性がある。",
@@ -2399,7 +2399,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204539"
     },
     {
-      "key": 279,
+      "key": 285,
       "type": "Table",
       "question": "大学において法学、経営学、経済学にまったく興味を示さない傾向",
       "actions": [
@@ -2419,21 +2419,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204539"
     },
     {
-      "key": 278,
+      "key": 284,
       "type": "Table",
       "question": "称賛",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "素敵な、素晴らしい、興奮した、感謝して、ありがとう、偉大な、目覚ましい、幸せ、とても楽しい",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "メリークリスマス、感謝祭、教会、主、キリストに、コリント人、賛美歌、徳、恵み、箴言、信仰、祈り、祈る",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "素敵な、素晴らしい、興奮した、感謝して、ありがとう、偉大な、目覚ましい、幸せ、とても楽しい,メリークリスマス、感謝祭、教会、主、キリストに、コリント人、賛美歌、徳、恵み、箴言、信仰、祈り、祈る",
@@ -2443,13 +2443,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204539"
     },
     {
-      "key": 277,
+      "key": 283,
       "type": "Table",
       "question": "経済学、工学、法学",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "大学において経済学、工学、法学を興味を示す",
@@ -2463,17 +2463,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204537"
     },
     {
-      "key": 276,
+      "key": 282,
       "type": "Table",
       "question": "人文科学、芸術、心理学",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "大学において人文科学、芸術、心理学などを専攻する傾向",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "職業興味において研究的興味、芸術的興味の傾向",
@@ -2487,17 +2487,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204537"
     },
     {
-      "key": 275,
+      "key": 281,
       "type": "Table",
       "question": "長男、長女、行政機関のお堅い方",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "開放性の低い方々",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "開放性の低い方々",
@@ -2507,7 +2507,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204537"
     },
     {
-      "key": 274,
+      "key": 280,
       "type": "Table",
       "question": "所有権の意識",
       "actions": [
@@ -2517,11 +2517,11 @@
         },
         {
           "text": "「OOしたほうがいい」という肯定的意見よりも「OOしてはいけない」という**ルールで縛る方向性**で意見を出す。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "あなた",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "あなたの",
@@ -2529,7 +2529,7 @@
         },
         {
           "text": "してはいけない",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "あなた,あなたの,してはいけない",
@@ -2539,13 +2539,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204537"
     },
     {
-      "key": 273,
+      "key": 279,
       "type": "Table",
       "question": "絵文字の使用👍",
       "actions": [
         {
           "text": "絵文字を使用する場合は高い外向性という研究結果も出ている",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "絵文字を使用する場合は高い外向性という研究結果も出ている",
@@ -2559,13 +2559,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204535"
     },
     {
-      "key": 272,
+      "key": 278,
       "type": "Table",
       "question": "外向性",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "a",
@@ -2581,17 +2581,17 @@
       "text": "外向性"
     },
     {
-      "key": 271,
+      "key": 277,
       "type": "Table",
       "question": "低い外向性",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -2601,25 +2601,25 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204535"
     },
     {
-      "key": 270,
+      "key": 276,
       "type": "Table",
       "question": "アニメ",
       "actions": [
         {
           "text": "まずフェイスブック投稿で相関が見受けられたもの",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "インターネット、コンピューター",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "アニメ、マンガ、日本の",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "ポケモン、ファイナルファンタジー",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "顔文字(>_<)",
@@ -2633,13 +2633,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204535"
     },
     {
-      "key": 269,
+      "key": 275,
       "type": "Table",
       "question": "顔文字(>_<)",
       "actions": [
         {
           "text": "まずフェイスブック投稿で相関が見受けられたもの",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "フェイスブックでの投稿を見ると、顔文字の仕様は外向性の低さを示すようだ。",
@@ -2653,17 +2653,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204535"
     },
     {
-      "key": 268,
+      "key": 274,
       "type": "Table",
       "question": "室内でのうつ病",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "コロナ禍の隔離環境においては、高内向に比べて、高外向の人のほうが、うつ病のリスクが高くなっていた。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "コロナ禍の隔離環境においては、高内向に比べて、高外向の人のほうが、うつ病のリスクが高くなっていた。",
@@ -2675,13 +2675,13 @@
       "text": "室内でのうつ病"
     },
     {
-      "key": 267,
+      "key": 273,
       "type": "Table",
       "question": "高い外向性",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "a",
@@ -2695,21 +2695,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/01/27/204535"
     },
     {
-      "key": 266,
+      "key": 272,
       "type": "Table",
       "question": "リスクをとりにいく",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "高い外向性人ほどリスクを取りやすい",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "飲酒運転のリスクも上がります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "高い外向性人ほどリスクを取りやすい,飲酒運転のリスクも上がります。",
@@ -2721,7 +2721,7 @@
       "text": "リスクをとりにいく"
     },
     {
-      "key": 265,
+      "key": 271,
       "type": "Table",
       "question": "傾聴能力の欠如",
       "actions": [
@@ -2731,7 +2731,7 @@
         },
         {
           "text": "外向性の高い人は傾聴能力のなさを指摘されることがある。「聞き上手」という評価は、単に相手の話を理解する能力だけでなく、「相手に話す時間を提供したか」という配分能力に大きく依存しています。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "外向性の高い人は傾聴能力のなさを指摘されることがある。「聞き上手」という評価は、単に相手の話を理解する能力だけでなく、「相手に話す時間を提供したか」という配分能力に大きく依存しています。",
@@ -2743,17 +2743,17 @@
       "text": "傾聴能力の欠如"
     },
     {
-      "key": 264,
+      "key": 270,
       "type": "Table",
       "question": "「今、大丈夫ですか」",
       "actions": [
         {
           "text": "相手の時間を大切にし、忙しい時間への配慮ができる人",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "この人は相手の時間を大切にするからこそ、「今、大丈夫ですか」ときちんと確認します",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "また、人には忙しい時間があり、時間が取れないことがあるということもきちんと理解しています",
@@ -2761,7 +2761,7 @@
         },
         {
           "text": "ですから、もしかすると今は忙しいかも知れないと配慮することができるのですね。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "この人は相手の時間を大切にするからこそ、「今、大丈夫ですか」ときちんと確認します,また、人には忙しい時間があり、時間が取れないことがあるということもきちんと理解しています,ですから、もしかすると今は忙しいかも知れないと配慮することができるのですね。",
@@ -2771,7 +2771,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/02/212521"
     },
     {
-      "key": 263,
+      "key": 269,
       "type": "Table",
       "question": "「私」",
       "actions": [
@@ -2781,7 +2781,7 @@
         },
         {
           "text": "「あくまでも自分の意見を伝えているだけ」というスタンスになりますから、「相手が変わるべきだ」という支配欲の落とし穴にはまりにくくなるのです。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "「あくまでも自分の意見を伝えているだけ」というスタンスになりますから、「相手が変わるべきだ」という支配欲の落とし穴にはまりにくくなるのです。",
@@ -2791,7 +2791,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/09/075623"
     },
     {
-      "key": 262,
+      "key": 268,
       "type": "Table",
       "question": "「あなた」",
       "actions": [
@@ -2809,11 +2809,11 @@
         },
         {
           "text": "こんなに散らかされるとママは悲しい。一緒に片付けようか。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "など一呼吸おいて私メッセージにすると人間関係がスムーズになるそうです。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "子育ても同じく、なんであなたはいつも散らかすのか。,なんであなたは出来ないのか。とあなたにすると怒ってしまいがち。,こんなに散らかされるとママは悲しい。一緒に片付けようか。,など一呼吸おいて私メッセージにすると人間関係がスムーズになるそうです。",
@@ -2823,17 +2823,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/09/075623"
     },
     {
-      "key": 261,
+      "key": 267,
       "type": "Table",
       "question": "「なんで?」",
       "actions": [
         {
           "text": "「何で？」という口癖を持つ人は、理由と根拠を求める理屈っぽい人です。頭が良くて好奇心旺盛なため、本当のところ、真相、真理が知りたくて、「何で？」と追求してくる",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「何で？」が口癖の人は、誰に聞いたら答えてくれるのか、しっかりと検討してから質問するようにする必要があるでしょう。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "「何で？」「何で？」",
@@ -2847,7 +2847,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/04/192934"
     },
     {
-      "key": 260,
+      "key": 266,
       "type": "Table",
       "question": "BMIが高い",
       "actions": [
@@ -2857,7 +2857,7 @@
         },
         {
           "text": "誠実性が低いほどBMIが高い傾向があることがわかった。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "誠実性が低いほどBMIが高い傾向があることがわかった。",
@@ -2869,13 +2869,13 @@
       "text": "BMIが高い"
     },
     {
-      "key": 259,
+      "key": 265,
       "type": "Table",
       "question": "話す速度が変わる",
       "actions": [
         {
           "text": "ある人が真の誠意を話すとき、その人は話す速度を変えることはありません。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "通常の会話スピードから変化した場合、言葉の重みを意図的に操っている可能性が高いです。",
@@ -2889,17 +2889,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/06/212743"
     },
     {
-      "key": 258,
+      "key": 264,
       "type": "Table",
       "question": "誠実性の欠如",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "誠実性の欠如",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "誠実性の欠如",
@@ -2909,25 +2909,25 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/06/212743"
     },
     {
-      "key": 257,
+      "key": 263,
       "type": "Table",
       "question": "「えーと」",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "とくに意味のないこのような発話を「有声休止」といいます。有声休止には二つの機能があると言われています。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "文末などの発話の区切りで黙ってしまうと（この現象を「無声休止」といいます）他の人が話し出すきっかけをつくってしまい",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "まだ話したいあなたから発言権が移行する可能性が生じます。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "そこであなたは発言権を維持するために有声休止を発するのです",
@@ -2945,7 +2945,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/03/28/085651"
     },
     {
-      "key": 256,
+      "key": 262,
       "type": "Table",
       "question": "IQ",
       "actions": [
@@ -2967,17 +2967,17 @@
       "text": "IQ"
     },
     {
-      "key": 255,
+      "key": 261,
       "type": "Table",
       "question": "IQ低下",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "思考力が低下している状態",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "思考力が低下している状態",
@@ -2987,13 +2987,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/03/30/195227"
     },
     {
-      "key": 254,
+      "key": 260,
       "type": "Table",
       "question": "睡眠不足",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "説明不要",
@@ -3007,13 +3007,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/03/30/195227"
     },
     {
-      "key": 253,
+      "key": 259,
       "type": "Table",
       "question": "「お金がない」",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「お金がない」と言いながら浪費している場合。",
@@ -3025,15 +3025,15 @@
         },
         {
           "text": "本当にお金がない時。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "IQが13~14ポイント下がる。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "これは徹夜と同じレベルである",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "「お金がない」と言いながら浪費している場合。,浪費による脳の麻痺で現実逃避している可能性。,本当にお金がない時。,IQが13~14ポイント下がる。,これは徹夜と同じレベルである",
@@ -3043,17 +3043,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/03/30/195227"
     },
     {
-      "key": 252,
+      "key": 258,
       "type": "Table",
       "question": "言語の抽象度が高い",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「優しい、乱暴だ」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "「優しい、乱暴だ」",
@@ -3063,7 +3063,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/02/13/183022"
     },
     {
-      "key": 251,
+      "key": 257,
       "type": "Table",
       "question": "「逆に」",
       "actions": [
@@ -3073,11 +3073,11 @@
         },
         {
           "text": "「逆に」 という口癖を持つ人は 多角的な観点と高い知能指数を持つ",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "単に話題を強引に転換しようとしている",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "「逆に」 という口癖を持つ人は 多角的な観点と高い知能指数を持つ,単に話題を強引に転換しようとしている",
@@ -3087,13 +3087,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/05/084203"
     },
     {
-      "key": 250,
+      "key": 256,
       "type": "Table",
       "question": "構造的理解",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "構造的理解力が担保されている状態",
@@ -3107,7 +3107,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/06/212741"
     },
     {
-      "key": 249,
+      "key": 255,
       "type": "Table",
       "question": "「言うなれば」",
       "actions": [
@@ -3117,7 +3117,7 @@
         },
         {
           "text": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
@@ -3127,17 +3127,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/06/212741"
     },
     {
-      "key": 248,
+      "key": 254,
       "type": "Table",
       "question": "「たとえば」",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "**最も重要なのは、アナロジーが主に論理的・構造的理解を促進するのに対し、メタファーが感情的・直観的理解を促進するという違いです。**",
@@ -3147,7 +3147,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/06/212741"
     },
     {
-      "key": 247,
+      "key": 253,
       "type": "Table",
       "question": "「それ」",
       "actions": [
@@ -3157,7 +3157,7 @@
         },
         {
           "text": "心理距離が遠い場合の指示語",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "心理距離が遠い場合の指示語",
@@ -3169,7 +3169,7 @@
       "text": "「それ」"
     },
     {
-      "key": 246,
+      "key": 252,
       "type": "Table",
       "question": "「あれ」",
       "actions": [
@@ -3179,7 +3179,7 @@
         },
         {
           "text": "心理距離が遠い場合の指示語",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "心理距離が遠い場合の指示語",
@@ -3191,13 +3191,13 @@
       "text": "「あれ」"
     },
     {
-      "key": 245,
+      "key": 251,
       "type": "Table",
       "question": "「これ」",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "心理距離が近い場合の指示語",
@@ -3213,17 +3213,17 @@
       "text": "「これ」"
     },
     {
-      "key": 244,
+      "key": 250,
       "type": "Table",
       "question": "「気にしない」",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "自分自身を大らかに見せかけようとしている",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "自分自身を大らかに見せかけようとしている",
@@ -3233,21 +3233,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/05/084209"
     },
     {
-      "key": 243,
+      "key": 249,
       "type": "Table",
       "question": "ピンク色",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ピンクは情熱的な赤に純粋な白を混ぜた色で、青春の象徴とされています。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "この色は若々しさや純粋さ、情熱を表現することが多いです。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "ピンクは情熱的な赤に純粋な白を混ぜた色で、青春の象徴とされています。,この色は若々しさや純粋さ、情熱を表現することが多いです。",
@@ -3257,7 +3257,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182108"
     },
     {
-      "key": 242,
+      "key": 248,
       "type": "Table",
       "question": "青色",
       "actions": [
@@ -3267,11 +3267,11 @@
         },
         {
           "text": "青は二面性を持つ色です。スカイブルーのような明るい青は自然の豊かさを象徴し、リラックスや開放感を与えます。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "一方で、濃い青は人工的な冷たさを感じさせ、思考的で理性的な傾向を示すことがあります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "青は二面性を持つ色です。スカイブルーのような明るい青は自然の豊かさを象徴し、リラックスや開放感を与えます。,一方で、濃い青は人工的な冷たさを感じさせ、思考的で理性的な傾向を示すことがあります。",
@@ -3281,13 +3281,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182108"
     },
     {
-      "key": 241,
+      "key": 247,
       "type": "Table",
       "question": "白色",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "白は純粋さや清潔さを象徴する色です。",
@@ -3295,7 +3295,7 @@
         },
         {
           "text": "しかし、「汚してはいけない」という強迫観念を引き起こすこともあります。このような心理状態は、完璧主義や潔癖症と関連する場合があります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "白は純粋さや清潔さを象徴する色です。,しかし、「汚してはいけない」という強迫観念を引き起こすこともあります。このような心理状態は、完璧主義や潔癖症と関連する場合があります。",
@@ -3305,17 +3305,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/17/182108"
     },
     {
-      "key": 240,
+      "key": 246,
       "type": "Table",
       "question": "疲労と回復",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "終了",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "終了",
@@ -3327,13 +3327,13 @@
       "text": "疲労と回復"
     },
     {
-      "key": 239,
+      "key": 245,
       "type": "Table",
       "question": "他力本願",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "他力本願",
@@ -3349,7 +3349,7 @@
       "text": "他力本願"
     },
     {
-      "key": 238,
+      "key": 244,
       "type": "Table",
       "question": "疲労",
       "actions": [
@@ -3369,7 +3369,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/120334"
     },
     {
-      "key": 237,
+      "key": 243,
       "type": "Table",
       "question": "選択する",
       "actions": [
@@ -3379,7 +3379,7 @@
         },
         {
           "text": "我々は一つ選択するたびに大きなエネルギーを消費する。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "サウジアラビアの裁判の例では、仮釈放を認める割合が「休憩時間から判決までどれくらいの時間がかかったか」に依存するという。",
@@ -3393,17 +3393,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/120334"
     },
     {
-      "key": 236,
+      "key": 242,
       "type": "Table",
       "question": "熟考",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "熟考とは「意識的に選択すること」である",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "熟考とは「意識的に選択すること」である",
@@ -3413,17 +3413,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/120334"
     },
     {
-      "key": 235,
+      "key": 241,
       "type": "Table",
       "question": "特定の話題でしゃべる人",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "自閉症スペクトラムの多くの人は物静かですが**興味のある話題については何時間でも話すことができます。**",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "自閉症スペクトラムの多くの人は物静かですが**興味のある話題については何時間でも話すことができます。**",
@@ -3433,17 +3433,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/201157"
     },
     {
-      "key": 234,
+      "key": 240,
       "type": "Table",
       "question": "ADHD",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "年齢に見合わない「不注意」「多動性」「衝動性」を主な特徴とする発達障害の一つ",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "年齢に見合わない「不注意」「多動性」「衝動性」を主な特徴とする発達障害の一つ",
@@ -3455,21 +3455,21 @@
       "text": "ADHD"
     },
     {
-      "key": 233,
+      "key": 239,
       "type": "Table",
       "question": "過度な多弁",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "おしゃべりが多い人は、ADHD などの精神的健康状態にある可能性があります。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "**多動性と落ち着きのなさ**を特徴とするこの障害は、オーバートークによって過剰なエネルギーを放出することもあります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "おしゃべりが多い人は、ADHD などの精神的健康状態にある可能性があります。,**多動性と落ち着きのなさ**を特徴とするこの障害は、オーバートークによって過剰なエネルギーを放出することもあります。",
@@ -3479,7 +3479,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/201157"
     },
     {
-      "key": 232,
+      "key": 238,
       "type": "Table",
       "question": "鉄道好き",
       "actions": [
@@ -3489,7 +3489,7 @@
         },
         {
           "text": "鉄道はダイアグラムに従って完全に動く",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "鉄道は線路という予定通りの動きをする",
@@ -3505,7 +3505,7 @@
       "text": "鉄道好き"
     },
     {
-      "key": 231,
+      "key": 237,
       "type": "Table",
       "question": "般化が苦手",
       "actions": [
@@ -3515,7 +3515,7 @@
         },
         {
           "text": "物事を一般化する才能。応用する才能と言ってもいい",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "物事を一般化する才能。応用する才能と言ってもいい",
@@ -3525,17 +3525,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/26/200054"
     },
     {
-      "key": 230,
+      "key": 236,
       "type": "Table",
       "question": "自閉症スペクトラム",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "発達障害の一種。有病率は0.65〜1%とされる。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "発達障害の一種。有病率は0.65〜1%とされる。",
@@ -3545,17 +3545,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/26/200054"
     },
     {
-      "key": 229,
+      "key": 235,
       "type": "Table",
       "question": "幻覚剤の使用",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "幻覚剤の使用を含む救急部門訪問を受けた人は、一般集団と比較して3年以内にSSDを発症する可能性が21倍高い",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "幻覚剤の使用を含む救急部門訪問を受けた人は、一般集団と比較して3年以内にSSDを発症する可能性が21倍高い",
@@ -3565,13 +3565,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/04/210935"
     },
     {
-      "key": 228,
+      "key": 234,
       "type": "Table",
       "question": "巨大な視線運動",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "頭の中で「赤」の次に「オレンジ」や「朱色」など、色相環上ですぐ近くの色を思い浮かべたときは、眼球運動のベクトルも小さくなります。",
@@ -3579,7 +3579,7 @@
         },
         {
           "text": "「赤」の次に「青」や「緑」など、色相環上で正反対や離れた位置にある色へ概念が切り替わったときは、視線もそれに合わせて大きく座標を移動させます。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "頭の中で「赤」の次に「オレンジ」や「朱色」など、色相環上ですぐ近くの色を思い浮かべたときは、眼球運動のベクトルも小さくなります。,「赤」の次に「青」や「緑」など、色相環上で正反対や離れた位置にある色へ概念が切り替わったときは、視線もそれに合わせて大きく座標を移動させます。",
@@ -3591,21 +3591,21 @@
       "text": "巨大な視線運動"
     },
     {
-      "key": 227,
+      "key": 233,
       "type": "Table",
       "question": "異概念",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "頭の中で「赤」の次に「オレンジ」や「朱色」など、色相環上ですぐ近くの色を思い浮かべたときは、眼球運動のベクトルも小さくなります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "「赤」の次に「青」や「緑」など、色相環上で正反対や離れた位置にある色へ概念が切り替わったときは、視線もそれに合わせて大きく座標を移動させます。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "頭の中で「赤」の次に「オレンジ」や「朱色」など、色相環上ですぐ近くの色を思い浮かべたときは、眼球運動のベクトルも小さくなります。,「赤」の次に「青」や「緑」など、色相環上で正反対や離れた位置にある色へ概念が切り替わったときは、視線もそれに合わせて大きく座標を移動させます。",
@@ -3615,13 +3615,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/03/082011"
     },
     {
-      "key": 226,
+      "key": 232,
       "type": "Table",
       "question": "文字列処理",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "空間処理/画像処理は左目で優位。左位置で空間処理を行い、右位置で文字列処理を行う",
@@ -3637,13 +3637,13 @@
       "text": "文字列処理"
     },
     {
-      "key": 225,
+      "key": 231,
       "type": "Table",
       "question": "下視線",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "下を向く行為",
@@ -3659,13 +3659,13 @@
       "text": "下視線"
     },
     {
-      "key": 224,
+      "key": 230,
       "type": "Table",
       "question": "空間処理",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "空間処理/画像処理は左目で優位。左位置で空間処理を行い、右位置で文字列処理を行う",
@@ -3681,13 +3681,13 @@
       "text": "空間処理"
     },
     {
-      "key": 223,
+      "key": 229,
       "type": "Table",
       "question": "右イメージ",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "主観的にみて右側を連想する行為。",
@@ -3701,7 +3701,7 @@
       "page_url": null
     },
     {
-      "key": 222,
+      "key": 228,
       "type": "Table",
       "question": "左イメージ",
       "actions": [
@@ -3711,7 +3711,7 @@
         },
         {
           "text": "主観的にみて左側を連想する行為。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "主観的にみて左側を連想する行為。",
@@ -3721,7 +3721,7 @@
       "page_url": null
     },
     {
-      "key": 221,
+      "key": 227,
       "type": "Table",
       "question": "小さい数字をランダムに答える",
       "actions": [
@@ -3731,7 +3731,7 @@
         },
         {
           "text": "この数字と空間の概念が左右だけでなく「上下」の垂直空間にも当てはまることがわかってきています。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「ランダムに数字を言ってください」と頼まれたとき、上を向いているときは大きな数字を言いやすく下を向いているときは小さな数字を言いやすくなります。",
@@ -3745,7 +3745,7 @@
       "page_url": null
     },
     {
-      "key": 220,
+      "key": 226,
       "type": "Table",
       "question": "引き算",
       "actions": [
@@ -3755,7 +3755,7 @@
         },
         {
           "text": "足し算（＋）を解くときは、引き算（－）を解くときと比べて、視線がより「上方向」にシフトしました。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "足し算（＋）を解くときは、引き算（－）を解くときと比べて、視線がより「上方向」にシフトしました。",
@@ -3765,13 +3765,13 @@
       "page_url": null
     },
     {
-      "key": 219,
+      "key": 225,
       "type": "Table",
       "question": "般化",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "ある色の信号機に反応するようになったら、少し色違いの信号機にも同じ反応を示す。",
@@ -3791,7 +3791,7 @@
       "text": "般化"
     },
     {
-      "key": 218,
+      "key": 224,
       "type": "Table",
       "question": "レミニセンスバンプ",
       "actions": [
@@ -3801,7 +3801,7 @@
         },
         {
           "text": "伝的記憶は、自身が10-20代の頃の記憶が多く想起される傾向がある",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "伝的記憶は、自身が10-20代の頃の記憶が多く想起される傾向がある",
@@ -3811,17 +3811,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/191338"
     },
     {
-      "key": 217,
+      "key": 223,
       "type": "Table",
       "question": "ノスタルジア",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "「ノスタルジアは自己の連続性（＝過去と今と未来の自分を一体と感じること）を強め、困難な状況においても希望を持たせる」効果がある",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "「ノスタルジアは自己の連続性（＝過去と今と未来の自分を一体と感じること）を強め、困難な状況においても希望を持たせる」効果がある",
@@ -3831,7 +3831,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/191338"
     },
     {
-      "key": 216,
+      "key": 222,
       "type": "Table",
       "question": "言語化",
       "actions": [
@@ -3851,17 +3851,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/191338"
     },
     {
-      "key": 215,
+      "key": 221,
       "type": "Table",
       "question": "右耳優位性",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "数字・有意味語・言語音なの言語刺激を呈示した場合には",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "一般 に右耳優位性がみられることを確認している。",
@@ -3875,17 +3875,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/18/191338"
     },
     {
-      "key": 214,
+      "key": 220,
       "type": "Table",
       "question": "「みんながやっている」",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "社会的証明を裏付ける代表的な言葉",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "社会的証明を裏付ける代表的な言葉",
@@ -3897,21 +3897,21 @@
       "text": "「みんながやっている」"
     },
     {
-      "key": 213,
+      "key": 219,
       "type": "Table",
       "question": "社会的証明",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "人は、適切な行動が判断しづらい曖昧な状況において、周囲の人々の行動を手がかりに自らの行動を決定する傾向があります。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "UIやLPにおいて、レビュー・導入事例・「○人が購入しました」などを明示することが、CVR（コンバージョン率）を高める有効な手段となります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "人は、適切な行動が判断しづらい曖昧な状況において、周囲の人々の行動を手がかりに自らの行動を決定する傾向があります。,UIやLPにおいて、レビュー・導入事例・「○人が購入しました」などを明示することが、CVR（コンバージョン率）を高める有効な手段となります。",
@@ -3921,17 +3921,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/04/221724"
     },
     {
-      "key": 212,
+      "key": 218,
       "type": "Table",
       "question": "正確性",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "正確な情報が求められているときにも、社会的証明は求められる",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "正確な情報が求められているときにも、社会的証明は求められる",
@@ -3941,17 +3941,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/04/221724"
     },
     {
-      "key": 211,
+      "key": 217,
       "type": "Table",
       "question": "混乱",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "どういう行動を取ればいいかわからないとき、社会的証明の法則はより強く働く",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "どういう行動を取ればいいかわからないとき、社会的証明の法則はより強く働く",
@@ -3961,7 +3961,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/08/04/221724"
     },
     {
-      "key": 210,
+      "key": 216,
       "type": "Table",
       "question": "罪悪感の軽減",
       "actions": [
@@ -3971,7 +3971,7 @@
         },
         {
           "text": "過去の非倫理的な行い（嘘をつく、ズルをするなど）を思い出した被験者は、無意識にウェットティッシュや石鹸などの清掃用品を強く求めるようになり、実際に手を洗うと罪悪感が軽減されることが確認されました。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "",
@@ -3987,7 +3987,7 @@
       "text": "罪悪感の軽減"
     },
     {
-      "key": 209,
+      "key": 215,
       "type": "Table",
       "question": "ウェットティッシュ・石鹸を買う",
       "actions": [
@@ -3997,7 +3997,7 @@
         },
         {
           "text": "過去の非倫理的な行い（嘘をつく、ズルをするなど）を思い出した被験者は、無意識にウェットティッシュや石鹸などの清掃用品を強く求めるようになる",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "過去の非倫理的な行い（嘘をつく、ズルをするなど）を思い出した被験者は、無意識にウェットティッシュや石鹸などの清掃用品を強く求めるようになる",
@@ -4007,17 +4007,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/102121"
     },
     {
-      "key": 208,
+      "key": 214,
       "type": "Table",
       "question": "マクベス効果",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "シェイクスピアの戯曲『マクベス』で、暗殺に加担したマクベス夫人が幻覚の血を洗い流そうとするシーンに由来する、「道徳的な汚れ」を「物理的な洗浄」で相殺しようとする心理メカニズムです。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "人間の高度な「道徳」という概念が、実は「身体的な清潔さ」という極めて原始的な感覚（身体性認知）に依存していることを示す興味深い論文です。",
@@ -4031,13 +4031,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/102121"
     },
     {
-      "key": 207,
+      "key": 213,
       "type": "Table",
       "question": "免罪符・補填",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「自分は過去に良いことをした」という自己評価が、その後の非倫理的な行動への「免罪符（ライセンス）」となってしまう現象です。",
@@ -4045,11 +4045,11 @@
         },
         {
           "text": "環境に優しい製品を購入した後、非道徳的な行動が増える。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "いわば、非倫理的行為とモラル的行為は違いに連続する",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "「自分は過去に良いことをした」という自己評価が、その後の非倫理的な行動への「免罪符（ライセンス）」となってしまう現象です。,環境に優しい製品を購入した後、非道徳的な行動が増える。,いわば、非倫理的行為とモラル的行為は違いに連続する",
@@ -4059,17 +4059,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/102121"
     },
     {
-      "key": 206,
+      "key": 212,
       "type": "Table",
       "question": "非倫理的",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "トロッコ問題で5人を助ける合理的な判断。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "トロッコ問題で5人を助ける合理的な判断。",
@@ -4079,13 +4079,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/102121"
     },
     {
-      "key": 205,
+      "key": 211,
       "type": "Table",
       "question": "モラル的",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "トロッコ問題で1人を助ける情緒的な判断。",
@@ -4099,17 +4099,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/102121"
     },
     {
-      "key": 204,
+      "key": 210,
       "type": "Table",
       "question": "外国語の使用",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "外国語の使用は心理的な距離を拡大する効果がある。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "これにより、モラルの低下/トロッコ問題でより打算的な判断をするようになる。",
@@ -4123,13 +4123,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/102121"
     },
     {
-      "key": 203,
+      "key": 209,
       "type": "Table",
       "question": "集中と散漫",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "集中と散漫を表す言葉。",
@@ -4145,7 +4145,7 @@
       "text": "集中と散漫"
     },
     {
-      "key": 202,
+      "key": 208,
       "type": "Table",
       "question": "散漫",
       "actions": [
@@ -4165,17 +4165,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 201,
+      "key": 207,
       "type": "Table",
       "question": "tiktok",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "15〜30秒単位のバースト状の情報に脳がトレーニングされ、1分以上の集中ができなくなっています。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "15〜30秒単位のバースト状の情報に脳がトレーニングされ、1分以上の集中ができなくなっています。",
@@ -4185,7 +4185,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 200,
+      "key": 206,
       "type": "Table",
       "question": "集中",
       "actions": [
@@ -4205,13 +4205,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 199,
+      "key": 205,
       "type": "Table",
       "question": "細菌のバランスが取れている",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "特定の腸内細菌※の多様性が高い人ほど、ストレス下での散漫化が発生しないことがわかりました。",
@@ -4219,7 +4219,7 @@
         },
         {
           "text": "※乳酸桿菌やビフィズス菌の一部、および特定の短鎖脂肪酸を産生する菌）",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "特定の腸内細菌※の多様性が高い人ほど、ストレス下での散漫化が発生しないことがわかりました。,※乳酸桿菌やビフィズス菌の一部、および特定の短鎖脂肪酸を産生する菌）",
@@ -4229,17 +4229,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 198,
+      "key": 204,
       "type": "Table",
       "question": "未完成で終わらせる",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "未完成タスクは、完了したタスクに比べて約2倍も詳細データが記憶に残っていた。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "未完成タスクは、完了したタスクに比べて約2倍も詳細データが記憶に残っていた。",
@@ -4249,17 +4249,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 197,
+      "key": 203,
       "type": "Table",
       "question": "無視する",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "人間が集中するとき、「過去に邪魔だった刺激を脳がアクティブに無視しに行く」という解釈がある。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "人間が集中するとき、「過去に邪魔だった刺激を脳がアクティブに無視しに行く」という解釈がある。",
@@ -4269,17 +4269,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 196,
+      "key": 202,
       "type": "Table",
       "question": "青い物体",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "青い光の刺激によってセロトニンが分泌され脳がしっかりと覚醒すると、脳の主導権が即決モードから、目の前のタスクに集中するための熟考モードへと切り替わります。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "青い光の刺激によってセロトニンが分泌され脳がしっかりと覚醒すると、脳の主導権が即決モードから、目の前のタスクに集中するための熟考モードへと切り替わります。",
@@ -4289,21 +4289,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 195,
+      "key": 201,
       "type": "Table",
       "question": "読みずらいフォント",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "読みにくいフォントの問題文は注意力が上がるという研究が注目されています。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "読みやすいフォントと読みにくいフォントでの三段論法に関する問題を提示したところ、読みづらい流暢でないフォントの方がより精密な推論をすることがわかりました。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "読みにくいフォントの問題文は注意力が上がるという研究が注目されています。,読みやすいフォントと読みにくいフォントでの三段論法に関する問題を提示したところ、読みづらい流暢でないフォントの方がより精密な推論をすることがわかりました。",
@@ -4313,17 +4313,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/21/133819"
     },
     {
-      "key": 194,
+      "key": 200,
       "type": "Table",
       "question": "緊張とリラックス",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "緊張とリラックス両方を表す言葉",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "緊張とリラックス両方を表す言葉",
@@ -4335,7 +4335,7 @@
       "text": "緊張とリラックス"
     },
     {
-      "key": 193,
+      "key": 199,
       "type": "Table",
       "question": "口渇",
       "actions": [
@@ -4357,17 +4357,17 @@
       "text": "口渇"
     },
     {
-      "key": 192,
+      "key": 198,
       "type": "Table",
       "question": "手汗",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "**「手をこする、ズボンで手汗を拭く」** などの動作から判別可能。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "**「手をこする、ズボンで手汗を拭く」** などの動作から判別可能。",
@@ -4379,13 +4379,13 @@
       "text": "手汗"
     },
     {
-      "key": 191,
+      "key": 197,
       "type": "Table",
       "question": "緊張状態",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "緊張している状態",
@@ -4399,17 +4399,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/20/134727"
     },
     {
-      "key": 190,
+      "key": 196,
       "type": "Table",
       "question": "二酸化炭素濃度",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "寒気を怠り室内の二酸化炭素濃度が上昇すると、脳内のpH=酸性度が微妙に変化し、扁桃体を刺激し緊張を引き起こしてしまう。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "寒気を怠り室内の二酸化炭素濃度が上昇すると、脳内のpH=酸性度が微妙に変化し、扁桃体を刺激し緊張を引き起こしてしまう。",
@@ -4419,7 +4419,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/20/134727"
     },
     {
-      "key": 189,
+      "key": 195,
       "type": "Table",
       "question": "角張ったフォント",
       "actions": [
@@ -4433,7 +4433,7 @@
         },
         {
           "text": "これは包丁などの物体だけでなく、フォントについても同様である。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "尖った形に無意識の緊張を抱き、丸い形に安心感を覚える傾向がある。,これは包丁などの物体だけでなく、フォントについても同様である。",
@@ -4443,7 +4443,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/20/134727"
     },
     {
-      "key": 188,
+      "key": 194,
       "type": "Table",
       "question": "嘘",
       "actions": [
@@ -4453,7 +4453,7 @@
         },
         {
           "text": "嘘をついている状態",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "嘘をついている状態",
@@ -4465,13 +4465,13 @@
       "text": "嘘"
     },
     {
-      "key": 187,
+      "key": 193,
       "type": "Table",
       "question": "リラックス状態",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "リラックスしている状態",
@@ -4485,17 +4485,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/20/134727"
     },
     {
-      "key": 186,
+      "key": 192,
       "type": "Table",
       "question": "灰色",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "灰色は粘土のような色で、包み込むような安心感を与えることがあります。この色は中立的で落ち着いた印象を与え、安定感を求める心理を反映していることがあります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "灰色は粘土のような色で、包み込むような安心感を与えることがあります。この色は中立的で落ち着いた印象を与え、安定感を求める心理を反映していることがあります。",
@@ -4505,17 +4505,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/20/134727"
     },
     {
-      "key": 185,
+      "key": 191,
       "type": "Table",
       "question": "自信",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "自信",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "自信",
@@ -4527,7 +4527,7 @@
       "text": "自信"
     },
     {
-      "key": 184,
+      "key": 190,
       "type": "Table",
       "question": "背筋を伸ばす・前傾または直立",
       "actions": [
@@ -4537,7 +4537,7 @@
         },
         {
           "text": "姿勢によって『自分の出した答えや意見をどれくらい信じるかという確信度』というフィルターの強度が無意識に調整される",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "姿勢によって『自分の出した答えや意見をどれくらい信じるかという確信度』というフィルターの強度が無意識に調整される",
@@ -4547,17 +4547,17 @@
       "page_url": null
     },
     {
-      "key": 183,
+      "key": 189,
       "type": "Table",
       "question": "期待と混乱",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "期待と混乱",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "期待と混乱",
@@ -4569,17 +4569,17 @@
       "text": "期待と混乱"
     },
     {
-      "key": 182,
+      "key": 188,
       "type": "Table",
       "question": "期待通り",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「思った通り」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "「思った通り」",
@@ -4589,7 +4589,7 @@
       "page_url": null
     },
     {
-      "key": 181,
+      "key": 187,
       "type": "Table",
       "question": "失敗",
       "actions": [
@@ -4611,7 +4611,7 @@
       "text": "失敗"
     },
     {
-      "key": 180,
+      "key": 186,
       "type": "Table",
       "question": "チョーキング(緊張)",
       "actions": [
@@ -4631,21 +4631,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/14/180257"
     },
     {
-      "key": 179,
+      "key": 185,
       "type": "Table",
       "question": "言語隠蔽効果(洗礼されたスキルの説明行為による崩壊)",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
-        },
-        {
-          "text": "洗礼された運動スキルが言語による説明・実況により崩壊することがあります。",
           "figure": "Caution"
         },
         {
+          "text": "洗礼された運動スキルが言語による説明・実況により崩壊することがあります。",
+          "figure": "BpmnTaskMessage"
+        },
+        {
           "text": "これらの影響は手続き記憶と宣言的記憶の競合により発生したと思われる。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "洗礼された運動スキルが言語による説明・実況により崩壊することがあります。,これらの影響は手続き記憶と宣言的記憶の競合により発生したと思われる。",
@@ -4655,7 +4655,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/14/180257"
     },
     {
-      "key": 178,
+      "key": 184,
       "type": "Table",
       "question": "無駄な神経の排除",
       "actions": [
@@ -4677,7 +4677,7 @@
       "text": "無駄な神経の排除"
     },
     {
-      "key": 177,
+      "key": 183,
       "type": "Table",
       "question": "自意識の過剰化",
       "actions": [
@@ -4697,17 +4697,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/14/180257"
     },
     {
-      "key": 176,
+      "key": 182,
       "type": "Table",
       "question": "オートメーション",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "生まれたての幼児の脳はまっさらなのではなく、最初からランダムで密結合な接続で満たされていた。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "感情を表に出せないはずの新生児が笑う「新生児微笑」はレム睡眠中や覚醒時のランダムな神経発火による笑顔",
@@ -4721,13 +4721,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/14/180257"
     },
     {
-      "key": 175,
+      "key": 181,
       "type": "Table",
       "question": "育成",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "育成",
@@ -4743,13 +4743,13 @@
       "text": "育成"
     },
     {
-      "key": 174,
+      "key": 180,
       "type": "Table",
       "question": "少しづつ上手くなるのではなく",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「少しずつ上手くなる」のではなく、「コツを掴むと一気に上手くなる」。",
@@ -4757,15 +4757,15 @@
         },
         {
           "text": "練習はそのきっかけを掴むためのもの。",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "100回よりも1000回練習した方が、そのチャンスは増える。",
           "figure": "Caution"
         },
         {
-          "text": "努力は、ひらめきを得るためにするんです。",
+          "text": "100回よりも1000回練習した方が、そのチャンスは増える。",
           "figure": "BpmnTaskMessage"
+        },
+        {
+          "text": "努力は、ひらめきを得るためにするんです。",
+          "figure": "Hammer"
         },
         {
           "text": "by 菊池雄星",
@@ -4779,17 +4779,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/22/160958"
     },
     {
-      "key": 173,
+      "key": 179,
       "type": "Table",
       "question": "読解力",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "読解力にはテキストに書かれた情報を理解するだけでなく、「解釈」し、「熟考」することを含む。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "読解力にはテキストに書かれた情報を理解するだけでなく、「解釈」し、「熟考」することを含む。",
@@ -4801,17 +4801,17 @@
       "text": "読解力"
     },
     {
-      "key": 172,
+      "key": 178,
       "type": "Table",
       "question": "読解力の保有",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "読解力を動かす際、次に何が来るかを常に予測し続ける能動的なシミュレーターとして働いています。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "読解力を動かす際、次に何が来るかを常に予測し続ける能動的なシミュレーターとして働いています。",
@@ -4821,17 +4821,17 @@
       "page_url": null
     },
     {
-      "key": 171,
+      "key": 177,
       "type": "Table",
       "question": "幅広い知識",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "その分野に対する背景知識が重要であり、関連する知識をたくさん持っている人が有利となる。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "その分野に対する背景知識が重要であり、関連する知識をたくさん持っている人が有利となる。",
@@ -4841,17 +4841,17 @@
       "page_url": null
     },
     {
-      "key": 170,
+      "key": 176,
       "type": "Table",
       "question": "読解力の低下",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "",
@@ -4861,7 +4861,7 @@
       "page_url": null
     },
     {
-      "key": 169,
+      "key": 175,
       "type": "Table",
       "question": "表情筋を使わない",
       "actions": [
@@ -4871,11 +4871,11 @@
         },
         {
           "text": "ボトックス注射によって眉間の筋肉が麻痺すると、怒りや悲しみの感情を含む文章の理解に時間がかかるようになるという研究があります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "「怒りや悲しみの感情」は顔の表情筋と密接に関連しているため、その筋肉が麻痺することで処理が遅くなりました。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "一方「喜び」のような感情は、この実験でボトックスを投与した筋肉（眉間）の動きとは関連が薄く、この理論を裏付ける証拠になっています。",
@@ -4889,7 +4889,7 @@
       "page_url": null
     },
     {
-      "key": 168,
+      "key": 174,
       "type": "Table",
       "question": "マジカルナンバー765",
       "actions": [
@@ -4899,11 +4899,11 @@
         },
         {
           "text": "ワーキングメモリに格納可能な情報量",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "数字なら約7個、文字なら約6個、単語なら約5個",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "ワーキングメモリに格納可能な情報量,数字なら約7個、文字なら約6個、単語なら約5個",
@@ -4915,21 +4915,21 @@
       "text": "マジカルナンバー765"
     },
     {
-      "key": 167,
+      "key": 173,
       "type": "Table",
       "question": "ワーキングメモリ",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "IQの構成要素の一つ",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "このメモリは感覚器官ごとに存在する。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "IQの構成要素の一つ,このメモリは感覚器官ごとに存在する。",
@@ -4939,7 +4939,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/201155"
     },
     {
-      "key": 166,
+      "key": 172,
       "type": "Table",
       "question": "机上のスマートフォン",
       "actions": [
@@ -4949,11 +4949,11 @@
         },
         {
           "text": "スマートフォンを机の上に置くだけで、ワーキングメモリが下がるという研究がある。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ただし、効果量は「うっかりミス」や「思考のキレのわずかな鈍り」という程度。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "スマートフォンを机の上に置くだけで、ワーキングメモリが下がるという研究がある。,ただし、効果量は「うっかりミス」や「思考のキレのわずかな鈍り」という程度。",
@@ -4963,17 +4963,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/201155"
     },
     {
-      "key": 165,
+      "key": 171,
       "type": "Table",
       "question": "脱水",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "運動を始める前の水分不足（不十分な水分補給状態）は、運動中の初期の体温上昇には大きな差を生まないものの、「実行制御機能（不必要な情報の抑制や迅速な意思決定など）」を特異的に低下させることが明らかになりました。そのため、迅速な判断や注意力が必要なトレーニングや競技の前には、計画的な水分補給が極めて重要です。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "運動を始める前の水分不足（不十分な水分補給状態）は、運動中の初期の体温上昇には大きな差を生まないものの、「実行制御機能（不必要な情報の抑制や迅速な意思決定など）」を特異的に低下させることが明らかになりました。そのため、迅速な判断や注意力が必要なトレーニングや競技の前には、計画的な水分補給が極めて重要です。",
@@ -4983,21 +4983,21 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/201155"
     },
     {
-      "key": 164,
+      "key": 170,
       "type": "Table",
       "question": "数学に特化されたワーキングメモリ",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "ワーキングメモリには個人差/遺伝的な考え方があるが、特定の分野でのみ優れたワーキングメモリを発揮するパターンもある。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "短時間で80桁の数字をおぼえられる記憶のエキスパートであっても、数字以外についての記憶成績では普通の人と変わらないといった例がある。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "ワーキングメモリには個人差/遺伝的な考え方があるが、特定の分野でのみ優れたワーキングメモリを発揮するパターンもある。,短時間で80桁の数字をおぼえられる記憶のエキスパートであっても、数字以外についての記憶成績では普通の人と変わらないといった例がある。",
@@ -5007,7 +5007,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/201155"
     },
     {
-      "key": 163,
+      "key": 169,
       "type": "Table",
       "question": "後ろ向きに歩く行動",
       "actions": [
@@ -5017,11 +5017,11 @@
         },
         {
           "text": "多くの研究によると、後ろ向きに歩いたり、後ろ向きに歩いていると想像したり、後ろ向きに歩いているビデオを見たりした人は、後ろ向きに歩くことはあなたの短期記憶を後押しするのに役立つかもしれないと示唆した。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "虚偽の記憶を誘発することなく、できるだけ正確な情報を入手できる。後ろ向きに歩いた人は、年齢やその他の要因に関係なく、より多くの目撃に関する質問に正しく答える可能性が非常に高いことを発見した。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "多くの研究によると、後ろ向きに歩いたり、後ろ向きに歩いていると想像したり、後ろ向きに歩いているビデオを見たりした人は、後ろ向きに歩くことはあなたの短期記憶を後押しするのに役立つかもしれないと示唆した。,虚偽の記憶を誘発することなく、できるだけ正確な情報を入手できる。後ろ向きに歩いた人は、年齢やその他の要因に関係なく、より多くの目撃に関する質問に正しく答える可能性が非常に高いことを発見した。",
@@ -5031,7 +5031,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2025/04/08/201155"
     },
     {
-      "key": 162,
+      "key": 168,
       "type": "Table",
       "question": "記憶力向上",
       "actions": [
@@ -5041,7 +5041,7 @@
         },
         {
           "text": "記憶力が上がること",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "記憶力が上がること",
@@ -5053,7 +5053,7 @@
       "text": "記憶力向上"
     },
     {
-      "key": 161,
+      "key": 167,
       "type": "Table",
       "question": "絵を描く",
       "actions": [
@@ -5063,7 +5063,7 @@
         },
         {
           "text": "どれだけ実験の条件を変えたり（時間制限を厳しくしたり、被験者のグループ分けを変えたり）、文字を書くこと以外の記憶術を試させたりしてもなお描くことの優位性が揺るがなかった。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "どれだけ実験の条件を変えたり（時間制限を厳しくしたり、被験者のグループ分けを変えたり）、文字を書くこと以外の記憶術を試させたりしてもなお描くことの優位性が揺るがなかった。",
@@ -5073,7 +5073,7 @@
       "page_url": null
     },
     {
-      "key": 160,
+      "key": 166,
       "type": "Table",
       "question": "紙媒体への記録",
       "actions": [
@@ -5097,7 +5097,7 @@
       "page_url": null
     },
     {
-      "key": 159,
+      "key": 165,
       "type": "Table",
       "question": "アルツハイマーの可能性",
       "actions": [
@@ -5107,7 +5107,7 @@
         },
         {
           "text": "言語流暢性課題はアルツハイマーの識別の観点でも有用である。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "「AD の特徴は，エピソード記憶の障害であるが，言語面においても障害が認められる」",
@@ -5123,13 +5123,13 @@
       "text": "アルツハイマーの可能性"
     },
     {
-      "key": 158,
+      "key": 164,
       "type": "Table",
       "question": "整理能力",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "言語流暢性の障害は、知的能力や記憶の障害を反映している場合もあるが、同時に、自分の考えを整理する能力を反映している場合もある。",
@@ -5145,7 +5145,7 @@
       "text": "整理能力"
     },
     {
-      "key": 157,
+      "key": 163,
       "type": "Table",
       "question": "言語的流暢性の低さ",
       "actions": [
@@ -5155,7 +5155,7 @@
         },
         {
           "text": "言葉が咄嗟に出てこない「失語症」の状態とジェスチャーの仕様についての関連が見られた。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "言葉が咄嗟に出てこない「失語症」の状態とジェスチャーの仕様についての関連が見られた。",
@@ -5165,13 +5165,95 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/15/092420"
     },
     {
-      "key": 156,
+      "key": 162,
+      "type": "Table",
+      "question": "言語的流暢性の高さ",
+      "actions": [
+        {
+          "text": "",
+          "figure": "BpmnTaskMessage"
+        },
+        {
+          "text": "言葉が咄嗟に出てこない「失語症」の状態とジェスチャーの仕様についての関連が見られた。",
+          "figure": "Caution"
+        }
+      ],
+      "example": "言葉が咄嗟に出てこない「失語症」の状態とジェスチャーの仕様についての関連が見られた。",
+      "effect": "終了",
+      "method": "",
+      "file_path": "/blog/blog/a1900ability/6000word_fluency.md",
+      "page_url": "https://psy.hatenadiary.com/entry/2026/07/15/092420",
+      "category": "Terminal",
+      "text": "言語的流暢性の高さ"
+    },
+    {
+      "key": 161,
+      "type": "Table",
+      "question": "朝",
+      "actions": [
+        {
+          "text": "",
+          "figure": "Caution"
+        },
+        {
+          "text": "「果物と家具の名前を交互に言う」といった、頭を切り替えながら言葉を思い出す高度なタスク（交互言語的流暢性課題）を行うと、朝型・夜型に関わらず、午後よりも「午前中」の方がパフォーマンスが高くなる傾向があります。",
+          "figure": "Hammer"
+        }
+      ],
+      "example": "「果物と家具の名前を交互に言う」といった、頭を切り替えながら言葉を思い出す高度なタスク（交互言語的流暢性課題）を行うと、朝型・夜型に関わらず、午後よりも「午前中」の方がパフォーマンスが高くなる傾向があります。",
+      "effect": "言語的流暢性の高さ",
+      "method": "",
+      "file_path": "/blog/blog/a1900ability/6000word_fluency.md",
+      "page_url": "https://psy.hatenadiary.com/entry/2026/07/15/092420"
+    },
+    {
+      "key": 160,
+      "type": "Table",
+      "question": "珍しい語彙が出てくる",
+      "actions": [
+        {
+          "text": "",
+          "figure": "BpmnTaskMessage"
+        },
+        {
+          "text": "高強度運動下の被験者は、「文字数が少なく、使用頻度が低い単語」を選択的に出力する。さらにカテゴリー間を跳躍するトピックスイッチの頻度が著しく増大した。",
+          "figure": "BpmnTaskMessage"
+        }
+      ],
+      "example": "高強度運動下の被験者は、「文字数が少なく、使用頻度が低い単語」を選択的に出力する。さらにカテゴリー間を跳躍するトピックスイッチの頻度が著しく増大した。",
+      "effect": "言語的流暢性の高さ",
+      "method": "",
+      "file_path": "/blog/blog/a1900ability/6000word_fluency.md",
+      "page_url": "https://psy.hatenadiary.com/entry/2026/07/15/092420"
+    },
+    {
+      "key": 159,
+      "type": "Table",
+      "question": "激しい運動",
+      "actions": [
+        {
+          "text": "",
+          "figure": "Caution"
+        },
+        {
+          "text": "30分間の高強度自転車運動を負荷した状態",
+          "figure": "Caution"
+        }
+      ],
+      "example": "30分間の高強度自転車運動を負荷した状態",
+      "effect": "珍しい語彙が出てくる",
+      "method": "",
+      "file_path": "/blog/blog/a1900ability/6000word_fluency.md",
+      "page_url": "https://psy.hatenadiary.com/entry/2026/07/15/092420"
+    },
+    {
+      "key": 158,
       "type": "Table",
       "question": "ジェスチャー",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "言葉が咄嗟に出てこない「失語症」の状態とジェスチャーの仕様についての関連が見られた。",
@@ -5185,41 +5267,41 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/15/092420"
     },
     {
-      "key": 155,
+      "key": 157,
       "type": "Table",
       "question": "言語的流暢性",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "頭の中にある言葉をすばやく思い出し、たくさん表現する能力のこと。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "頭の中にある言葉をすばやく思い出し、たくさん表現する能力のこと。",
-      "effect": "言語的流暢性の低さ",
+      "effect": "言語的流暢性の低さ,言語的流暢性の高さ",
       "method": "",
       "file_path": "/blog/blog/a1900ability/6000word_fluency.md",
       "page_url": "https://psy.hatenadiary.com/entry/2026/07/15/092420"
     },
     {
-      "key": 154,
+      "key": 156,
       "type": "Table",
       "question": "視線が逸れる",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "> 参加者は、非母語（本研究の参加者の大多数にとっての第二言語）に通訳する際に、より視線をそらす傾向があった。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "これは、対話における第二言語への通訳は、第一言語への通訳よりも認知努力を要する可能性があることを示唆している。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "> 参加者は、非母語（本研究の参加者の大多数にとっての第二言語）に通訳する際に、より視線をそらす傾向があった。,これは、対話における第二言語への通訳は、第一言語への通訳よりも認知努力を要する可能性があることを示唆している。",
@@ -5231,17 +5313,17 @@
       "text": "視線が逸れる"
     },
     {
-      "key": 153,
+      "key": 155,
       "type": "Table",
       "question": "翻訳高難易度",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "言語を翻訳する際の視線の動きを研究。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "言語を翻訳する際の視線の動きを研究。",
@@ -5251,17 +5333,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/094831"
     },
     {
-      "key": 152,
+      "key": 154,
       "type": "Table",
       "question": "語学力向上",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "言語習得能力",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "言語習得能力",
@@ -5273,17 +5355,17 @@
       "text": "語学力向上"
     },
     {
-      "key": 151,
+      "key": 153,
       "type": "Table",
       "question": "アルコールin語学力",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "アルコールを摂取した参加者は、アルコールを摂取しなかった参加者と比較して、オランダ語の能力、特に発音について、他者からの評価が有意に高かった。しかし、アルコールはオランダ語能力の自己評価には影響を与えなかった。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "アルコールを摂取した参加者は、アルコールを摂取しなかった参加者と比較して、オランダ語の能力、特に発音について、他者からの評価が有意に高かった。しかし、アルコールはオランダ語能力の自己評価には影響を与えなかった。",
@@ -5293,13 +5375,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/094831"
     },
     {
-      "key": 150,
+      "key": 152,
       "type": "Table",
       "question": "語学能力",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "語学能力",
@@ -5313,17 +5395,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/09/02/094831"
     },
     {
-      "key": 149,
+      "key": 151,
       "type": "Table",
       "question": "定石の罠",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "チェスを指しているプレーヤーが定石にとらわれ，よりよい指し手の手がかりとなるマス目が目に入らなくなっていることが，目の動きを追跡する近年の研究によって示された。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "チェスを指しているプレーヤーが定石にとらわれ，よりよい指し手の手がかりとなるマス目が目に入らなくなっていることが，目の動きを追跡する近年の研究によって示された。",
@@ -5335,21 +5417,21 @@
       "text": "定石の罠"
     },
     {
-      "key": 148,
+      "key": 150,
       "type": "Table",
       "question": "認知的柔軟性",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
-        },
-        {
-          "text": "ウィスコンシン・カード分類課題が有名",
           "figure": "Hammer"
         },
         {
+          "text": "ウィスコンシン・カード分類課題が有名",
+          "figure": "Caution"
+        },
+        {
           "text": "法則性を見出す認知力とルールの変更に対する対応力が必要。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "ウィスコンシン・カード分類課題が有名,法則性を見出す認知力とルールの変更に対する対応力が必要。",
@@ -5361,17 +5443,17 @@
       "text": "認知的柔軟性"
     },
     {
-      "key": 147,
+      "key": 149,
       "type": "Table",
       "question": "認知的柔軟性の欠如",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "重要な局面での脳の硬直が起こる。そもそも判断ができない。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "重要な局面での脳の硬直が起こる。そもそも判断ができない。",
@@ -5381,13 +5463,13 @@
       "page_url": null
     },
     {
-      "key": 146,
+      "key": 148,
       "type": "Table",
       "question": "老化",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "高齢者は認知の柔軟性に欠陥を経験することが多い。",
@@ -5401,17 +5483,17 @@
       "page_url": null
     },
     {
-      "key": 145,
+      "key": 147,
       "type": "Table",
       "question": "陰謀論への傾倒",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "陰謀論の傾向がある人は、知覚的意思決定プロセスに以下のような「硬直性（柔軟性のなさ）」が見られます。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "陰謀論の傾向がある人は、知覚的意思決定プロセスに以下のような「硬直性（柔軟性のなさ）」が見られます。",
@@ -5421,13 +5503,13 @@
       "page_url": null
     },
     {
-      "key": 144,
+      "key": 146,
       "type": "Table",
       "question": "自我の保護",
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「自分自身や自分のグループを重要だと認識することで、脆弱な自我を守ること」",
@@ -5435,7 +5517,7 @@
         },
         {
           "text": "「自分の信念や行動を正当化」",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "「自分自身や自分のグループを重要だと認識することで、脆弱な自我を守ること」,「自分の信念や行動を正当化」",
@@ -5445,17 +5527,17 @@
       "page_url": null
     },
     {
-      "key": 143,
+      "key": 145,
       "type": "Table",
       "question": "メタ認知",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -5467,17 +5549,17 @@
       "text": "メタ認知"
     },
     {
-      "key": 142,
+      "key": 144,
       "type": "Table",
       "question": "メタ認知の担保",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "メタ認知ができている状態",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "メタ認知ができている状態",
@@ -5487,17 +5569,17 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/04/120117"
     },
     {
-      "key": 141,
+      "key": 143,
       "type": "Table",
       "question": "メタ認知の欠如",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "メタ認知の能力の欠如",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "メタ認知の能力の欠如",
@@ -5507,25 +5589,25 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/04/120117"
     },
     {
-      "key": 140,
+      "key": 142,
       "type": "Table",
       "question": "「完全に理解した」",
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "能力の低い人が自身のスキルや知識を正しく評価できず、実際よりも過大評価してしまう認知バイアス。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "自己評価が客観的評価よりも高い場合",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "馬鹿の山",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "絶望の谷",
@@ -5537,7 +5619,7 @@
         },
         {
           "text": "継続の大地",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "の4つを通じてスキルを習得する。",
@@ -5545,7 +5627,7 @@
         },
         {
           "text": "ダニングクルーガー効果",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "能力の低い人が自身のスキルや知識を正しく評価できず、実際よりも過大評価してしまう認知バイアス。,自己評価が客観的評価よりも高い場合,馬鹿の山,絶望の谷,啓蒙の坂,継続の大地,の4つを通じてスキルを習得する。,ダニングクルーガー効果",
@@ -5555,13 +5637,13 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/04/120117"
     },
     {
-      "key": 139,
+      "key": 141,
       "type": "Table",
       "question": "一方的な情報を浴びる行為",
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "説明するという行為により、理解度が高まるという研究",
@@ -5575,7 +5657,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/04/120117"
     },
     {
-      "key": 138,
+      "key": 140,
       "type": "Table",
       "question": "説明しろと指示を受ける",
       "actions": [
@@ -5585,7 +5667,7 @@
         },
         {
           "text": "他者に教えるように指示されるだけで、学習効率は上がる。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "他者に教えるように指示されるだけで、学習効率は上がる。",
@@ -5595,7 +5677,7 @@
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/04/120117"
     },
     {
-      "key": 137,
+      "key": 139,
       "type": "Table",
       "question": "説明する",
       "actions": [
@@ -5613,6 +5695,56 @@
       "method": "",
       "file_path": "/blog/blog/a1900ability/0000meta_cognitive.md",
       "page_url": "https://psy.hatenadiary.com/entry/2026/06/04/120117"
+    },
+    {
+      "key": 138,
+      "type": "Table",
+      "question": "我慢",
+      "actions": [
+        {
+          "text": "",
+          "figure": "Hammer"
+        },
+        {
+          "text": "長期的な目標を達成するために、短期的な要求をスルーできること。",
+          "figure": "BpmnTaskMessage"
+        }
+      ],
+      "example": "長期的な目標を達成するために、短期的な要求をスルーできること。",
+      "effect": "終了",
+      "method": "",
+      "file_path": "/blog/blog/a1900ability/patience.md",
+      "page_url": null,
+      "category": "Terminal",
+      "text": "我慢"
+    },
+    {
+      "key": 137,
+      "type": "Table",
+      "question": "実行意図",
+      "actions": [
+        {
+          "text": "",
+          "figure": "Hammer"
+        },
+        {
+          "text": "「もし〜（誘惑）になったら、〜（目標行動）をする」という具体的なルールを意識的にプログラミング（Mental Compilation）しておくと、",
+          "figure": "Hammer"
+        },
+        {
+          "text": "「誘惑」を思い浮かべた時でも、「目標」を思い浮かべた時と同等にパフォーマンスが向上する。",
+          "figure": "BpmnTaskMessage"
+        },
+        {
+          "text": "これらの実行意図の作成は投票率の向上、インフルエンザ予防接種の割合上昇にも使えるが、それらの上昇値は4%である。",
+          "figure": "Hammer"
+        }
+      ],
+      "example": "「もし〜（誘惑）になったら、〜（目標行動）をする」という具体的なルールを意識的にプログラミング（Mental Compilation）しておくと、,「誘惑」を思い浮かべた時でも、「目標」を思い浮かべた時と同等にパフォーマンスが向上する。,これらの実行意図の作成は投票率の向上、インフルエンザ予防接種の割合上昇にも使えるが、それらの上昇値は4%である。",
+      "effect": "我慢",
+      "method": "",
+      "file_path": "/blog/blog/a1900ability/patience.md",
+      "page_url": null
     },
     {
       "key": 136,
@@ -5647,7 +5779,7 @@
         },
         {
           "text": "計算能力が高いほど禁煙する可能性が高くなることが知られています。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "計算能力が高いほど禁煙する可能性が高くなることが知られています。",
@@ -5665,11 +5797,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "数学的リテラシーが高いと生涯賃金が高いという研究がある。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "数学的リテラシーが高いと生涯賃金が高いという研究がある。",
@@ -5691,7 +5823,7 @@
         },
         {
           "text": "数学力の高さ",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "数学力の高さ",
@@ -5709,11 +5841,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "数学的リテラシーが貧富の差を縮める。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "数学的リテラシーが貧富の差を縮める。",
@@ -5733,7 +5865,7 @@
         },
         {
           "text": "最も重要な発見は、「数学と音楽を統合して教えた場合」に、非常に大きな効果が見られた。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "弦楽器の弦の長さを用いて、音の高さと物理的な長さの「比率」を学ぶ。",
@@ -5741,7 +5873,7 @@
         },
         {
           "text": "拍数を分数を使って表すなど。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "楽器の演奏や音楽を習うだけでも数学能力上昇一定の影響がある。",
@@ -5761,7 +5893,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "太ると睡眠の質が落ち、睡眠の質が落ちるとさらに太る",
@@ -5781,7 +5913,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "**炭水化物**を摂取する",
@@ -5789,7 +5921,7 @@
         },
         {
           "text": "血糖値が上昇する",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "膵臓からホルモンの一種である**インスリン**(Insulin)が分泌される。",
@@ -5805,7 +5937,7 @@
         },
         {
           "text": "インスリンの分泌量が多すぎると、**急に空腹を感じたり、急激な眠気**が襲ってくる。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "**炭水化物**を摂取する,血糖値が上昇する,膵臓からホルモンの一種である**インスリン**(Insulin)が分泌される。,同時に、血中に溢れたブドウ糖をかき集めて筋肉や肝臓内のグリコーゲン（ブドウ糖の貯蔵庫）に蓄える。,グリコーゲンにも貯蔵しきれないぐらいに血中のブドウ糖濃度が上昇すると、インスリンはそれを全部中性脂肪に合成して脂肪細胞内部に閉じ込める。(脂肪細胞は、細胞質内に脂肪滴を有する細胞のことである。),インスリンの分泌量が多すぎると、**急に空腹を感じたり、急激な眠気**が襲ってくる。",
@@ -5825,7 +5957,7 @@
         },
         {
           "text": "遺伝的な太りやすさと明確にするために、後天的に肥満になった例を出す。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "遺伝的な太りやすさと明確にするために、後天的に肥満になった例を出す。",
@@ -5841,11 +5973,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "夜、テレビをつけっぱなしにしたり、明かりをつけたまま寝る女性は、真っ暗にして寝る女性に比べて、太るリスクが高くなる。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "夜、テレビをつけっぱなしにしたり、明かりをつけたまま寝る女性は、真っ暗にして寝る女性に比べて、太るリスクが高くなる。",
@@ -5861,11 +5993,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "自分の親しい友人が肥満になった場合、自分が肥満になる確率は57%も上昇する。ちなみに、配偶者が肥満になった場合の確率上昇（37%）よりも、友人の影響の方が大きい。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "自分の親しい友人が肥満になった場合、自分が肥満になる確率は57%も上昇する。ちなみに、配偶者が肥満になった場合の確率上昇（37%）よりも、友人の影響の方が大きい。",
@@ -5885,11 +6017,11 @@
         },
         {
           "text": "低所得な女性の肥満率は高い。根拠となるデータはアメリカの白人女性に見られる統計データであったが、日本の低所得の女性にも当てはまる。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "そして、この傾向は男性には見られない傾向だった。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "低所得な女性の肥満率は高い。根拠となるデータはアメリカの白人女性に見られる統計データであったが、日本の低所得の女性にも当てはまる。,そして、この傾向は男性には見られない傾向だった。",
@@ -5905,11 +6037,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "太りやすさは遺伝する。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "太りやすさは遺伝が8割であるため、個人でどうこうできる問題ではない。",
@@ -5929,7 +6061,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "歯並びの満足度と年収には、直接の因果関係は確認できないが、相関がある。",
@@ -5941,7 +6073,7 @@
         },
         {
           "text": "その差は107万円",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "歯並びの満足度と年収には、直接の因果関係は確認できないが、相関がある。,あくまでも歯並びの悪さの自己認知が低所得に結びつくことが重要,その差は107万円",
@@ -5963,7 +6095,7 @@
         },
         {
           "text": "a",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "a",
@@ -5983,7 +6115,7 @@
         },
         {
           "text": "大規模な経済危機(リーマンショック/コロナ)などで、「歯が割れた」「詰め物が壊れた」と駆け込む患者が急増",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "大規模な経済危機(リーマンショック/コロナ)などで、「歯が割れた」「詰め物が壊れた」と駆け込む患者が急増",
@@ -5999,15 +6131,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ビタミンD欠乏は「日光を浴びない」・「主に鮭やサンマ、イワシなどの「脂の乗った魚類」を食べない」などにより発生する。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "あるいは、極端な菜食主義二よりビタミンDが欠乏する可能性もある。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "ビタミンD欠乏は「日光を浴びない」・「主に鮭やサンマ、イワシなどの「脂の乗った魚類」を食べない」などにより発生する。,あるいは、極端な菜食主義二よりビタミンDが欠乏する可能性もある。",
@@ -6027,7 +6159,7 @@
         },
         {
           "text": "この自己生成ストレスは 完璧主義/先延ばし/破滅的思考 等 と言い換えても良いが、 論文内においては先延ばしによるストレスと歯軋りの相関があるとのことでした。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "この自己生成ストレスは 完璧主義/先延ばし/破滅的思考 等 と言い換えても良いが、 論文内においては先延ばしによるストレスと歯軋りの相関があるとのことでした。",
@@ -6043,7 +6175,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "人類学、生物学、歯学、社会学、社会心理の文献をもとにしたときに、",
@@ -6051,7 +6183,7 @@
         },
         {
           "text": "まっすぐで白い歯と階級意識にイメージの結びつきがある。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "人類学、生物学、歯学、社会学、社会心理の文献をもとにしたときに、,まっすぐで白い歯と階級意識にイメージの結びつきがある。",
@@ -6073,7 +6205,7 @@
         },
         {
           "text": "健康的な歯",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "健康的な歯",
@@ -6089,15 +6221,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "フロイトやユングの系譜を引く精神分析では、歯は噛み砕く＝攻撃性、支配、生命力を表すため、",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "「自分の能力が通用しない」「コントロール権を失っている」「若さや性的魅力」と考えている可能性があります。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ただし、これらを明確に調べ上げた論文はありません。",
@@ -6117,7 +6249,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "a",
@@ -6137,11 +6269,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "赤い服が女性の視点で最も魅力が高いと判断された",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "赤い服が女性の視点で最も魅力が高いと判断された",
@@ -6159,7 +6291,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "配偶者を取られないかを警戒する心理。",
@@ -6181,7 +6313,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "赤い服は異性を魅了するロマンチック・レッド効果は有名ですが、",
@@ -6205,7 +6337,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "緑と灰色の場合は身体の魅力が最も低く、体型が過大評価されたことが明らかになった。",
@@ -6231,7 +6363,7 @@
         },
         {
           "text": "最も魅力のない服",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "最も魅力のない服",
@@ -6247,11 +6379,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "最も魅力のない服",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "最も魅力のない服",
@@ -6267,7 +6399,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "黒や暗い色の服は着痩せして見えるという俗説を調べた研究。",
@@ -6293,7 +6425,7 @@
         },
         {
           "text": "また、「選手自身の攻撃性の増加」とあるように、黒いユニフォームを纏うことで攻撃性が増加する。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "また、「選手自身の攻撃性の増加」とあるように、黒いユニフォームを纏うことで攻撃性が増加する。",
@@ -6311,11 +6443,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "「黒いユニフォーム」を採用しているチームは、他の色のチームに比べて審判からペナルティ（反則）を課される回数が統計的に有意に多い。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "「黒いユニフォーム」を採用しているチームは、他の色のチームに比べて審判からペナルティ（反則）を課される回数が統計的に有意に多い。",
@@ -6333,11 +6465,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "黒い色の服を着た時の効果",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "黒い色の服を着た時の効果",
@@ -6353,15 +6485,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "具体的な実装方法ではなく「ふわっとした話」が増える。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "現場の目線は減る。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "具体的な実装方法ではなく「ふわっとした話」が増える。,現場の目線は減る。",
@@ -6379,7 +6511,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "2つの類似した画像の違いを見つける持続的注意テストでの成績。",
@@ -6405,7 +6537,7 @@
         },
         {
           "text": "白衣の着用によって、注意力が増強されるという効果が発生する。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "ただしこれは、「画家の白衣のものだ」と告げられた場合は効果が出ない。",
@@ -6449,7 +6581,7 @@
         },
         {
           "text": "フォーマルな服装",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "フォーマルな服装",
@@ -6485,11 +6617,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "女性でも薬指が長いほど運動能力が高く攻撃的でレズビアンの率も高い",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "女性でも薬指が長いほど運動能力が高く攻撃的でレズビアンの率も高い",
@@ -6507,11 +6639,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "女性が女性を恋愛対象として見ること",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "女性が女性を恋愛対象として見ること",
@@ -6529,7 +6661,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "攻撃的な性格。リスクテイカーとほぼ同義",
@@ -6551,7 +6683,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "男性ホルモンの投与を行うことで、認知的共感力(EQ)を低下させるという報告があります。",
@@ -6593,7 +6725,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "長い薬指の持ち主ほど男性的で、資産的にも成功家が多く、そうでない人に比べて何倍もの所得を計上していると言います。",
@@ -6619,11 +6751,11 @@
         },
         {
           "text": "薬指と男性ホルモンは明確に相関があり、特に胎生期のテストテスロン量と相関があるという報告があります。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "この「薬指の長さ」は人差し指との比較であり、「人差し指が長いほど女性ホルモンが多い」という研究もあります。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "薬指と男性ホルモンは明確に相関があり、特に胎生期のテストテスロン量と相関があるという報告があります。,この「薬指の長さ」は人差し指との比較であり、「人差し指が長いほど女性ホルモンが多い」という研究もあります。",
@@ -6639,15 +6771,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「近距離空間」は個々人の主観によって変わるが、",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "腕の長さと主観的近距離空間の範囲は比例することがわかった。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「近距離空間」は個々人の主観によって変わるが、,腕の長さと主観的近距離空間の範囲は比例することがわかった。",
@@ -6665,11 +6797,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "水泳やバスケットボール、格闘技などのトップアスリートには「身長に対して腕が極端に長い人」が多く見られます。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "これは後天的に腕が伸びたわけではなく、「腕が長い人がその競技で有利なため、結果として高レベルな層に生き残る」という相関です。",
@@ -6695,11 +6827,11 @@
         },
         {
           "text": "テコの原理により物理的なテコが長くなるため筋肉の付着部から作用点までの距離が遠くなります。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "これにより、同じ重量のバーベルを持ち上げる場合、腕が長い人の方がより大きな筋力を必要とします。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "テコの原理により物理的なテコが長くなるため筋肉の付着部から作用点までの距離が遠くなります。,これにより、同じ重量のバーベルを持ち上げる場合、腕が長い人の方がより大きな筋力を必要とします。",
@@ -6717,11 +6849,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "身体的な特徴",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "身体的な特徴",
@@ -6737,11 +6869,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "身長の高さと能力の過信は存在するが「立ち位置の高さ」と能力の過信も相関がある。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "身長の高さと能力の過信は存在するが「立ち位置の高さ」と能力の過信も相関がある。",
@@ -6781,11 +6913,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "a",
@@ -6825,7 +6957,7 @@
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -6841,7 +6973,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "意見の一致率が上がるにつれて、被験者が推測した相手の身長は高く見えることがわかっている。",
@@ -6861,15 +6993,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "**口をすくめるのは自分の言葉に対する自信のなさ、または無力感**を示している。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "メッセージは **「私には関係ありません」「わかりません」** です。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "**口をすくめるのは自分の言葉に対する自信のなさ、または無力感**を示している。,メッセージは **「私には関係ありません」「わかりません」** です。",
@@ -6889,7 +7021,7 @@
         },
         {
           "text": "ロバート・デ・ニーロがそのポーズを取ることで有名",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "ロバート・デ・ニーロがそのポーズを取ることで有名",
@@ -6907,11 +7039,11 @@
       "actions": [
         {
           "text": "人間は、口を開くと、内臓を見せることになります。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "相手が口を開けている時は、無防備になっている状態です。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "相手が口を開けている時は、無防備になっている状態です。",
@@ -6927,11 +7059,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "急にめちゃくちゃ強い手ができて、テンパっている可能性",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "急にめちゃくちゃ強い手ができて、テンパっている可能性",
@@ -6951,7 +7083,7 @@
         },
         {
           "text": "慣れないブラフをしようとしてフリーズしている",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "慣れないブラフをしようとしてフリーズしている",
@@ -6971,7 +7103,7 @@
         },
         {
           "text": "13人の参加者のうち10人はまばたきの回数が減りましたが、正直に話すとまばたきの頻度が通常に戻りました",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "13人の参加者のうち10人はまばたきの回数が減りましたが、正直に話すとまばたきの頻度が通常に戻りました",
@@ -6987,11 +7119,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "6~10の瞬きはリラックスされたフラットな状態",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "6~10の瞬きはリラックスされたフラットな状態",
@@ -7007,11 +7139,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "プラシーボ効果とは偽薬を処方しても、薬だと信じ込む事によって何らかの改善がみられることを言う",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "プラシーボ効果は痛みや下痢、不眠に対して特に効果があるとされている。",
@@ -7037,7 +7169,7 @@
         },
         {
           "text": "価格が高いほど、その薬品が持つ潜在的なプラシーボ効果は強くなる。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "価格が高いほど、その薬品が持つ潜在的なプラシーボ効果は強くなる。",
@@ -7053,11 +7185,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "オピオイドシステムが活性化された状態とは エンドルフィンが受容体に結合された状態のことを指します。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "振られた・拒絶されたという精神的ショックに対して、脳はエンドルフィンを排出し快感/幸福感を生むようにしています。",
@@ -7079,11 +7211,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "リストカットをはじめとする非自殺性自傷行為(Non-suicidal self-injurious=NSSI)を行う人は普段のエンドルフィンの濃度が少ないことが判明した。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "リストカットをはじめとする非自殺性自傷行為(Non-suicidal self-injurious=NSSI)を行う人は普段のエンドルフィンの濃度が少ないことが判明した。",
@@ -7125,11 +7257,11 @@
         },
         {
           "text": "げっ歯類では情動伝染（他個体の情動表出を観察した個体に同様の情動が惹起される現象）や，1）",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "痛みの社会的伝達（痛がる他個体を観察した個体が痛覚過敏にな現象）2）などの共感的反応が認められる．",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "げっ歯類では情動伝染（他個体の情動表出を観察した個体に同様の情動が惹起される現象）や，1）,痛みの社会的伝達（痛がる他個体を観察した個体が痛覚過敏にな現象）2）などの共感的反応が認められる．",
@@ -7145,15 +7277,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "心臓には脳のニューロンと酷似した神経が存在する",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "信号の量において、次の式が成立する `脳->心臓 < 心臓->脳`。 心臓は脳に送る信号の方が、脳が心臓に送る信号よりも多い。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "心臓への治療は痛みに影響を与える。",
@@ -7173,15 +7305,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
-        },
-        {
-          "text": "痛みを発生させる行為はいくつかあるが、その一つが「拒絶・排除」である。",
           "figure": "Caution"
         },
         {
-          "text": "たとえば3人以上のキャッチボールでボールが回ってこない場合(拒絶・排除)は痛みが起こる。",
+          "text": "痛みを発生させる行為はいくつかあるが、その一つが「拒絶・排除」である。",
           "figure": "Hammer"
+        },
+        {
+          "text": "たとえば3人以上のキャッチボールでボールが回ってこない場合(拒絶・排除)は痛みが起こる。",
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "痛みを発生させる行為はいくつかあるが、その一つが「拒絶・排除」である。,たとえば3人以上のキャッチボールでボールが回ってこない場合(拒絶・排除)は痛みが起こる。",
@@ -7197,11 +7329,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "プラシーボ効果は病理的な痛みではなく、精神的な痛み(失恋など)にも効くことがわかっています。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "プラシーボ効果は病理的な痛みではなく、精神的な痛み(失恋など)にも効くことがわかっています。",
@@ -7217,11 +7349,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "アイドルを応援する理由は「**自分が支えていると言う実感/誰かの役に立っていると言う実感**」を得たいから。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "アイドルを応援する理由は「**自分が支えていると言う実感/誰かの役に立っていると言う実感**」を得たいから。",
@@ -7237,11 +7369,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "新しい研究によると、20分間のテトリスゲームが、パンデミック中に医療従事者が経験した外傷性記憶の頻度を減少させる可能性があることが示されました。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "新しい研究によると、20分間のテトリスゲームが、パンデミック中に医療従事者が経験した外傷性記憶の頻度を減少させる可能性があることが示されました。",
@@ -7259,11 +7391,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "若手のエンジニアだったらフロントエンドやペアプロなどイケイケな話が好き",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "ベテランの歴戦の猛者なら「自分がいかにブラックな職場で無茶なやり取りをしたかの思い出」が好き",
@@ -7283,11 +7415,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "a",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "a",
@@ -7313,11 +7445,11 @@
         },
         {
           "text": "一貫性の欠如",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "期待と現実のギャップ",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "社会的・倫理的な逸脱,一貫性の欠如,期待と現実のギャップ",
@@ -7337,11 +7469,11 @@
         },
         {
           "text": "心理学の権威 ダニエル・ゴールマン「IQが成功に寄与する割合は20%で、残りの80%はEQ（メンタルコントロール/ソフトスキルの類）である」という説がある",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "好感度の向上はEQの一種と言える。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "心理学の権威 ダニエル・ゴールマン「IQが成功に寄与する割合は20%で、残りの80%はEQ（メンタルコントロール/ソフトスキルの類）である」という説がある,好感度の向上はEQの一種と言える。",
@@ -7365,7 +7497,7 @@
         },
         {
           "text": "「戦争の心理学」の中で「相手も同じ人間だ」と想像力を働かせることで、戦闘員の攻撃性が減少したのを確認しました。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "「戦争の心理学」の中で「相手も同じ人間だ」と想像力を働かせることで、戦闘員の攻撃性が減少したのを確認しました。",
@@ -7381,7 +7513,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "呼吸数",
@@ -7393,11 +7525,11 @@
         },
         {
           "text": "リズム",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "呼吸の一時停止",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "動きの強さの模倣",
@@ -7417,15 +7549,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "怒りの感情を誘導された参加者はフェイクニュースを真実だと信じ込みやすくなりました。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "不安や悲しみではこの現象は起きず、怒りに特有の効果であると考えます。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "怒りの感情を誘導された参加者はフェイクニュースを真実だと信じ込みやすくなりました。,不安や悲しみではこの現象は起きず、怒りに特有の効果であると考えます。",
@@ -7443,11 +7575,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "怒りは自己知能の過大評価を引き起こすが、同時に他者からの知性についての過小評価を引き起こす。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "怒りは自己知能の過大評価を引き起こすが、同時に他者からの知性についての過小評価を引き起こす。",
@@ -7465,11 +7597,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "失敗した時のリスクやコスト」を異常に過小評価",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "失敗した時のリスクやコスト」を異常に過小評価",
@@ -7487,7 +7619,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "怒りは自分自身の知能を過大評価させてしまう",
@@ -7507,11 +7639,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "怒りは自分自身の知能を過大評価させてしまう",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "怒りは自分自身の知能を過大評価させてしまう",
@@ -7527,15 +7659,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "「一見報酬にならないようなことで怒り出す場合は、それを得られるはずだった利益」と考えられる。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "息子ができると思ってた問題(期待)を全く解けなかったので、怒り出した。 -> 息子が問題を解けることが、何かしらの形で親に利益を与えるものであるという前提がある。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "応援しているスポーツチームが負けて、ファンが暴れる -> ",
@@ -7559,11 +7691,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "曰く「個人が報酬を期待して行動を継続しているにもかかわらず、実際に報酬が得られない場合に欲求不満が生じる」とのことである。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "曰く「個人が報酬を期待して行動を継続しているにもかかわらず、実際に報酬が得られない場合に欲求不満が生じる」とのことである。",
@@ -7579,7 +7711,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "睡眠不足は怒りの感情を増幅させる",
@@ -7599,7 +7731,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "恥ずかしいと思う感情。",
@@ -7610,7 +7742,7 @@
       "effect": "終了",
       "method": "",
       "file_path": "/blog/blog/a2000emotion/embrass.md",
-      "page_url": null,
+      "page_url": "https://psy.hatenadiary.com/entry/2026/09/05/142341",
       "category": "Terminal",
       "text": "恥"
     },
@@ -7621,7 +7753,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "人間には所属欲求があり、所属した社会から排斥されないために、公的な自己像からの逸脱をコントロールしようとする。",
@@ -7632,7 +7764,7 @@
       "effect": "恥",
       "method": "",
       "file_path": "/blog/blog/a2000emotion/embrass.md",
-      "page_url": null
+      "page_url": "https://psy.hatenadiary.com/entry/2026/09/05/142341"
     },
     {
       "key": 47,
@@ -7641,7 +7773,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "人間関係の流動性が低い社会では、「目立つ成果を出すと周囲から罰（排斥・嫉妬）を受けるリスクが高い」と判断する。",
@@ -7652,7 +7784,7 @@
       "effect": "恥",
       "method": "",
       "file_path": "/blog/blog/a2000emotion/embrass.md",
-      "page_url": null
+      "page_url": "https://psy.hatenadiary.com/entry/2026/09/05/142341"
     },
     {
       "key": 46,
@@ -7661,11 +7793,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "リポフォビア反応は、**瞳孔が収縮（小さくなる）**する傾向が見られました。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "リポフォビア反応は、**瞳孔が収縮（小さくなる）**する傾向が見られました。",
@@ -7685,7 +7817,7 @@
         },
         {
           "text": "リポフォビア反応は、**瞳孔が収縮（小さくなる）**する傾向が見られました。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "リポフォビア反応は、**瞳孔が収縮（小さくなる）**する傾向が見られました。",
@@ -7703,7 +7835,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "トリポフォビアは恐怖よりも強い嫌悪感を引き起こすことが示されています。",
@@ -7711,11 +7843,11 @@
         },
         {
           "text": "「感染源から距離を置こうとする生存本能」という仮説が有力です。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "瞳孔の収縮は「視覚入力を制限する」＝「見たくない」という嫌悪感に伴う反応であり、この生理学的データが「恐怖ではなく嫌悪である」という説を強力に裏付けています。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "トリポフォビアは恐怖よりも強い嫌悪感を引き起こすことが示されています。,「感染源から距離を置こうとする生存本能」という仮説が有力です。,瞳孔の収縮は「視覚入力を制限する」＝「見たくない」という嫌悪感に伴う反応であり、この生理学的データが「恐怖ではなく嫌悪である」という説を強力に裏付けています。",
@@ -7735,7 +7867,7 @@
         },
         {
           "text": "ドーパミンを誘発させる広告を用いて、衝動買いを促す研究がある。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "ドーパミンを誘発させる広告を用いて、衝動買いを促す研究がある。",
@@ -7757,7 +7889,7 @@
         },
         {
           "text": "高揚感を感じた人は、細部よりも全体像を重視する傾向があります。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "高揚感を感じた人は、細部よりも全体像を重視する傾向があります。",
@@ -7779,7 +7911,7 @@
         },
         {
           "text": "高揚感は、単なる幸福感があるだけではなく、活力に満ち、興奮した状態を指します。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": " 幸福感が静的であるのに対して、動的な幸福が高揚感です。",
@@ -7803,11 +7935,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "1. 外向性という特性は、哺乳類の行動接近システムと類似している",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "2. この行動接近システムにおける個人差は、放出されるドーパミンの差である。",
@@ -7831,19 +7963,19 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "1. 外向性という特性は、哺乳類の行動接近システムと類似している",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "2. この行動接近システムにおける個人差は、放出されるドーパミンの差である。",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "外向性の高さとドーパミンには関連がある。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "1. 外向性という特性は、哺乳類の行動接近システムと類似している,2. この行動接近システムにおける個人差は、放出されるドーパミンの差である。,外向性の高さとドーパミンには関連がある。",
@@ -7859,11 +7991,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "抽象的な概念を感情的にアクセスしやすい具体的なイメージに変換し、聴衆の感情を揺さぶる",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "抽象的な概念を感情的にアクセスしやすい具体的なイメージに変換し、聴衆の感情を揺さぶる",
@@ -7919,15 +8051,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "うつ病は、心臓病の独立した危険因子であり、世界中の障害の主な原因の1つであると予測されています。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "研究によると、うつ病と心臓病は、強い関係があり、うつ病の有病率は、心臓病の種類によって異なります。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "うつ病は、心臓病の独立した危険因子であり、世界中の障害の主な原因の1つであると予測されています。,研究によると、うつ病と心臓病は、強い関係があり、うつ病の有病率は、心臓病の種類によって異なります。",
@@ -7943,11 +8075,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "新しい研究では、社会的に孤立している個人は、病気になる可能性が高いという結果が出ました。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "新しい研究では、社会的に孤立している個人は、病気になる可能性が高いという結果が出ました。",
@@ -7967,7 +8099,7 @@
         },
         {
           "text": "大規模な研究では、さまざまな種類の飲料がうつ病や不安障害を発症する可能性に関連していることがわかりました。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "しかし、60祭以上の場合は砂糖または人工的に甘くした飲み物とメンタルヘルスの間に明確な関連はありません。",
@@ -7987,7 +8119,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "驚きの感情を発生させた時に、これまでの選択をリセットする傾向があります。",
@@ -7995,7 +8127,7 @@
         },
         {
           "text": "これまでは驚きの感情を発生させた時にはリスクをとりに行く動きが中心にみられましたが、「過去に経験のある驚き」の場合は「選択をリセットするのみ」で「リスクをとりに行く動き」まではみられませんでした。",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "驚きの感情を発生させた時に、これまでの選択をリセットする傾向があります。,これまでは驚きの感情を発生させた時にはリスクをとりに行く動きが中心にみられましたが、「過去に経験のある驚き」の場合は「選択をリセットするのみ」で「リスクをとりに行く動き」まではみられませんでした。",
@@ -8043,7 +8175,7 @@
         },
         {
           "text": "人が驚く時「目を丸く見開き、口を大きく開ける」という表情。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "人が驚く時「目を丸く見開き、口を大きく開ける」という表情。",
@@ -8071,7 +8203,7 @@
         },
         {
           "text": "※これはあくまで推論である。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "驚きの感情は，個体発達的にも発現が早く，生後数時間の新生児に現れるという,頻繁に驚く人は脳のネットワークがランダムな状態で出来上がっておらず幼い。,※これはあくまで推論である。",
@@ -8087,7 +8219,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "笑いは認知タスクにおいて効果があるという研究があるが、再現性は完全には取れていない模様。",
@@ -8113,7 +8245,7 @@
         },
         {
           "text": "ここでの笑いとは、芸人が笑わせる類の「お笑い」を指す。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "笑いとは脳に電気が走った状態である。",
@@ -8121,19 +8253,19 @@
         },
         {
           "text": "電気刺激",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "補足運動野が発火",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "「ハハハ！」と身体が勝手に笑いだす",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "【脳の監視ログ】「ん？ 今、身体がゲラゲラ笑ってるぞ。ログを検出。」",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "【つじつま合わせ】「ということは、目の前にある『馬の絵』や『お医者さん』が、めちゃくちゃおもしろいに違いない！よし、感情を『楽しい』に書き換えろ！」",
@@ -8153,11 +8285,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "それが自分に危害を加えないと分ること。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "それが自分に危害を加えないと分ること。",
@@ -8173,7 +8305,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "常識から外れたこと、恐怖・脅威を感じること。",
@@ -8197,7 +8329,7 @@
         },
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "",
@@ -8213,7 +8345,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "カントの「笑いは緊張の緩和から来る」という言葉",
@@ -8221,7 +8353,7 @@
         },
         {
           "text": "ボケ ",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "カントの「笑いは緊張の緩和から来る」という言葉,ボケ ",
@@ -8237,11 +8369,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "お笑いのフリや、日常の「謎の状況」を見たとき、脳はいくつかの引き出しを同時に開けて、それぞれにタグをつけます。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "お笑いのフリや、日常の「謎の状況」を見たとき、脳はいくつかの引き出しを同時に開けて、それぞれにタグをつけます。",
@@ -8261,7 +8393,7 @@
         },
         {
           "text": "病気のリスクを意識させると、確かに人間の顔の対称性に対する好みが重要となった。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "病気のリスクを意識させると、確かに人間の顔の対称性に対する好みが重要となった。",
@@ -8277,11 +8409,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "病気のリスクを意識させると、確かに人間の顔の対称性に対する好みが重要となった。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "病気のリスクを意識させると、確かに人間の顔の対称性に対する好みが重要となった。",
@@ -8297,11 +8429,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "体液",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "食品",
@@ -8309,7 +8441,7 @@
         },
         {
           "text": "動物",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "衛生環境",
@@ -8333,11 +8465,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "嫌悪への感受性は、ホルモンのプロゲステロンレベルとともに、妊娠中に上昇する",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "嫌悪への感受性は、ホルモンのプロゲステロンレベルとともに、妊娠中に上昇する",
@@ -8357,7 +8489,7 @@
         },
         {
           "text": "嫌悪は主に味覚の感覚（知覚されたものか想像されたものか）に関連して経験され、二次的に嗅覚、体性感覚、または視覚によって同様の感覚を引き起こすものに関連して経験される。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "嫌悪は主に味覚の感覚（知覚されたものか想像されたものか）に関連して経験され、二次的に嗅覚、体性感覚、または視覚によって同様の感覚を引き起こすものに関連して経験される。",
@@ -8373,11 +8505,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "畏敬の念が個人をより広い社会的文脈の中に位置づけ、集団的な関心を高めるのに役立つ可能性を示唆している。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "畏敬の念が個人をより広い社会的文脈の中に位置づけ、集団的な関心を高めるのに役立つ可能性を示唆している。",
@@ -8395,11 +8527,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "畏敬の念を味わったグループは、他のグループに比べて**「自分の持ち時間がたっぷりある」と体感し、日々の生活への満足度が高くなりました。**",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "畏敬の念を味わったグループは、他のグループに比べて**「自分の持ち時間がたっぷりある」と体感し、日々の生活への満足度が高くなりました。**",
@@ -8415,11 +8547,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "畏敬の念は、宗教的・精神的な感情や行動意図を活性化させる。",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "畏敬の念は、宗教的・精神的な感情や行動意図を活性化させる。",
@@ -8441,7 +8573,7 @@
         },
         {
           "text": "畏敬への念を経験した際には、モノの購入ではなく体験の購入に舵を切る。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "畏敬への念を経験した際には、モノの購入ではなく体験の購入に舵を切る。",
@@ -8463,7 +8595,7 @@
         },
         {
           "text": "巨大な木を見上げて感動（畏怖）を味わったグループのほうが、利他的な傾向が高くなり、権利意識を低下させました。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "巨大な木を見上げて感動（畏怖）を味わったグループのほうが、利他的な傾向が高くなり、権利意識を低下させました。",
@@ -8479,11 +8611,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "自分のこれまでの経験を超えた「圧倒的なもの」に触れたときに起こる。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         }
       ],
       "example": "自分のこれまでの経験を超えた「圧倒的なもの」に触れたときに起こる。",
@@ -8499,19 +8631,19 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         },
         {
           "text": "ストレスそのものが心にダメージを与えるというのは昔の結論で、",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "嫌悪する刺激に対してコントロールする能力がない状況の時に、「自動的に体がフリーズしてしまう」のが無力感である。",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "ストレスそのものが心にダメージを与えるというのは昔の結論で、,嫌悪する刺激に対してコントロールする能力がない状況の時に、「自動的に体がフリーズしてしまう」のが無力感である。,",
@@ -8527,11 +8659,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "無意識のうちに肥大化した全能感やコントロールの錯覚に対する予想が裏切られた状態",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "無意識のうちに肥大化した全能感やコントロールの錯覚に対する予想が裏切られた状態",
@@ -8547,11 +8679,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "Hammer"
+          "figure": "Caution"
         },
         {
           "text": "「傷ついた人の心を癒やす」「患者の病状を好転させる」といった業務は相手の環境や元の性質に左右され、100%コントロールすることは不可能だからです。",
-          "figure": "Caution"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "「傷ついた人の心を癒やす」「患者の病状を好転させる」といった業務は相手の環境や元の性質に左右され、100%コントロールすることは不可能だからです。",
@@ -8567,11 +8699,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "他者の福祉を増進させようとする動機づけの状態",
-          "figure": "Caution"
+          "figure": "Hammer"
         }
       ],
       "example": "他者の福祉を増進させようとする動機づけの状態",
@@ -8587,11 +8719,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "病的な利他主義の多くは、社会的地位の低い男性によってもたらされるという研究。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "病的な利他主義の多くは、社会的地位の低い男性によってもたらされるという研究。",
@@ -8611,7 +8743,7 @@
         },
         {
           "text": "最新の研究によると、カフェインは腸と脳のつながり（腸脳軸）を保護することで、うつ症状の予防につながる可能性が示されました。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         }
       ],
       "example": "最新の研究によると、カフェインは腸と脳のつながり（腸脳軸）を保護することで、うつ症状の予防につながる可能性が示されました。",
@@ -8629,7 +8761,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "闘争・逃走反応の一部として、光を多く取り込み、危険を察知するために**瞳孔が散大（大きく開く）**します。",
@@ -8651,11 +8783,11 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "あなたの脳が恐怖に支配された状態の時、生物学的な視点では、野生としての生存率は向上しますが、エンジニアとしてのクリエイティビティは失われてしまいます",
-          "figure": "Hammer"
+          "figure": "Caution"
         }
       ],
       "example": "あなたの脳が恐怖に支配された状態の時、生物学的な視点では、野生としての生存率は向上しますが、エンジニアとしてのクリエイティビティは失われてしまいます",
@@ -8673,15 +8805,15 @@
       "actions": [
         {
           "text": "",
-          "figure": "Caution"
+          "figure": "Hammer"
         },
         {
           "text": "感情の一種。扁桃体への刺激。",
-          "figure": "BpmnTaskMessage"
+          "figure": "Caution"
         },
         {
           "text": "恐怖という感情は必ず驚きが入る。",
-          "figure": "Hammer"
+          "figure": "BpmnTaskMessage"
         }
       ],
       "example": "感情の一種。扁桃体への刺激。,恐怖という感情は必ず驚きが入る。",
@@ -8697,7 +8829,7 @@
       "actions": [
         {
           "text": "",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "鼻の奥でキャッチした匂いの情報は、視床をスキップして恐怖や情動を司る扁桃体や記憶を司る海馬に行きます。",
@@ -8721,15 +8853,15 @@
         },
         {
           "text": "例えば「チケットあるけど来る？」に対して、以下二つの返答を比較する",
-          "figure": "BpmnTaskMessage"
-        },
-        {
-          "text": "`Yeah（うん）`や`OK`とだけ返す",
           "figure": "Caution"
         },
         {
+          "text": "`Yeah（うん）`や`OK`とだけ返す",
+          "figure": "Hammer"
+        },
+        {
           "text": "`Yeah.` と最後にピリオドを打ったメッセージ",
-          "figure": "BpmnTaskMessage"
+          "figure": "Hammer"
         },
         {
           "text": "ピリオドがあるメッセージは **誠実さが低い/冷めている/怒っているように感じる** という感想が出た。",
@@ -8745,68 +8877,104 @@
   ],
   "linkDataArray": [
     {
-      "from": 380,
-      "to": 381
+      "from": 386,
+      "to": 387
+    },
+    {
+      "from": 385,
+      "to": 384
+    },
+    {
+      "from": 385,
+      "to": 379
+    },
+    {
+      "from": 385,
+      "to": 328
+    },
+    {
+      "from": 383,
+      "to": 385
+    },
+    {
+      "from": 381,
+      "to": 382
+    },
+    {
+      "from": 381,
+      "to": 379
     },
     {
       "from": 379,
-      "to": 378
+      "to": 385
     },
     {
       "from": 379,
-      "to": 373
-    },
-    {
-      "from": 379,
-      "to": 322
+      "to": 380
     },
     {
       "from": 377,
-      "to": 379
+      "to": 378
+    },
+    {
+      "from": 376,
+      "to": 365
     },
     {
       "from": 375,
       "to": 376
     },
     {
-      "from": 375,
+      "from": 374,
+      "to": 365
+    },
+    {
+      "from": 373,
+      "to": 365
+    },
+    {
+      "from": 372,
       "to": 373
     },
     {
-      "from": 373,
-      "to": 379
-    },
-    {
-      "from": 373,
-      "to": 374
-    },
-    {
       "from": 371,
-      "to": 372
+      "to": 365
     },
     {
       "from": 370,
-      "to": 359
+      "to": 371
     },
     {
       "from": 369,
-      "to": 370
+      "to": 371
     },
     {
       "from": 368,
-      "to": 359
+      "to": 253
+    },
+    {
+      "from": 368,
+      "to": 252
     },
     {
       "from": 367,
-      "to": 359
+      "to": 368
     },
     {
       "from": 366,
-      "to": 367
+      "to": 368
     },
     {
       "from": 365,
-      "to": 359
+      "to": 338
+    },
+    {
+      "from": 365,
+      "to": 337
+    },
+    {
+      "from": 365,
+      "to": 251
     },
     {
       "from": 364,
@@ -8814,187 +8982,175 @@
     },
     {
       "from": 363,
-      "to": 365
+      "to": 144
     },
     {
       "from": 362,
-      "to": 247
-    },
-    {
-      "from": 362,
-      "to": 246
+      "to": 360
     },
     {
       "from": 361,
-      "to": 362
+      "to": 357
     },
     {
       "from": 360,
-      "to": 362
+      "to": 357
     },
     {
       "from": 359,
-      "to": 332
-    },
-    {
-      "from": 359,
-      "to": 331
-    },
-    {
-      "from": 359,
-      "to": 245
+      "to": 357
     },
     {
       "from": 358,
       "to": 359
     },
     {
-      "from": 357,
-      "to": 142
-    },
-    {
       "from": 356,
-      "to": 354
+      "to": 357
     },
     {
       "from": 355,
-      "to": 351
+      "to": 357
     },
     {
       "from": 354,
-      "to": 351
+      "to": 357
     },
     {
       "from": 353,
-      "to": 351
-    },
-    {
-      "from": 352,
-      "to": 353
-    },
-    {
-      "from": 350,
-      "to": 351
-    },
-    {
-      "from": 349,
-      "to": 351
-    },
-    {
-      "from": 348,
-      "to": 351
-    },
-    {
-      "from": 347,
-      "to": 348
-    },
-    {
-      "from": 346,
-      "to": 351
-    },
-    {
-      "from": 345,
-      "to": 346
-    },
-    {
-      "from": 344,
-      "to": 346
-    },
-    {
-      "from": 343,
-      "to": 351
-    },
-    {
-      "from": 342,
-      "to": 343
-    },
-    {
-      "from": 341,
-      "to": 343
-    },
-    {
-      "from": 340,
-      "to": 320
-    },
-    {
-      "from": 339,
-      "to": 317
-    },
-    {
-      "from": 338,
-      "to": 339
-    },
-    {
-      "from": 337,
-      "to": 338
-    },
-    {
-      "from": 336,
       "to": 354
     },
     {
-      "from": 335,
-      "to": 256
+      "from": 352,
+      "to": 357
+    },
+    {
+      "from": 351,
+      "to": 352
+    },
+    {
+      "from": 350,
+      "to": 352
+    },
+    {
+      "from": 349,
+      "to": 357
+    },
+    {
+      "from": 348,
+      "to": 349
+    },
+    {
+      "from": 347,
+      "to": 349
+    },
+    {
+      "from": 346,
+      "to": 326
+    },
+    {
+      "from": 345,
+      "to": 323
+    },
+    {
+      "from": 344,
+      "to": 345
+    },
+    {
+      "from": 343,
+      "to": 344
+    },
+    {
+      "from": 342,
+      "to": 360
+    },
+    {
+      "from": 341,
+      "to": 262
+    },
+    {
+      "from": 341,
+      "to": 173
+    },
+    {
+      "from": 340,
+      "to": 307
+    },
+    {
+      "from": 339,
+      "to": 307
+    },
+    {
+      "from": 336,
+      "to": 365
     },
     {
       "from": 335,
-      "to": 167
+      "to": 336
     },
     {
       "from": 334,
-      "to": 301
+      "to": 327
     },
     {
       "from": 333,
-      "to": 301
+      "to": 336
+    },
+    {
+      "from": 332,
+      "to": 217
+    },
+    {
+      "from": 331,
+      "to": 325
     },
     {
       "from": 330,
-      "to": 359
+      "to": 324
     },
     {
-      "from": 329,
-      "to": 330
+      "from": 321,
+      "to": 150
     },
     {
-      "from": 328,
-      "to": 321
+      "from": 319,
+      "to": 320
     },
     {
-      "from": 327,
-      "to": 330
+      "from": 318,
+      "to": 320
     },
     {
-      "from": 326,
-      "to": 211
+      "from": 316,
+      "to": 317
     },
     {
-      "from": 325,
-      "to": 319
+      "from": 314,
+      "to": 315
     },
     {
-      "from": 324,
-      "to": 318
-    },
-    {
-      "from": 315,
-      "to": 148
-    },
-    {
-      "from": 313,
-      "to": 314
-    },
-    {
-      "from": 312,
-      "to": 314
-    },
-    {
-      "from": 310,
-      "to": 311
+      "from": 309,
+      "to": 310
     },
     {
       "from": 308,
-      "to": 309
+      "to": 322
+    },
+    {
+      "from": 308,
+      "to": 310
+    },
+    {
+      "from": 306,
+      "to": 296
+    },
+    {
+      "from": 304,
+      "to": 313
+    },
+    {
+      "from": 304,
+      "to": 305
     },
     {
       "from": 303,
@@ -9002,54 +9158,50 @@
     },
     {
       "from": 302,
-      "to": 316
-    },
-    {
-      "from": 302,
       "to": 304
     },
     {
       "from": 300,
-      "to": 290
+      "to": 304
     },
     {
-      "from": 298,
-      "to": 307
+      "from": 300,
+      "to": 301
     },
     {
       "from": 298,
       "to": 299
     },
     {
-      "from": 297,
-      "to": 298
+      "from": 296,
+      "to": 311
     },
     {
       "from": 296,
       "to": 298
     },
     {
-      "from": 294,
-      "to": 298
+      "from": 296,
+      "to": 297
+    },
+    {
+      "from": 295,
+      "to": 296
     },
     {
       "from": 294,
-      "to": 295
+      "to": 296
     },
     {
-      "from": 292,
+      "from": 289,
       "to": 293
     },
     {
-      "from": 290,
-      "to": 305
-    },
-    {
-      "from": 290,
+      "from": 289,
       "to": 292
     },
     {
-      "from": 290,
+      "from": 289,
       "to": 291
     },
     {
@@ -9058,131 +9210,139 @@
     },
     {
       "from": 288,
-      "to": 290
+      "to": 289
     },
     {
-      "from": 283,
+      "from": 287,
+      "to": 293
+    },
+    {
+      "from": 286,
+      "to": 287
+    },
+    {
+      "from": 285,
+      "to": 287
+    },
+    {
+      "from": 284,
       "to": 287
     },
     {
       "from": 283,
-      "to": 286
-    },
-    {
-      "from": 283,
-      "to": 285
-    },
-    {
-      "from": 283,
-      "to": 284
+      "to": 308
     },
     {
       "from": 282,
-      "to": 283
+      "to": 309
     },
     {
       "from": 281,
-      "to": 287
+      "to": 308
     },
     {
       "from": 280,
-      "to": 281
+      "to": 308
     },
     {
-      "from": 279,
-      "to": 281
-    },
-    {
-      "from": 278,
-      "to": 281
-    },
-    {
-      "from": 277,
-      "to": 302
-    },
-    {
-      "from": 276,
-      "to": 303
-    },
-    {
-      "from": 275,
-      "to": 302
-    },
-    {
-      "from": 274,
-      "to": 302
-    },
-    {
-      "from": 274,
-      "to": 262
-    },
-    {
-      "from": 273,
-      "to": 267
-    },
-    {
-      "from": 271,
-      "to": 272
-    },
-    {
-      "from": 270,
-      "to": 271
-    },
-    {
-      "from": 269,
-      "to": 271
-    },
-    {
-      "from": 267,
-      "to": 272
-    },
-    {
-      "from": 267,
+      "from": 280,
       "to": 268
     },
     {
-      "from": 267,
-      "to": 266
+      "from": 279,
+      "to": 273
     },
     {
-      "from": 267,
-      "to": 265
+      "from": 277,
+      "to": 278
     },
     {
-      "from": 264,
-      "to": 315
+      "from": 276,
+      "to": 277
     },
     {
-      "from": 263,
+      "from": 275,
+      "to": 277
+    },
+    {
+      "from": 273,
+      "to": 278
+    },
+    {
+      "from": 273,
+      "to": 274
+    },
+    {
+      "from": 273,
+      "to": 272
+    },
+    {
+      "from": 273,
+      "to": 271
+    },
+    {
+      "from": 270,
+      "to": 321
+    },
+    {
+      "from": 269,
       "to": 60
     },
     {
-      "from": 262,
-      "to": 316
+      "from": 268,
+      "to": 322
+    },
+    {
+      "from": 267,
+      "to": 318
+    },
+    {
+      "from": 267,
+      "to": 309
+    },
+    {
+      "from": 265,
+      "to": 264
+    },
+    {
+      "from": 264,
+      "to": 313
+    },
+    {
+      "from": 264,
+      "to": 266
+    },
+    {
+      "from": 263,
+      "to": 217
     },
     {
       "from": 261,
-      "to": 312
+      "to": 262
     },
     {
-      "from": 261,
-      "to": 303
+      "from": 260,
+      "to": 261
     },
     {
       "from": 259,
-      "to": 258
+      "to": 261
     },
     {
       "from": 258,
-      "to": 307
+      "to": 329
     },
     {
       "from": 258,
-      "to": 260
+      "to": 188
     },
     {
       "from": 257,
-      "to": 211
+      "to": 321
+    },
+    {
+      "from": 256,
+      "to": 144
     },
     {
       "from": 255,
@@ -9190,62 +9350,54 @@
     },
     {
       "from": 254,
-      "to": 255
-    },
-    {
-      "from": 253,
-      "to": 255
-    },
-    {
-      "from": 252,
-      "to": 323
-    },
-    {
-      "from": 252,
-      "to": 182
-    },
-    {
-      "from": 251,
-      "to": 315
+      "to": 256
     },
     {
       "from": 250,
-      "to": 142
+      "to": 311
     },
     {
       "from": 249,
-      "to": 250
+      "to": 323
     },
     {
       "from": 248,
-      "to": 250
+      "to": 309
+    },
+    {
+      "from": 247,
+      "to": 300
     },
     {
       "from": 244,
-      "to": 305
+      "to": 246
     },
     {
       "from": 243,
-      "to": 317
+      "to": 245
+    },
+    {
+      "from": 243,
+      "to": 244
     },
     {
       "from": 242,
-      "to": 303
+      "to": 243
     },
     {
       "from": 241,
-      "to": 294
+      "to": 236
     },
     {
-      "from": 238,
+      "from": 239,
       "to": 240
     },
     {
       "from": 237,
-      "to": 239
+      "to": 225
     },
     {
-      "from": 237,
+      "from": 236,
       "to": 238
     },
     {
@@ -9254,78 +9406,90 @@
     },
     {
       "from": 235,
-      "to": 230
+      "to": 312
     },
     {
       "from": 233,
       "to": 234
     },
     {
-      "from": 231,
-      "to": 219
-    },
-    {
-      "from": 230,
+      "from": 229,
       "to": 232
     },
     {
-      "from": 230,
-      "to": 231
+      "from": 229,
+      "to": 228
     },
     {
-      "from": 229,
-      "to": 306
+      "from": 228,
+      "to": 230
+    },
+    {
+      "from": 228,
+      "to": 229
+    },
+    {
+      "from": 227,
+      "to": 231
     },
     {
       "from": 227,
       "to": 228
     },
     {
-      "from": 223,
-      "to": 226
+      "from": 226,
+      "to": 231
+    },
+    {
+      "from": 224,
+      "to": 323
     },
     {
       "from": 223,
-      "to": 222
+      "to": 307
     },
     {
       "from": 222,
-      "to": 224
-    },
-    {
-      "from": 222,
-      "to": 223
+      "to": 173
     },
     {
       "from": 221,
-      "to": 225
+      "to": 339
     },
     {
-      "from": 221,
-      "to": 222
-    },
-    {
-      "from": 220,
-      "to": 225
+      "from": 219,
+      "to": 220
     },
     {
       "from": 218,
-      "to": 317
+      "to": 219
     },
     {
       "from": 217,
-      "to": 301
+      "to": 219
     },
     {
-      "from": 216,
-      "to": 167
+      "from": 217,
+      "to": 189
     },
     {
       "from": 215,
-      "to": 333
+      "to": 216
+    },
+    {
+      "from": 214,
+      "to": 215
     },
     {
       "from": 213,
+      "to": 212
+    },
+    {
+      "from": 213,
+      "to": 211
+    },
+    {
+      "from": 212,
       "to": 214
     },
     {
@@ -9337,12 +9501,8 @@
       "to": 213
     },
     {
-      "from": 211,
-      "to": 183
-    },
-    {
-      "from": 209,
-      "to": 210
+      "from": 210,
+      "to": 212
     },
     {
       "from": 208,
@@ -9350,95 +9510,95 @@
     },
     {
       "from": 207,
-      "to": 206
-    },
-    {
-      "from": 207,
-      "to": 205
-    },
-    {
-      "from": 206,
       "to": 208
     },
     {
       "from": 206,
-      "to": 207
+      "to": 209
     },
     {
       "from": 205,
-      "to": 207
+      "to": 206
     },
     {
       "from": 204,
       "to": 206
     },
     {
+      "from": 203,
+      "to": 206
+    },
+    {
       "from": 202,
-      "to": 203
+      "to": 206
     },
     {
       "from": 201,
-      "to": 202
-    },
-    {
-      "from": 200,
-      "to": 203
-    },
-    {
-      "from": 199,
-      "to": 200
-    },
-    {
-      "from": 198,
-      "to": 200
+      "to": 206
     },
     {
       "from": 197,
       "to": 200
     },
     {
+      "from": 197,
+      "to": 199
+    },
+    {
+      "from": 197,
+      "to": 198
+    },
+    {
+      "from": 197,
+      "to": 76
+    },
+    {
       "from": 196,
-      "to": 200
+      "to": 197
     },
     {
       "from": 195,
+      "to": 197
+    },
+    {
+      "from": 193,
       "to": 200
     },
     {
-      "from": 191,
-      "to": 194
-    },
-    {
-      "from": 191,
+      "from": 192,
       "to": 193
-    },
-    {
-      "from": 191,
-      "to": 192
-    },
-    {
-      "from": 191,
-      "to": 76
     },
     {
       "from": 190,
       "to": 191
     },
     {
-      "from": 189,
-      "to": 191
-    },
-    {
-      "from": 187,
-      "to": 194
+      "from": 188,
+      "to": 189
     },
     {
       "from": 186,
       "to": 187
     },
     {
-      "from": 184,
+      "from": 185,
+      "to": 187
+    },
+    {
+      "from": 183,
+      "to": 187
+    },
+    {
+      "from": 182,
+      "to": 186
+    },
+    {
+      "from": 182,
       "to": 185
+    },
+    {
+      "from": 182,
+      "to": 184
     },
     {
       "from": 182,
@@ -9449,40 +9609,36 @@
       "to": 181
     },
     {
-      "from": 179,
-      "to": 181
+      "from": 178,
+      "to": 179
     },
     {
       "from": 177,
-      "to": 181
-    },
-    {
-      "from": 176,
-      "to": 180
+      "to": 178
     },
     {
       "from": 176,
       "to": 179
     },
     {
-      "from": 176,
-      "to": 178
+      "from": 175,
+      "to": 176
     },
     {
-      "from": 176,
-      "to": 177
+      "from": 173,
+      "to": 262
     },
     {
-      "from": 174,
-      "to": 175
+      "from": 173,
+      "to": 174
     },
     {
       "from": 172,
-      "to": 173
+      "to": 261
     },
     {
       "from": 171,
-      "to": 172
+      "to": 261
     },
     {
       "from": 170,
@@ -9490,11 +9646,7 @@
     },
     {
       "from": 169,
-      "to": 170
-    },
-    {
-      "from": 167,
-      "to": 256
+      "to": 173
     },
     {
       "from": 167,
@@ -9502,19 +9654,15 @@
     },
     {
       "from": 166,
-      "to": 255
-    },
-    {
-      "from": 165,
-      "to": 255
-    },
-    {
-      "from": 164,
-      "to": 167
+      "to": 168
     },
     {
       "from": 163,
-      "to": 167
+      "to": 165
+    },
+    {
+      "from": 163,
+      "to": 164
     },
     {
       "from": 161,
@@ -9525,59 +9673,67 @@
       "to": 162
     },
     {
-      "from": 157,
-      "to": 159
+      "from": 159,
+      "to": 160
+    },
+    {
+      "from": 158,
+      "to": 163
     },
     {
       "from": 157,
-      "to": 158
+      "to": 163
     },
     {
-      "from": 156,
-      "to": 157
+      "from": 157,
+      "to": 162
     },
     {
       "from": 155,
-      "to": 157
+      "to": 156
     },
     {
       "from": 153,
       "to": 154
     },
     {
-      "from": 151,
-      "to": 152
+      "from": 152,
+      "to": 155
     },
     {
-      "from": 150,
-      "to": 153
+      "from": 152,
+      "to": 154
     },
     {
-      "from": 150,
-      "to": 152
+      "from": 149,
+      "to": 151
+    },
+    {
+      "from": 149,
+      "to": 150
+    },
+    {
+      "from": 148,
+      "to": 149
+    },
+    {
+      "from": 147,
+      "to": 334
     },
     {
       "from": 147,
       "to": 149
     },
     {
-      "from": 147,
-      "to": 148
-    },
-    {
       "from": 146,
       "to": 147
     },
     {
-      "from": 145,
-      "to": 328
-    },
-    {
-      "from": 145,
-      "to": 147
-    },
-    {
       "from": 144,
+      "to": 145
+    },
+    {
+      "from": 143,
       "to": 145
     },
     {
@@ -9590,19 +9746,15 @@
     },
     {
       "from": 140,
-      "to": 141
+      "to": 144
     },
     {
       "from": 139,
-      "to": 141
-    },
-    {
-      "from": 138,
-      "to": 142
+      "to": 144
     },
     {
       "from": 137,
-      "to": 142
+      "to": 138
     },
     {
       "from": 132,
@@ -9802,23 +9954,23 @@
     },
     {
       "from": 79,
-      "to": 187
+      "to": 193
     },
     {
       "from": 78,
-      "to": 211
+      "to": 217
     },
     {
       "from": 77,
-      "to": 188
+      "to": 194
     },
     {
       "from": 76,
-      "to": 188
+      "to": 194
     },
     {
       "from": 75,
-      "to": 187
+      "to": 193
     },
     {
       "from": 73,
