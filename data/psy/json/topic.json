@@ -141,5 +141,17 @@
             {"name": "SSD(身体症状症) "}
         ],
         "color" : "#f94144"
+    },
+    "アイテム" : {
+        "undone" : [
+            {"name": "性別"}
+        ],
+        "topics" : [
+            {"name": "タバコ"},
+            {"name": "黒い服", "color": "#000000"},
+            {"name": "赤い服", "color": "red"}
+        ],
+        "color" : "#F9547F",
+        "progress" : "1/5"
     }
 }
