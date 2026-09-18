@@ -15,6 +15,7 @@
         "undone" : [],
         "topics" : [
             {"name": "IQ"},
+            {"name": "ワーキングメモリ"},
             {"name": "メタ認知"},
             {"name": "オートメーション"},
             {"name": "認知的柔軟性", "reverse": true},
