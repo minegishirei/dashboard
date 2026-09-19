@@ -11,7 +11,7 @@
         "color" : "#43aa8b",
         "progress" : "5/5"
     },
-    "能力" : {
+    "アビリティ" : {
         "undone" : [],
         "topics" : [
             {"name": "IQ"},
