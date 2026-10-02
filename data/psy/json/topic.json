@@ -77,7 +77,8 @@
         "undone" : [],
         "topics" : [
             {"name": "柔軟性強化"},
-            {"name": "真剣化"}
+            {"name": "真剣化"},
+            {"name": "錯覚的真実効果"}
         ],
         "color" : "#f94144"
     },
@@ -119,7 +120,9 @@
         "topics" : [
             {"name": "服飾"},
             {"name": "黒い服", "color": "#000000"},
-            {"name": "赤い服", "color": "red"}
+            {"name": "赤い服", "color": "#ff006e"},
+            {"name": "青色", "color": "#3a86ff"},
+            {"name": "黄色", "color": "#ffbe0b"}
         ],
         "color" : "#F9547F",
         "progress" : "1/5"
@@ -156,12 +159,28 @@
             {"name": "アイテム"}
         ],
         "topics" : [
-            {"name": "異概念"},
             {"name": "スマホ"},
             {"name": "死亡率"},
             {"name": "タバコ"}
         ],
         "color" : "#F9547F",
         "progress" : "1/5"
+    },
+    "操作系" : {
+        "undone" : [
+        ],
+        "topics" : [
+            {"name": "モチベーション"}
+        ],
+        "color" : "#f94144"
+    },
+    "ボドゲ" : {
+        "undone" : [
+        ],
+        "topics" : [
+            {"name": "異概念"},
+            {"name" :"嘘発見"}
+        ],
+        "color" : "#f94144"
     }
 }
