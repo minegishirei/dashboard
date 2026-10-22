@@ -20,6 +20,8 @@
             {"name": "オートメーション"},
             {"name": "チェス"},
             {"name": "認知的柔軟性", "reverse": true},
+            {"name": "立場の高い状況", "reverse": true},
+            {"name": "立場の弱い状況", "reverse": true},
             {"name": "読解力"},
             {"name": "語学力"},
             {"name": "数学的リテラシー"},
